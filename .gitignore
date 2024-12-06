@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+*.swp
+*.swo
+
+# IDEs and Editors
+*.vscode/
+*.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# Java
+*.class
