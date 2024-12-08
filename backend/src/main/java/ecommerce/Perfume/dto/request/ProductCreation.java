@@ -1,6 +1,10 @@
-package ecommerce.Perfume.model;
+package ecommerce.Perfume.dto.request;
 
-import jakarta.persistence.*;
+import ecommerce.Perfume.model.Brand;
+import ecommerce.Perfume.model.Category;
+import jakarta.persistence.Column;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,12 +14,7 @@ import java.time.LocalDateTime;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
-public class Product {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
+public class ProductCreation {
     @Column(nullable = false, length = 255)
     private String name;
 
