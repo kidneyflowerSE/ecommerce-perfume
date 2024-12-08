@@ -1,4 +1,4 @@
-package Ecommerce.Perfume;
+package ecommerce.Perfume;
 
 import io.github.cdimascio.dotenv.Dotenv;
 import org.springframework.boot.SpringApplication;
