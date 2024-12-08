@@ -1,0 +1,9 @@
+# Handling file extensions across multiple operating systems
+* text=auto
+
+# Backend
+/backend/*.cmd text eol=crlf
+/backend/*.sh text eol=lf
+
+# Frontend
+/frontend/*.sh text eol=lf
