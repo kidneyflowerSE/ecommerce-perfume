@@ -1,9 +1,12 @@
 package ecommerce.Perfume.model;
 
 import jakarta.persistence.*;
+import lombok.Data;
+
 import java.time.LocalDateTime;
 
 @Entity
+@Data
 @Table(name = "Cart")
 public class Cart {
 
@@ -18,5 +21,27 @@ public class Cart {
     @Column(nullable = false)
     private LocalDateTime createdAt;
 
-    // Getters, Setters, Constructors, toString...
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
+    }
 }
