@@ -67,6 +67,8 @@ public class ProductService {
 
     // 5. Lấy danh sách sản phẩm
     public List<Product> getAllProducts() {
+        List<Product> products = productRepository.findAll();
+        System.out.println(products);
         return productRepository.findAll();
     }
 
@@ -91,5 +93,9 @@ public class ProductService {
         product.setStock(newStock);
         product.setUpdatedAt(LocalDateTime.now());
         return productRepository.save(product);
+    }
+
+    public void checkConnection() {
+        System.out.println("Number of products in database: " + productRepository.count());
     }
 }
