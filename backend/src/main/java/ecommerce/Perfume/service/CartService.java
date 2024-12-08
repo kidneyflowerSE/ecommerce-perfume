@@ -5,10 +5,12 @@ import ecommerce.Perfume.model.Customer;
 import ecommerce.Perfume.repository.CartRepository;
 import ecommerce.Perfume.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.Optional;
 
+@Service
 public class CartService {
     @Autowired
     private CartRepository cartRepository;

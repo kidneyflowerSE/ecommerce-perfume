@@ -2,7 +2,7 @@ USE tlp_perfumedb;
 
 -- Insert data to Brands
 INSERT INTO
-    brands (name, description, country)
+    Brands (name, description, country)
 VALUES (
         "LV",
         "Louis Vuitton là thương hiệu thời trang cao cấp của Pháp, nổi tiếng với các sản phẩm da và nước hoa sang trọng.",
