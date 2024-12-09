@@ -34,6 +34,4 @@ public class Shipping {
 
     @Column(name = "tracking_number", length = 100)
     private String trackingNumber;
-
-    // Getters, Setters, Constructors, toString...
 }

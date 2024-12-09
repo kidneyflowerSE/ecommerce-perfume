@@ -29,6 +29,4 @@ public class Wishlist {
 
     @Column(name = "created_at", columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP", updatable = false)
     private LocalDateTime createdAt;
-
-    // Getters, Setters, Constructors, toString...
 }
