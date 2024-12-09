@@ -38,6 +38,4 @@ public class Promotion {
 
     @OneToMany(mappedBy = "promoCode", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<OrderDetail> orderDetails;
-
-    // Getters, Setters, Constructors, toString...
 }
