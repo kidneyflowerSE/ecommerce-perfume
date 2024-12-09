@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 @RestController
@@ -49,7 +50,6 @@ public class ProductController {
     @GetMapping
     public ResponseEntity<List<Product>> getAllProducts() {
         List<Product> products = productService.getAllProducts();
-        productService.checkConnection();
         return ResponseEntity.ok(products);
     }
 
@@ -79,5 +79,12 @@ public class ProductController {
     public ResponseEntity<Product> updateStock(@PathVariable Integer id, @RequestParam int newStock) {
         Product updatedProduct = productService.updateStock(id, newStock);
         return ResponseEntity.ok(updatedProduct);
+    }
+
+    // Lọc sản phẩm theo giá
+    @GetMapping("/filterByPrice")
+    public ResponseEntity<List<Product>> filterProductsByPrice(@RequestParam BigDecimal minPrice, @RequestParam BigDecimal maxPrice) {
+        List<Product> products = productService.filterProductsByPrice(minPrice, maxPrice);
+        return ResponseEntity.ok(products);
     }
 }
