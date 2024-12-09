@@ -1,20 +1,31 @@
 package ecommerce.Perfume.model;
 
 import jakarta.persistence.*;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
+
+import java.util.List;
 
 @Entity
 @Table(name = "Order_Status")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class OrderStatus {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Integer id;
 
-    @Column(name = "status_name", nullable = false, length = 255)
+    @Column(name = "status_name", nullable = false)
     private String statusName;
 
-    @Column
+    @Column(name = "description")
     private String description;
 
-    // Getters, Setters, Constructors, toString...
+    @OneToMany(mappedBy = "status", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Order> orders;
+
 }
