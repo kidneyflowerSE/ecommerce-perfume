@@ -27,7 +27,7 @@ public class Product {
     @Column(nullable = false)
     private Integer stock;
 
-    @Column
+    @Column(name = "image_url")
     private String imageUrl;
 
     @ManyToOne
@@ -38,10 +38,10 @@ public class Product {
     @JoinColumn(name = "category_id")
     private Category category;
 
-    @Column(nullable = false)
+    @Column(name = "created_at", nullable = false)
     private LocalDateTime createdAt;
 
-    @Column(nullable = false)
+    @Column(name = "updated_at", nullable = false)
     private LocalDateTime updatedAt;
 
     public Integer getId() {

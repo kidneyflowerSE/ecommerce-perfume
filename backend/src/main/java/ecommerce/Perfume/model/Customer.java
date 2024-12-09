@@ -26,7 +26,7 @@ public class Customer {
     @Column(nullable = false)
     private String password;
 
-    @Column(nullable = false)
+    @Column(name = "created_at", nullable = false)
     private LocalDateTime createdAt;
 
     // Getters, Setters, Constructors, toString...

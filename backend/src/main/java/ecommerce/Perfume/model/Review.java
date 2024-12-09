@@ -25,7 +25,7 @@ public class Review {
     @Column(nullable = false)
     private Integer rating;
 
-    @Column(nullable = false)
+    @Column(name = "review_date", nullable = false)
     private LocalDateTime reviewDate;
 
     public Integer getId() {

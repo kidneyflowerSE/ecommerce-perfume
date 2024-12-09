@@ -12,19 +12,19 @@ public class Promotion {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(nullable = false, length = 50, unique = true)
+    @Column(name = "promo_code", nullable = false, length = 50, unique = true)
     private String promoCode;
 
     @Column
     private String description;
 
-    @Column(nullable = false)
+    @Column(name = "discount_percentage", nullable = false)
     private BigDecimal discountPercentage;
 
-    @Column
+    @Column(name = "start_date")
     private LocalDate startDate;
 
-    @Column
+    @Column(name = "end_date")
     private LocalDate endDate;
 
     // Getters, Setters, Constructors, toString...
