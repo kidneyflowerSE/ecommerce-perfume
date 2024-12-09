@@ -2,46 +2,37 @@ package ecommerce.Perfume.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Entity
-@Data
 @Table(name = "Cart")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Cart {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Integer id;
 
-    @ManyToOne
-    @JoinColumn(name = "customer_id", nullable = false)
+    @OneToOne
+    @JoinColumn(name = "customer_id", referencedColumnName = "id", nullable = false)
+    @JsonBackReference
     private Customer customer;
 
-    @Column(name = "created_at", nullable = false)
+    @Column(name = "created_at", columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP", updatable = false)
     private LocalDateTime createdAt;
 
-    public Integer getId() {
-        return id;
-    }
+    @OneToMany(mappedBy = "cart", cascade = CascadeType.ALL, orphanRemoval = true)
+    @JsonManagedReference
+    private List<CartItem> cartItems;
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
-    public Customer getCustomer() {
-        return customer;
-    }
-
-    public void setCustomer(Customer customer) {
-        this.customer = customer;
-    }
-
-    public LocalDateTime getCreatedAt() {
-        return createdAt;
-    }
-
-    public void setCreatedAt(LocalDateTime createdAt) {
-        this.createdAt = createdAt;
-    }
 }
