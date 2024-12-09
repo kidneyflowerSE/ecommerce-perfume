@@ -16,16 +16,16 @@ public class Shipping {
     @JoinColumn(name = "order_id", nullable = false, unique = true)
     private Order order;
 
-    @Column
+    @Column(name = "shipping_method")
     private String shippingMethod;
 
-    @Column
+    @Column(name = "shipping_address")
     private String shippingAddress;
 
-    @Column(nullable = false)
+    @Column(name = "shipping_date", nullable = false)
     private LocalDateTime shippingDate;
 
-    @Column
+    @Column(name = "tracking_number")
     private String trackingNumber;
 
     // Getters, Setters, Constructors, toString...

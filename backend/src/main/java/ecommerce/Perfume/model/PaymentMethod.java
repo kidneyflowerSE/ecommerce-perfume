@@ -10,7 +10,7 @@ public class PaymentMethod {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(nullable = false, length = 255)
+    @Column(name = "method_name", nullable = false, length = 255)
     private String methodName;
 
     @Column
