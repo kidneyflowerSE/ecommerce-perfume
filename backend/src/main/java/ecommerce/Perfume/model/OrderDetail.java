@@ -1,34 +1,43 @@
 package ecommerce.Perfume.model;
 
 import jakarta.persistence.*;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 
 import java.math.BigDecimal;
 
 @Entity
 @Table(name = "Order_Details")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class OrderDetail {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Integer id;
 
     @ManyToOne
-    @JoinColumn(name = "order_id", nullable = false)
+    @JoinColumn(name = "order_id", referencedColumnName = "id", nullable = false)
+    @JsonBackReference
     private Order order;
 
     @ManyToOne
-    @JoinColumn(name = "product_id", nullable = false)
+    @JoinColumn(name = "product_id", referencedColumnName = "id", nullable = false)
+    @JsonBackReference
     private Product product;
 
     @ManyToOne
-    @JoinColumn(name = "promo_code_id")
+    @JoinColumn(name = "promo_code_id", referencedColumnName = "id")
+    @JsonBackReference
     private Promotion promoCode;
 
-    @Column(nullable = false)
+    @Column(name = "quantity", nullable = false, columnDefinition = "INT DEFAULT 1")
     private Integer quantity;
 
-    @Column(nullable = false)
+    @Column(name = "price", nullable = false, precision = 10, scale = 2)
     private BigDecimal price;
-
-    // Getters, Setters, Constructors, toString...
 }
