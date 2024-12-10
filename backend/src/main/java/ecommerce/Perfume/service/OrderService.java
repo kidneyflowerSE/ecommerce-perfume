@@ -37,7 +37,7 @@ public class OrderService {
     private OrderStatusRepository orderStatusRepository;
 
     @Autowired
-    private ShippingService shippingService; // Giả sử bạn đã có một ShippingService để tính phí vận chuyển
+    private ShippingService shippingService;
 
     public Order createOrderFromCart(Integer customerId, Integer cartId, Integer paymentMethodId, Integer shippingId, String promoCode, Integer orderStatusId) {
         // Tìm giỏ hàng của khách hàng
