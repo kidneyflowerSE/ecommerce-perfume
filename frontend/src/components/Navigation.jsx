@@ -1,8 +1,49 @@
-const Navigation = () => {
-    return (
-        <div>
+import React, { useState } from 'react';
+import { FiSearch, FiShoppingCart } from "react-icons/fi";
+import { useNavigate } from "react-router-dom";
 
+const Navigation = () => {
+  const navigate = useNavigate();
+  
+
+  const [cartItems, setCartItems] = useState(3);
+
+  const handleCartClick = () => {
+    navigate('/cart');  
+  }
+
+  const search = useNavigate ();
+  const handleSearch = () => {
+    search('/search');
+  };
+  const home = useNavigate();
+  const handleHomeClick = () => {
+    home('/');
+  }
+
+  return (
+    <div className="flex items-center w-full p-4 border-b">
+        <div className='w-full flex justify-between items-center pl-12 pr-6'>
+          <span 
+            className='flex-grow text-center tracking-wider font-semibold text-3xl cursor-pointer' 
+            onClick={handleHomeClick}
+          >
+            PERFUME ECOMMERCE
+          </span>
+          <div className='flex items-center gap-6'>
+            <FiSearch size={24} onClick={handleSearch} className='cursor-pointer'/>
+            <div className="relative p-2">
+              <FiShoppingCart size={24} className='cursor-pointer' onClick={handleCartClick} />
+              {cartItems > 0 && (
+                <div className="absolute top-0 right-0 bg-red-500 text-white text-xs w-4 h-4 flex items-center justify-center rounded-full">
+                  {cartItems}
+                </div>
+              )}
+            </div>
+          </div>
         </div>
-    );
+    </div>
+  );
 };
+
 export default Navigation;
