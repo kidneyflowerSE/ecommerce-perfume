@@ -8,5 +8,4 @@ import java.util.Optional;
 
 @Repository
 public interface OrderStatusRepository extends JpaRepository<OrderStatus, Integer> {
-    Optional<OrderStatus> findByStatusName(String statusName);
 }
