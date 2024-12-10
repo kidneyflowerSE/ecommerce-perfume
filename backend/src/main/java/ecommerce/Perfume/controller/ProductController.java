@@ -33,7 +33,7 @@ public class ProductController {
 
     // Xóa sản phẩm
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteProduct(@PathVariable Integer id) {
+    public ResponseEntity<Void> deleteProduct(@PathVariable Integer id) {/**/
         productService.deleteProduct(id);
         return ResponseEntity.noContent().build();
     }

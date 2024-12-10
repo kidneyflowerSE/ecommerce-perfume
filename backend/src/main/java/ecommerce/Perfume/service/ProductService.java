@@ -69,7 +69,7 @@ public class ProductService {
     public List<Product> getAllProducts() {
         List<Product> products = productRepository.findAll();
         System.out.println(products);
-        return productRepository.findAll();
+        return products;
     }
 
     // 6. Lọc sản phẩm theo thương hiệu
