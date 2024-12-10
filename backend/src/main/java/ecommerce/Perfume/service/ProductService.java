@@ -7,6 +7,7 @@ import ecommerce.Perfume.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
@@ -95,7 +96,8 @@ public class ProductService {
         return productRepository.save(product);
     }
 
-    public void checkConnection() {
-        System.out.println("Number of products in database: " + productRepository.count());
+    // 10. Lọc sản phẩm theo giá
+    public List<Product> filterProductsByPrice(BigDecimal minPrice, BigDecimal maxPrice){
+        return productRepository.findByPriceBetween(minPrice, maxPrice);
     }
 }

@@ -1,5 +1,6 @@
 package ecommerce.Perfume.dto.request;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import ecommerce.Perfume.model.Brand;
 import ecommerce.Perfume.model.Category;
 import jakarta.persistence.Column;
@@ -30,11 +31,9 @@ public class ProductCreation {
 
     private String imageUrl;
 
-    @ManyToOne
     @JoinColumn(name = "brand_id", nullable = false)
     private Brand brand;
 
-    @ManyToOne
     @JoinColumn(name = "category_id", nullable = false)
     private Category category;
 
@@ -43,4 +42,5 @@ public class ProductCreation {
 
     @Column(nullable = false, columnDefinition = "TIMESTAMP")
     private LocalDateTime updatedAt;
+
 }
