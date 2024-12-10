@@ -1,9 +1,9 @@
 package ecommerce.Perfume.repository;
 
-import ecommerce.Perfume.model.Customer;
+import ecommerce.Perfume.model.OrderStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface CustomerRepository extends JpaRepository<Customer, Integer> {
+public interface OrderStatusRepository extends JpaRepository<OrderStatus, Integer> {
 }

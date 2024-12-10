@@ -1,31 +1,43 @@
 package ecommerce.Perfume.model;
 
 import jakarta.persistence.*;
+import lombok.Data;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.List;
 
 @Entity
 @Table(name = "Promotions")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Promotion {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Integer id;
 
-    @Column(nullable = false, length = 50, unique = true)
+    @Column(name = "promo_code", nullable = false, length = 50, unique = true)
     private String promoCode;
 
-    @Column
+    @Column(name = "description")
     private String description;
 
-    @Column(nullable = false)
+    @Column(name = "discount_percentage", nullable = false)
     private BigDecimal discountPercentage;
 
-    @Column
+    @Column(name = "start_date")
     private LocalDate startDate;
 
-    @Column
+    @Column(name = "end_date")
     private LocalDate endDate;
 
-    // Getters, Setters, Constructors, toString...
+    @OneToMany(mappedBy = "promoCode", cascade = CascadeType.ALL, orphanRemoval = true)
+    @JsonManagedReference
+    private List<OrderDetail> orderDetails;
 }
