@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 
 @Entity
 @Table(name = "Admins")
@@ -28,6 +29,7 @@ public class Admin {
 
     @ManyToOne
     @JoinColumn(name = "role_id", referencedColumnName = "id")
+    @JsonBackReference
     private Role role;
 
 }

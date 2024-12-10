@@ -1,10 +1,10 @@
 package ecommerce.Perfume.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.ToString;
 
 import java.math.BigDecimal;
@@ -39,14 +39,15 @@ public class Product {
 
     @ManyToOne
     @JoinColumn(name = "brand_id", referencedColumnName = "id")
+    @JsonBackReference
     @ToString.Exclude
     private Brand brand;
 
     @ManyToOne
     @JoinColumn(name = "category_id", referencedColumnName = "id")
+    @JsonBackReference
     @ToString.Exclude
     private Category category;
-
 
     @Column(name = "created_at", columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP", updatable = false)
     private LocalDateTime createdAt;

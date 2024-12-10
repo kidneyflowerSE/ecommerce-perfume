@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 
 import java.time.LocalDateTime;
 
@@ -21,6 +22,7 @@ public class Shipping {
 
     @OneToOne
     @JoinColumn(name = "order_id", referencedColumnName = "id", nullable = false, unique = true)
+    @JsonBackReference
     private Order order;
 
     @Column(name = "shipping_method")

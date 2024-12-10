@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 
 import java.math.BigDecimal;
 
@@ -21,14 +22,17 @@ public class OrderDetail {
 
     @ManyToOne
     @JoinColumn(name = "order_id", referencedColumnName = "id", nullable = false)
+    @JsonBackReference
     private Order order;
 
     @ManyToOne
     @JoinColumn(name = "product_id", referencedColumnName = "id", nullable = false)
+    @JsonBackReference
     private Product product;
 
     @ManyToOne
     @JoinColumn(name = "promo_code_id", referencedColumnName = "id")
+    @JsonBackReference
     private Promotion promoCode;
 
     @Column(name = "quantity", nullable = false, columnDefinition = "INT DEFAULT 1")
