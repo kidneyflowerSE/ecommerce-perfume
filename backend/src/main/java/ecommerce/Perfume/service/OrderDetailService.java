@@ -10,12 +10,14 @@ import ecommerce.Perfume.repository.ProductRepository;
 import ecommerce.Perfume.repository.PromotionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Optional;
 
 @Service
+@Transactional
 public class OrderDetailService {
 
     @Autowired
@@ -61,7 +63,7 @@ public class OrderDetailService {
         orderDetail.setProduct(product);
         orderDetail.setPromoCode(promotionOptional.orElse(null));
         orderDetail.setQuantity(quantity);
-        orderDetail.setPrice(product.getPrice()); // Giả sử giá của sản phẩm lấy từ Product
+        orderDetail.setPrice(product.getPrice());
 
         // Lưu chi tiết đơn hàng
         return orderDetailRepository.save(orderDetail);

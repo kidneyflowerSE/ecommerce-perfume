@@ -5,7 +5,11 @@ import ecommerce.Perfume.model.Brand;
 import ecommerce.Perfume.model.Product;
 import ecommerce.Perfume.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -13,6 +17,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
+@Transactional
 public class ProductService {
     @Autowired
     ProductRepository productRepository;
@@ -34,7 +39,7 @@ public class ProductService {
         return productRepository.save(product);
     }
 
-    // 2. Cập nhật sản phẩm
+    // Cập nhật sản phẩm
     public Product updateProduct(Integer productId, ProductCreation productCreation) {
         Optional<Product> productOptional = productRepository.findById(productId);
         if (productOptional.isEmpty()) {
@@ -52,7 +57,7 @@ public class ProductService {
         return productRepository.save(product);
     }
 
-    // 3. Xóa sản phẩm
+    // Xóa sản phẩm
     public void deleteProduct(Integer productId) {
         if (!productRepository.existsById(productId)) {
             throw new RuntimeException("Product not found with ID: " + productId);
@@ -60,35 +65,35 @@ public class ProductService {
         productRepository.deleteById(productId);
     }
 
-    // 4. Tìm sản phẩm theo ID
+    // Tìm sản phẩm theo ID
     public Product getProductById(Integer productId) {
         return productRepository.findById(productId)
                 .orElseThrow(() -> new RuntimeException("Product not found with ID: " + productId));
     }
 
-    // 5. Lấy danh sách sản phẩm
+    // Lấy danh sách sản phẩm
     public List<Product> getAllProducts() {
         List<Product> products = productRepository.findAll();
         System.out.println(products);
         return products;
     }
 
-    // 6. Lọc sản phẩm theo thương hiệu
+    // Lọc sản phẩm theo thương hiệu
     public List<Product> getProductsByBrand(String brandName) {
         return productRepository.findByBrandName(brandName);
     }
 
-    // 7. Lọc sản phẩm theo danh mục
+    // Lọc sản phẩm theo danh mục
     public List<Product> getProductsByCategory(String categoryName) {
         return productRepository.findByCategoryName(categoryName);
     }
 
-    // 8. Tìm kiếm sản phẩm
+    // Tìm kiếm sản phẩm theo tên
     public List<Product> searchProducts(String keyword) {
         return productRepository.findByNameContainingIgnoreCase(keyword);
     }
 
-    // 9. Cập nhật số lượng tồn kho
+    // Cập nhật số lượng tồn kho
     public Product updateStock(Integer productId, int newStock) {
         Product product = getProductById(productId);
         product.setStock(newStock);
@@ -96,8 +101,19 @@ public class ProductService {
         return productRepository.save(product);
     }
 
-    // 10. Lọc sản phẩm theo giá
+    // Lọc sản phẩm theo giá
     public List<Product> filterProductsByPrice(BigDecimal minPrice, BigDecimal maxPrice){
         return productRepository.findByPriceBetween(minPrice, maxPrice);
+    }
+
+    // Lọc sản phẩm theo quốc gia
+    public List<Product> getProductsByCountry(String country) {
+        return productRepository.findByBrandCountry(country);
+    }
+
+    // Lấy top 10 sản phẩm bán chạy nhất
+    public List<Product> getTop10BestSellingProducts() {
+        Pageable pageable = PageRequest.of(0, 10); // Lấy 10 sản phẩm đầu tiên
+        return productRepository.findTop10BestSellingProducts(pageable).getContent();
     }
 }
