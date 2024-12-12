@@ -5,6 +5,9 @@ import ecommerce.Perfume.model.Brand;
 import ecommerce.Perfume.model.Product;
 import ecommerce.Perfume.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -85,7 +88,7 @@ public class ProductService {
         return productRepository.findByCategoryName(categoryName);
     }
 
-    // Tìm kiếm sản phẩm
+    // Tìm kiếm sản phẩm theo tên
     public List<Product> searchProducts(String keyword) {
         return productRepository.findByNameContainingIgnoreCase(keyword);
     }
@@ -101,5 +104,16 @@ public class ProductService {
     // Lọc sản phẩm theo giá
     public List<Product> filterProductsByPrice(BigDecimal minPrice, BigDecimal maxPrice){
         return productRepository.findByPriceBetween(minPrice, maxPrice);
+    }
+
+    // Lọc sản phẩm theo quốc gia
+    public List<Product> getProductsByCountry(String country) {
+        return productRepository.findByBrandCountry(country);
+    }
+
+    // Lấy top 10 sản phẩm bán chạy nhất
+    public List<Product> getTop10BestSellingProducts() {
+        Pageable pageable = PageRequest.of(0, 10); // Lấy 10 sản phẩm đầu tiên
+        return productRepository.findTop10BestSellingProducts(pageable).getContent();
     }
 }

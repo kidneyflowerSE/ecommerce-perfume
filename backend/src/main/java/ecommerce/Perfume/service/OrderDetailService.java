@@ -63,7 +63,7 @@ public class OrderDetailService {
         orderDetail.setProduct(product);
         orderDetail.setPromoCode(promotionOptional.orElse(null));
         orderDetail.setQuantity(quantity);
-        orderDetail.setPrice(product.getPrice()); // Giả sử giá của sản phẩm lấy từ Product
+        orderDetail.setPrice(product.getPrice());
 
         // Lưu chi tiết đơn hàng
         return orderDetailRepository.save(orderDetail);

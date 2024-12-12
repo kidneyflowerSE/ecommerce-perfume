@@ -4,6 +4,7 @@ import ecommerce.Perfume.dto.request.ProductCreation;
 import ecommerce.Perfume.model.Product;
 import ecommerce.Perfume.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
@@ -87,6 +88,19 @@ public class ProductController {
     @GetMapping("/filterByPrice")
     public ResponseEntity<List<Product>> filterProductsByPrice(@RequestParam BigDecimal minPrice, @RequestParam BigDecimal maxPrice) {
         List<Product> products = productService.filterProductsByPrice(minPrice, maxPrice);
+        return new ResponseEntity<>(products, HttpStatus.OK);
+    }
+
+    // Lọc sản phẩm theo quốc gia
+    @GetMapping("/products-by-country")
+    public List<Product> getProductsByCountry(@RequestParam String country) {
+        return productService.getProductsByCountry(country);
+    }
+
+    // Lấy top 10 sản phẩm bán chạy nhất
+    @GetMapping("/top-selling")
+    public ResponseEntity<List<Product>> getTop10BestSellingProducts() {
+        List<Product> products = productService.getTop10BestSellingProducts();
         return new ResponseEntity<>(products, HttpStatus.OK);
     }
 }
