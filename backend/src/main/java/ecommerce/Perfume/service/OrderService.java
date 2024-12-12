@@ -112,7 +112,7 @@ public class OrderService {
         return orderRepository.findByCustomerId(customerId);
     }
 
-    public Order getOrderDetails(Integer orderId) {
+    public Order getOrderById(Integer orderId) {
         return orderRepository.findById(orderId)
                 .orElseThrow(() -> new RuntimeException("Order not found"));
     }

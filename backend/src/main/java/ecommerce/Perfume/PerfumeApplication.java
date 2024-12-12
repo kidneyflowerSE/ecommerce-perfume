@@ -3,9 +3,22 @@ package ecommerce.Perfume;
 import io.github.cdimascio.dotenv.Dotenv;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.lang.NonNull;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
-public class PerfumeApplication {
+public class PerfumeApplication implements WebMvcConfigurer {
+	@Override
+	public void addCorsMappings(@NonNull CorsRegistry registry) {
+		registry.addMapping("/**")
+				.allowedOrigins("*")
+				.allowedMethods("*")
+				.allowedHeaders("*")
+				.exposedHeaders("*")
+				.allowCredentials(false)
+				.maxAge(3600); // Max age of the CORS pre-flight request
+	}
 
 	public static void main(String[] args) {
 		Dotenv dotenv = Dotenv.configure().load();

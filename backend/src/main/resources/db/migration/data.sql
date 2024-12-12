@@ -385,7 +385,7 @@ VALUES (
         50,
         "https://example.com/images/lv_edp.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "LV"
@@ -400,7 +400,7 @@ VALUES (
         75,
         "https://example.com/images/lv_edt.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "LV"
@@ -415,7 +415,7 @@ VALUES (
         60,
         "https://example.com/images/lv_cologne.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "LV"
@@ -430,7 +430,7 @@ VALUES (
         40,
         "https://example.com/images/lv_oud.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "LV"
@@ -445,7 +445,7 @@ VALUES (
         55,
         "https://example.com/images/lv_woody.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "LV"
@@ -460,7 +460,7 @@ VALUES (
         65,
         "https://example.com/images/lv_floral.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "LV"
@@ -475,7 +475,7 @@ VALUES (
         45,
         "https://example.com/images/lv_oriental.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "LV"
@@ -490,7 +490,7 @@ VALUES (
         80,
         "https://example.com/images/lv_fresh.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "LV"
@@ -505,7 +505,7 @@ VALUES (
         50,
         "https://example.com/images/lv_spicy.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "LV"
@@ -520,7 +520,7 @@ VALUES (
         70,
         "https://example.com/images/lv_citrus.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "LV"
@@ -547,7 +547,7 @@ VALUES (
         40,
         "https://example.com/images/clive_edp.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Clive"
@@ -562,7 +562,7 @@ VALUES (
         60,
         "https://example.com/images/clive_edt.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Clive"
@@ -577,7 +577,7 @@ VALUES (
         55,
         "https://example.com/images/clive_cologne.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Clive"
@@ -592,7 +592,7 @@ VALUES (
         35,
         "https://example.com/images/clive_oud.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Clive"
@@ -607,7 +607,7 @@ VALUES (
         50,
         "https://example.com/images/clive_woody.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Clive"
@@ -622,7 +622,7 @@ VALUES (
         65,
         "https://example.com/images/clive_floral.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Clive"
@@ -637,7 +637,7 @@ VALUES (
         40,
         "https://example.com/images/clive_oriental.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Clive"
@@ -652,7 +652,7 @@ VALUES (
         70,
         "https://example.com/images/clive_fresh.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Clive"
@@ -667,7 +667,7 @@ VALUES (
         45,
         "https://example.com/images/clive_spicy.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Clive"
@@ -682,7 +682,7 @@ VALUES (
         60,
         "https://example.com/images/clive_citrus.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Clive"
@@ -709,7 +709,7 @@ VALUES (
         40,
         "https://example.com/images/tomford_black_orchid.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Tom Ford"
@@ -724,7 +724,7 @@ VALUES (
         35,
         "https://example.com/images/tomford_oud_wood.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Tom Ford"
@@ -739,7 +739,7 @@ VALUES (
         30,
         "https://example.com/images/tomford_tobacco_vanille.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Tom Ford"
@@ -754,7 +754,7 @@ VALUES (
         50,
         "https://example.com/images/tomford_neroli_portofino.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Tom Ford"
@@ -769,7 +769,7 @@ VALUES (
         45,
         "https://example.com/images/tomford_soleil_blanc.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Tom Ford"
@@ -784,7 +784,7 @@ VALUES (
         40,
         "https://example.com/images/tomford_lost_cherry.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Tom Ford"
@@ -799,7 +799,7 @@ VALUES (
         50,
         "https://example.com/images/tomford_costa_azzurra.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Tom Ford"
@@ -814,7 +814,7 @@ VALUES (
         60,
         "https://example.com/images/tomford_grey_vetiver.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Tom Ford"
@@ -829,7 +829,7 @@ VALUES (
         55,
         "https://example.com/images/tomford_white_patchouli.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Tom Ford"
@@ -844,7 +844,7 @@ VALUES (
         50,
         "https://example.com/images/tomford_bitter_peach.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Tom Ford"
@@ -871,7 +871,7 @@ VALUES (
         40,
         "https://example.com/images/lelab_santal_33.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Le Labo"
@@ -886,7 +886,7 @@ VALUES (
         35,
         "https://example.com/images/lelab_another_13.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Le Labo"
@@ -901,7 +901,7 @@ VALUES (
         50,
         "https://example.com/images/lelab_rose_31.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Le Labo"
@@ -916,7 +916,7 @@ VALUES (
         45,
         "https://example.com/images/lelab_bergamote_22.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Le Labo"
@@ -931,7 +931,7 @@ VALUES (
         40,
         "https://example.com/images/lelab_the_noir_29.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Le Labo"
@@ -946,7 +946,7 @@ VALUES (
         35,
         "https://example.com/images/lelab_iris_39.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Le Labo"
@@ -961,7 +961,7 @@ VALUES (
         50,
         "https://example.com/images/lelab_patchouli_24.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Le Labo"
@@ -976,7 +976,7 @@ VALUES (
         55,
         "https://example.com/images/lelab_jasmin_17.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Le Labo"
@@ -991,7 +991,7 @@ VALUES (
         60,
         "https://example.com/images/lelab_violet_22.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Le Labo"
@@ -1006,7 +1006,7 @@ VALUES (
         65,
         "https://example.com/images/lelab_lime_17.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Le Labo"
@@ -1033,7 +1033,7 @@ VALUES (
         20,
         "https://example.com/images/roja_dove_enigma.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Roja"
@@ -1048,7 +1048,7 @@ VALUES (
         25,
         "https://example.com/images/roja_scandal.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Roja"
@@ -1063,7 +1063,7 @@ VALUES (
         30,
         "https://example.com/images/roja_elysium.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Roja"
@@ -1078,7 +1078,7 @@ VALUES (
         22,
         "https://example.com/images/roja_danger.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Roja"
@@ -1093,7 +1093,7 @@ VALUES (
         18,
         "https://example.com/images/roja_signature.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Roja"
@@ -1108,7 +1108,7 @@ VALUES (
         15,
         "https://example.com/images/roja_amber_aoud.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Roja"
@@ -1123,7 +1123,7 @@ VALUES (
         28,
         "https://example.com/images/roja_no18.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Roja"
@@ -1138,7 +1138,7 @@ VALUES (
         20,
         "https://example.com/images/roja_enigma_homme.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Roja"
@@ -1153,7 +1153,7 @@ VALUES (
         25,
         "https://example.com/images/roja_creation_e.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Roja"
@@ -1168,7 +1168,7 @@ VALUES (
         10,
         "https://example.com/images/roja_aoud_leather.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Roja"
@@ -1195,7 +1195,7 @@ VALUES (
         100,
         "https://example.com/images/diptyque_philosykos.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Diptyque"
@@ -1210,7 +1210,7 @@ VALUES (
         120,
         "https://example.com/images/diptyque_eau_rose.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Diptyque"
@@ -1225,7 +1225,7 @@ VALUES (
         80,
         "https://example.com/images/diptyque_tam_dao.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Diptyque"
@@ -1240,7 +1240,7 @@ VALUES (
         90,
         "https://example.com/images/diptyque_eau_des_sens.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Diptyque"
@@ -1255,7 +1255,7 @@ VALUES (
         110,
         "https://example.com/images/diptyque_do_son.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Diptyque"
@@ -1270,7 +1270,7 @@ VALUES (
         85,
         "https://example.com/images/diptyque_eau_rose_poetic.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Diptyque"
@@ -1285,7 +1285,7 @@ VALUES (
         75,
         "https://example.com/images/diptyque_ombre_dans_l_eau.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Diptyque"
@@ -1300,7 +1300,7 @@ VALUES (
         70,
         "https://example.com/images/diptyque_eau_duelle.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Diptyque"
@@ -1315,7 +1315,7 @@ VALUES (
         65,
         "https://example.com/images/diptyque_34_boulevard_saint_germain.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Diptyque"
@@ -1330,7 +1330,7 @@ VALUES (
         95,
         "https://example.com/images/diptyque_eau_de_parfum.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Diptyque"
@@ -1357,7 +1357,7 @@ VALUES (
         30,
         "https://example.com/images/mfk_baccarat_rouge_540.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "MFK"
@@ -1372,7 +1372,7 @@ VALUES (
         40,
         "https://example.com/images/mfk_aqua_universalis.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "MFK"
@@ -1387,7 +1387,7 @@ VALUES (
         25,
         "https://example.com/images/mfk_oud_satin_mood.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "MFK"
@@ -1402,7 +1402,7 @@ VALUES (
         50,
         "https://example.com/images/mfk_le_male.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "MFK"
@@ -1417,7 +1417,7 @@ VALUES (
         45,
         "https://example.com/images/mfk_petit_matin.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "MFK"
@@ -1432,7 +1432,7 @@ VALUES (
         35,
         "https://example.com/images/mfk_lumiere_noire_pour_femme.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "MFK"
@@ -1447,7 +1447,7 @@ VALUES (
         40,
         "https://example.com/images/mfk_a_la_rose.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "MFK"
@@ -1462,7 +1462,7 @@ VALUES (
         38,
         "https://example.com/images/mfk_iris_rebelle.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "MFK"
@@ -1477,7 +1477,7 @@ VALUES (
         30,
         "https://example.com/images/mfk_absolue_pour_le_soir.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "MFK"
@@ -1492,7 +1492,7 @@ VALUES (
         42,
         "https://example.com/images/mfk_silver_mountain_water.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "MFK"
@@ -1519,7 +1519,7 @@ VALUES (
         60,
         "https://example.com/images/byredo_gypsy_water.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Byredo"
@@ -1534,7 +1534,7 @@ VALUES (
         55,
         "https://example.com/images/byredo_mojave_ghost.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Byredo"
@@ -1549,7 +1549,7 @@ VALUES (
         65,
         "https://example.com/images/byredo_bal_d_afrique.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Byredo"
@@ -1564,7 +1564,7 @@ VALUES (
         70,
         "https://example.com/images/byredo_blanche.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Byredo"
@@ -1579,7 +1579,7 @@ VALUES (
         50,
         "https://example.com/images/byredo_super_cedar.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Byredo"
@@ -1594,7 +1594,7 @@ VALUES (
         68,
         "https://example.com/images/byredo_pulp.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Byredo"
@@ -1609,7 +1609,7 @@ VALUES (
         72,
         "https://example.com/images/byredo_la_tulipe.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Byredo"
@@ -1624,7 +1624,7 @@ VALUES (
         58,
         "https://example.com/images/byredo_black_saffron.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Byredo"
@@ -1639,7 +1639,7 @@ VALUES (
         62,
         "https://example.com/images/byredo_mojave_grass.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Byredo"
@@ -1654,7 +1654,7 @@ VALUES (
         75,
         "https://example.com/images/byredo_sundazed.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Byredo"
@@ -1681,7 +1681,7 @@ VALUES (
         25,
         "https://example.com/images/amouage_reflection_man.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Amouage"
@@ -1696,7 +1696,7 @@ VALUES (
         20,
         "https://example.com/images/amouage_interlude_man.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Amouage"
@@ -1711,7 +1711,7 @@ VALUES (
         15,
         "https://example.com/images/amouage_jubilation_xxv.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Amouage"
@@ -1726,7 +1726,7 @@ VALUES (
         30,
         "https://example.com/images/amouage_sunshine_man.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Amouage"
@@ -1741,7 +1741,7 @@ VALUES (
         28,
         "https://example.com/images/amouage_honour_woman.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Amouage"
@@ -1756,7 +1756,7 @@ VALUES (
         22,
         "https://example.com/images/amouage_dia_man.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Amouage"
@@ -1771,7 +1771,7 @@ VALUES (
         18,
         "https://example.com/images/amouage_epic_man.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Amouage"
@@ -1786,7 +1786,7 @@ VALUES (
         16,
         "https://example.com/images/amouage_memoir_man.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Amouage"
@@ -1801,7 +1801,7 @@ VALUES (
         20,
         "https://example.com/images/amouage_lyric_man.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Amouage"
@@ -1816,7 +1816,7 @@ VALUES (
         19,
         "https://example.com/images/amouage_fate_man.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Amouage"
@@ -1843,7 +1843,7 @@ VALUES (
         10,
         "https://example.com/images/xerjoff_naxos.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Xerjoff"
@@ -1858,7 +1858,7 @@ VALUES (
         12,
         "https://example.com/images/xerjoff_uden.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Xerjoff"
@@ -1873,7 +1873,7 @@ VALUES (
         8,
         "https://example.com/images/xerjoff_alexandria_ii.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Xerjoff"
@@ -1888,7 +1888,7 @@ VALUES (
         14,
         "https://example.com/images/xerjoff_casamorati_1888.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Xerjoff"
@@ -1903,7 +1903,7 @@ VALUES (
         11,
         "https://example.com/images/xerjoff_uomo.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Xerjoff"
@@ -1918,7 +1918,7 @@ VALUES (
         13,
         "https://example.com/images/xerjoff_17_man.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Xerjoff"
@@ -1933,7 +1933,7 @@ VALUES (
         9,
         "https://example.com/images/xerjoff_zafir.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Xerjoff"
@@ -1948,7 +1948,7 @@ VALUES (
         10,
         "https://example.com/images/xerjoff_milan_33.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Xerjoff"
@@ -1963,7 +1963,7 @@ VALUES (
         16,
         "https://example.com/images/xerjoff_erba_pura.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Xerjoff"
@@ -1978,7 +1978,7 @@ VALUES (
         5,
         "https://example.com/images/xerjoff_alexandria_ii_oud.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Xerjoff"
@@ -2005,7 +2005,7 @@ VALUES (
         30,
         "https://example.com/images/bond_no9_new_york_oud.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Bond"
@@ -2020,7 +2020,7 @@ VALUES (
         35,
         "https://example.com/images/bond_no9_greenwich_village.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Bond"
@@ -2035,7 +2035,7 @@ VALUES (
         40,
         "https://example.com/images/bond_no9_scent_of_peace.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Bond"
@@ -2050,7 +2050,7 @@ VALUES (
         28,
         "https://example.com/images/bond_no9_central_park.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Bond"
@@ -2065,7 +2065,7 @@ VALUES (
         22,
         "https://example.com/images/bond_no9_new_york_nights.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Bond"
@@ -2080,7 +2080,7 @@ VALUES (
         33,
         "https://example.com/images/bond_no9_broadway.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Bond"
@@ -2095,7 +2095,7 @@ VALUES (
         37,
         "https://example.com/images/bond_no9_times_square.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Bond"
@@ -2110,7 +2110,7 @@ VALUES (
         25,
         "https://example.com/images/bond_no9_wall_street.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Bond"
@@ -2125,7 +2125,7 @@ VALUES (
         32,
         "https://example.com/images/bond_no9_east_side.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Bond"
@@ -2140,7 +2140,7 @@ VALUES (
         29,
         "https://example.com/images/bond_no9_chinatown.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Bond"
@@ -2167,7 +2167,7 @@ VALUES (
         20,
         "https://example.com/images/pdm_herod.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "PDM"
@@ -2182,7 +2182,7 @@ VALUES (
         25,
         "https://example.com/images/pdm_layton.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "PDM"
@@ -2197,7 +2197,7 @@ VALUES (
         30,
         "https://example.com/images/pdm_percival.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "PDM"
@@ -2212,7 +2212,7 @@ VALUES (
         35,
         "https://example.com/images/pdm_delina.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "PDM"
@@ -2227,7 +2227,7 @@ VALUES (
         15,
         "https://example.com/images/pdm_layton_exclusif.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "PDM"
@@ -2242,7 +2242,7 @@ VALUES (
         18,
         "https://example.com/images/pdm_pegasus.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "PDM"
@@ -2257,7 +2257,7 @@ VALUES (
         22,
         "https://example.com/images/pdm_galloway.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "PDM"
@@ -2272,7 +2272,7 @@ VALUES (
         12,
         "https://example.com/images/pdm_delina_exclusif.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "PDM"
@@ -2287,7 +2287,7 @@ VALUES (
         10,
         "https://example.com/images/pdm_layton_superieur.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "PDM"
@@ -2302,7 +2302,7 @@ VALUES (
         14,
         "https://example.com/images/pdm_layton_champ_de_tulipe.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "PDM"
@@ -2329,7 +2329,7 @@ VALUES (
         20,
         "https://piger.vn/wp-content/uploads/636.69/05/nuoc-hoa-unisex-btso-dirty-rice-edp-50ml.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "BTSO"
@@ -2344,7 +2344,7 @@ VALUES (
         15,
         "https://yperfume.net/wp-content/uploads/815.60/05/nuoc-hoa-borntostandout-btso-hinoki-shower.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "BTSO"
@@ -2359,7 +2359,7 @@ VALUES (
         10,
         "https://yperfume.net/wp-content/uploads/824.55/05/nuoc-hoa-borntostandout-btso-filthy-musk.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "BTSO"
@@ -2374,7 +2374,7 @@ VALUES (
         12,
         "https://yperfume.net/wp-content/uploads/898.05/05/nuoc-hoa-borntostandout-btso-fig-forn.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "BTSO"
@@ -2389,7 +2389,7 @@ VALUES (
         18,
         "https://yperfume.net/wp-content/uploads/309.69/05/nuoc-hoa-borntostandout-btso-naked-laundry.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "BTSO"
@@ -2404,7 +2404,7 @@ VALUES (
         14,
         "https://yperfume.net/wp-content/uploads/660.19/05/nuoc-hoa-borntostandout-btso-mud.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "BTSO"
@@ -2419,7 +2419,7 @@ VALUES (
         16,
         "https://yperfume.net/wp-content/uploads/530.65/05/nuoc-hoa-borntostandout-btso-burnt-roses.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "BTSO"
@@ -2434,7 +2434,7 @@ VALUES (
         20,
         "https://whis.com.vn/wp-content/uploads/433.55/05/btso-x-fugazzi.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "BTSO"
@@ -2449,7 +2449,7 @@ VALUES (
         8,
         "https://grandencharm.com/wp-content/uploads/528.25/05/nuoc-hoa-btso-dirty-rice-special-edition.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "BTSO"
@@ -2464,7 +2464,7 @@ VALUES (
         5,
         "https://lanperfume.com/wp-content/uploads/562.45/05/btso-hinoki-shower-limited.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "BTSO"
@@ -2491,7 +2491,7 @@ VALUES (
         15,
         "https://kenperfume.com/san-pham/nuoc-hoa-unisex-les-liquides-imaginaires-dom-rosa/",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Liquides Imaginaires"
@@ -2506,7 +2506,7 @@ VALUES (
         10,
         "https://kenperfume.com/san-pham/nuoc-hoa-unisex-les-liquides-imaginaires-blanche-bete/",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Liquides Imaginaires"
@@ -2521,7 +2521,7 @@ VALUES (
         12,
         "https://kenperfume.com/san-pham/nuoc-hoa-unisex-les-liquides-imaginaires-tumultu/",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Liquides Imaginaires"
@@ -2536,7 +2536,7 @@ VALUES (
         20,
         "https://kenperfume.com/san-pham/nuoc-hoa-unisex-les-liquides-imaginaires-lile-pourpre/",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Liquides Imaginaires"
@@ -2551,7 +2551,7 @@ VALUES (
         8,
         "https://sisscents.com/products/nuoc-hoa-liquides-imaginaires-phantasma",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Liquides Imaginaires"
@@ -2566,7 +2566,7 @@ VALUES (
         7,
         "https://kenperfume.com/san-pham/nuoc-hoa-unisex-les-liquides-imaginaires-belle-bete/",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Liquides Imaginaires"
@@ -2581,7 +2581,7 @@ VALUES (
         9,
         "https://khonuochoa.com/nuoc-hoa-chiet-liquides-imaginaires-melancolia-10ml",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Liquides Imaginaires"
@@ -2596,7 +2596,7 @@ VALUES (
         6,
         "https://khonuochoa.com/nuoc-hoa-chiet-liquides-imaginaires-bete-humaine-10ml",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Liquides Imaginaires"
@@ -2611,7 +2611,7 @@ VALUES (
         11,
         "https://kenperfume.com/san-pham/nuoc-hoa-unisex-les-liquides-imaginaires-desert-suave/",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Liquides Imaginaires"
@@ -2626,7 +2626,7 @@ VALUES (
         13,
         "https://dailyscent.vn/san-pham/fortis/",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Liquides Imaginaires"
@@ -2653,7 +2653,7 @@ VALUES (
         40,
         "https://example.com/images/penhaligans_blenheim_bouquet.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Penhaligon's"
@@ -2668,7 +2668,7 @@ VALUES (
         25,
         "https://example.com/images/penhaligans_halfeti.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Penhaligon's"
@@ -2683,7 +2683,7 @@ VALUES (
         35,
         "https://example.com/images/penhaligans_juniper_sling.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Penhaligon's"
@@ -2698,7 +2698,7 @@ VALUES (
         30,
         "https://example.com/images/penhaligans_artemisia.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Penhaligon's"
@@ -2713,7 +2713,7 @@ VALUES (
         28,
         "https://example.com/images/penhaligans_the_favourite.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Penhaligon's"
@@ -2728,7 +2728,7 @@ VALUES (
         20,
         "https://example.com/images/penhaligans_endymion.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Penhaligon's"
@@ -2743,7 +2743,7 @@ VALUES (
         30,
         "https://example.com/images/penhaligans_luna.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Penhaligon's"
@@ -2758,7 +2758,7 @@ VALUES (
         25,
         "https://example.com/images/penhaligans_scarlett_lily.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Penhaligon's"
@@ -2773,7 +2773,7 @@ VALUES (
         35,
         "https://example.com/images/penhaligans_iris_prima.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Penhaligon's"
@@ -2788,7 +2788,7 @@ VALUES (
         30,
         "https://example.com/images/penhaligans_vanila.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Penhaligon's"
@@ -2815,7 +2815,7 @@ VALUES (
         15,
         "https://example.com/images/creed_aventus.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Creed"
@@ -2830,7 +2830,7 @@ VALUES (
         20,
         "https://example.com/images/creed_green_irish_tweed.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Creed"
@@ -2845,7 +2845,7 @@ VALUES (
         18,
         "https://example.com/images/creed_silver_mountain_water.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Creed"
@@ -2860,7 +2860,7 @@ VALUES (
         12,
         "https://example.com/images/creed_millesime_imperial.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Creed"
@@ -2875,7 +2875,7 @@ VALUES (
         25,
         "https://example.com/images/creed_green_valley.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Creed"
@@ -2890,7 +2890,7 @@ VALUES (
         10,
         "https://example.com/images/creed_viking.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Creed"
@@ -2905,7 +2905,7 @@ VALUES (
         20,
         "https://example.com/images/creed_original_santal.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Creed"
@@ -2920,7 +2920,7 @@ VALUES (
         22,
         "https://example.com/images/creed_himalaya.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Creed"
@@ -2935,7 +2935,7 @@ VALUES (
         18,
         "https://example.com/images/creed_pure_malt.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Creed"
@@ -2950,7 +2950,7 @@ VALUES (
         15,
         "https://example.com/images/creed_red_vest.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Creed"
@@ -2977,7 +2977,7 @@ VALUES (
         80,
         "https://example.com/images/armani_acqua_di_gio.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Armani"
@@ -2992,7 +2992,7 @@ VALUES (
         70,
         "https://example.com/images/armani_code.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Armani"
@@ -3007,7 +3007,7 @@ VALUES (
         65,
         "https://example.com/images/armani_si.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Armani"
@@ -3022,7 +3022,7 @@ VALUES (
         75,
         "https://example.com/images/armani_mania.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Armani"
@@ -3037,7 +3037,7 @@ VALUES (
         60,
         "https://example.com/images/armani_code_black.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Armani"
@@ -3052,7 +3052,7 @@ VALUES (
         50,
         "https://example.com/images/armani_code_profumo.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Armani"
@@ -3067,7 +3067,7 @@ VALUES (
         20,
         "https://example.com/images/armani_prive_jasmine_exclusif.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Armani"
@@ -3082,7 +3082,7 @@ VALUES (
         18,
         "https://example.com/images/armani_prive_rose_darabie.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Armani"
@@ -3097,7 +3097,7 @@ VALUES (
         15,
         "https://example.com/images/armani_prive_oud_royal.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Armani"
@@ -3112,7 +3112,7 @@ VALUES (
         22,
         "https://example.com/images/armani_prive_mandarine_di_amalfi.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Armani"
@@ -3139,7 +3139,7 @@ VALUES (
         10,
         "https://example.com/images/imperial_emerald.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "The Merchant of Venice"
@@ -3154,7 +3154,7 @@ VALUES (
         15,
         "https://example.com/images/rosa_moceniga.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "The Merchant of Venice"
@@ -3169,7 +3169,7 @@ VALUES (
         20,
         "https://example.com/images/blue_tea.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "The Merchant of Venice"
@@ -3184,7 +3184,7 @@ VALUES (
         12,
         "https://example.com/images/my_pearls.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "The Merchant of Venice"
@@ -3199,7 +3199,7 @@ VALUES (
         18,
         "https://example.com/images/venetian_blue.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "The Merchant of Venice"
@@ -3214,7 +3214,7 @@ VALUES (
         14,
         "https://example.com/images/andalusian_soul.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "The Merchant of Venice"
@@ -3229,7 +3229,7 @@ VALUES (
         16,
         "https://example.com/images/byzantium_saffron.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "The Merchant of Venice"
@@ -3244,7 +3244,7 @@ VALUES (
         20,
         "https://example.com/images/gyokuro.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "The Merchant of Venice"
@@ -3259,7 +3259,7 @@ VALUES (
         22,
         "https://example.com/images/flamant_rose.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "The Merchant of Venice"
@@ -3274,7 +3274,7 @@ VALUES (
         18,
         "https://example.com/images/suave_petals.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "The Merchant of Venice"
@@ -3301,7 +3301,7 @@ VALUES (
         15,
         "https://example.com/images/argos_adonis_awakens.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Argos"
@@ -3316,7 +3316,7 @@ VALUES (
         20,
         "https://example.com/images/argos_bacio_immortale.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Argos"
@@ -3331,7 +3331,7 @@ VALUES (
         10,
         "https://example.com/images/argos_birth_of_venus.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Argos"
@@ -3346,7 +3346,7 @@ VALUES (
         12,
         "https://example.com/images/argos_brivido_della_caccia.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Argos"
@@ -3361,7 +3361,7 @@ VALUES (
         8,
         "https://example.com/images/argos_danae.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Argos"
@@ -3376,7 +3376,7 @@ VALUES (
         18,
         "https://example.com/images/argos_pallas_athene.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Argos"
@@ -3391,7 +3391,7 @@ VALUES (
         25,
         "https://example.com/images/argos_pour_femme.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Argos"
@@ -3406,7 +3406,7 @@ VALUES (
         30,
         "https://example.com/images/argos_pour_homme.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Argos"
@@ -3421,7 +3421,7 @@ VALUES (
         22,
         "https://example.com/images/argos_triumph_of_bacchus.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Argos"
@@ -3436,7 +3436,7 @@ VALUES (
         5,
         "https://example.com/images/argos_nemean_lion.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Argos"
@@ -3463,7 +3463,7 @@ VALUES (
         10,
         "https://example.com/images/van_cleef_extraordinaire.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Van Cleef"
@@ -3478,7 +3478,7 @@ VALUES (
         15,
         "https://example.com/images/van_cleef_feerie.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Van Cleef"
@@ -3493,7 +3493,7 @@ VALUES (
         12,
         "https://example.com/images/van_cleef_cherry_in_the_air.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Van Cleef"
@@ -3508,7 +3508,7 @@ VALUES (
         18,
         "https://example.com/images/van_cleef_iris.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Van Cleef"
@@ -3523,7 +3523,7 @@ VALUES (
         8,
         "https://example.com/images/van_cleef_ambre_imperial.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Van Cleef"
@@ -3538,7 +3538,7 @@ VALUES (
         10,
         "https://example.com/images/van_cleef_feverie_rouge.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Van Cleef"
@@ -3553,7 +3553,7 @@ VALUES (
         14,
         "https://example.com/images/van_cleef_fleurs_de_matin.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Van Cleef"
@@ -3568,7 +3568,7 @@ VALUES (
         16,
         "https://example.com/images/van_cleef_midnight_in_paris.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Van Cleef"
@@ -3583,7 +3583,7 @@ VALUES (
         20,
         "https://example.com/images/van_cleef_fraicheur_du_matin.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Van Cleef"
@@ -3598,7 +3598,7 @@ VALUES (
         18,
         "https://example.com/images/van_cleef_perle.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Van Cleef"
@@ -3625,7 +3625,7 @@ VALUES (
         20,
         "https://example.com/images/nishane_hacivat.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Nishane"
@@ -3640,7 +3640,7 @@ VALUES (
         15,
         "https://example.com/images/nishane_ani.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Nishane"
@@ -3655,7 +3655,7 @@ VALUES (
         18,
         "https://example.com/images/nishane_hundred_silent_ways.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Nishane"
@@ -3670,7 +3670,7 @@ VALUES (
         12,
         "https://example.com/images/nishane_wulong_cha.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Nishane"
@@ -3685,7 +3685,7 @@ VALUES (
         10,
         "https://example.com/images/nishane_fan_your_flames.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Nishane"
@@ -3700,7 +3700,7 @@ VALUES (
         14,
         "https://example.com/images/nishane_sultan_vetiver.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Nishane"
@@ -3715,7 +3715,7 @@ VALUES (
         16,
         "https://example.com/images/nishane_tuberoza.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Nishane"
@@ -3730,7 +3730,7 @@ VALUES (
         13,
         "https://example.com/images/nishane_vain_naive.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Nishane"
@@ -3745,7 +3745,7 @@ VALUES (
         11,
         "https://example.com/images/nishane_b_612.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Nishane"
@@ -3760,7 +3760,7 @@ VALUES (
         8,
         "https://example.com/images/nishane_nefs.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Nishane"
@@ -3787,7 +3787,7 @@ VALUES (
         15,
         "https://example.com/images/zoologist_bee.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Zoologist"
@@ -3802,7 +3802,7 @@ VALUES (
         20,
         "https://example.com/images/zoologist_bat.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Zoologist"
@@ -3817,7 +3817,7 @@ VALUES (
         18,
         "https://example.com/images/zoologist_elephant.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Zoologist"
@@ -3832,7 +3832,7 @@ VALUES (
         25,
         "https://example.com/images/zoologist_panda.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Zoologist"
@@ -3847,7 +3847,7 @@ VALUES (
         12,
         "https://example.com/images/zoologist_camel.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Zoologist"
@@ -3862,7 +3862,7 @@ VALUES (
         22,
         "https://example.com/images/zoologist_dragonfly.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Zoologist"
@@ -3877,7 +3877,7 @@ VALUES (
         16,
         "https://example.com/images/zoologist_moth.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Zoologist"
@@ -3892,7 +3892,7 @@ VALUES (
         20,
         "https://example.com/images/zoologist_nightingale.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Zoologist"
@@ -3907,7 +3907,7 @@ VALUES (
         14,
         "https://example.com/images/zoologist_squid.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Zoologist"
@@ -3922,7 +3922,7 @@ VALUES (
         10,
         "https://example.com/images/zoologist_trex.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Zoologist"
@@ -3949,7 +3949,7 @@ VALUES (
         20,
         "https://vuahanghieu.com/nuoc-hoa-nam-ermenegildo-zegna-italian-bergamot-edt-100ml-ph026212",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Ermenegildo Zegna"
@@ -3964,7 +3964,7 @@ VALUES (
         15,
         "https://kenperfume.com/san-pham/nuoc-hoa-nam-ermenegildo-zegna-essenze-javanese-patchouli-edp/",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Ermenegildo Zegna"
@@ -3979,7 +3979,7 @@ VALUES (
         10,
         "https://kenperfume.com/san-pham/nuoc-hoa-nam-ermenegildo-zegna-essenze-florentine-iris-edp/",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Ermenegildo Zegna"
@@ -3994,7 +3994,7 @@ VALUES (
         8,
         "https://kenperfume.com/san-pham/nuoc-hoa-nam-ermenegildo-zegna-indonesian-oud/",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Ermenegildo Zegna"
@@ -4009,7 +4009,7 @@ VALUES (
         25,
         "https://luxuby.com/nuoc-hoa/zegna-intenso-cologne",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Ermenegildo Zegna"
@@ -4024,7 +4024,7 @@ VALUES (
         30,
         "https://nuochoa.vn/ermenegildo-zegna",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Ermenegildo Zegna"
@@ -4039,7 +4039,7 @@ VALUES (
         20,
         "https://nuochoa.vn/ermenegildo-zegna",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Ermenegildo Zegna"
@@ -4054,7 +4054,7 @@ VALUES (
         15,
         "https://nuochoa.vn/ermenegildo-zegna",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Ermenegildo Zegna"
@@ -4069,7 +4069,7 @@ VALUES (
         18,
         "https://nuochoa.vn/ermenegildo-zegna",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Ermenegildo Zegna"
@@ -4084,7 +4084,7 @@ VALUES (
         12,
         "https://nuochoa.vn/ermenegildo-zegna",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Ermenegildo Zegna"
@@ -4111,7 +4111,7 @@ VALUES (
         15,
         "https://example.com/images/nasomatto_black_afgano.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Nasomatto"
@@ -4126,7 +4126,7 @@ VALUES (
         10,
         "https://example.com/images/nasomatto_pardon.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Nasomatto"
@@ -4141,7 +4141,7 @@ VALUES (
         12,
         "https://example.com/images/nasomatto_duro.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Nasomatto"
@@ -4156,7 +4156,7 @@ VALUES (
         8,
         "https://example.com/images/nasomatto_baraonda.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Nasomatto"
@@ -4171,7 +4171,7 @@ VALUES (
         7,
         "https://example.com/images/nasomatto_blamage.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Nasomatto"
@@ -4186,7 +4186,7 @@ VALUES (
         9,
         "https://example.com/images/nasomatto_silver_musk.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Nasomatto"
@@ -4201,7 +4201,7 @@ VALUES (
         11,
         "https://example.com/images/nasomatto_narcotic_v.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Nasomatto"
@@ -4216,7 +4216,7 @@ VALUES (
         6,
         "https://example.com/images/nasomatto_china_white.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Nasomatto"
@@ -4231,7 +4231,7 @@ VALUES (
         5,
         "https://example.com/images/nasomatto_absinth.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Nasomatto"
@@ -4246,7 +4246,7 @@ VALUES (
         4,
         "https://example.com/images/nasomatto_hindu_grass.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Nasomatto"
@@ -4273,7 +4273,7 @@ VALUES (
         20,
         "https://example.com/images/replica_by_the_fireplace.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Replica"
@@ -4288,7 +4288,7 @@ VALUES (
         18,
         "https://example.com/images/replica_jazz_club.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Replica"
@@ -4303,7 +4303,7 @@ VALUES (
         22,
         "https://example.com/images/replica_beach_walk.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Replica"
@@ -4318,7 +4318,7 @@ VALUES (
         15,
         "https://example.com/images/replica_lazy_sunday_morning.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Replica"
@@ -4333,7 +4333,7 @@ VALUES (
         10,
         "https://example.com/images/replica_sailing_day.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Replica"
@@ -4348,7 +4348,7 @@ VALUES (
         12,
         "https://example.com/images/replica_flower_market.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Replica"
@@ -4363,7 +4363,7 @@ VALUES (
         14,
         "https://example.com/images/replica_at_the_barbers.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Replica"
@@ -4378,7 +4378,7 @@ VALUES (
         9,
         "https://example.com/images/replica_coffee_break.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Replica"
@@ -4393,7 +4393,7 @@ VALUES (
         8,
         "https://example.com/images/replica_under_the_lemon_trees.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Replica"
@@ -4408,7 +4408,7 @@ VALUES (
         7,
         "https://example.com/images/replica_springtime_in_a_park.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Replica"
@@ -4435,7 +4435,7 @@ VALUES (
         15,
         "https://example.com/images/serge_lutens_chergui.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Serge Lutens"
@@ -4450,7 +4450,7 @@ VALUES (
         20,
         "https://example.com/images/serge_lutens_la_fille_de_berlin.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Serge Lutens"
@@ -4465,7 +4465,7 @@ VALUES (
         10,
         "https://example.com/images/serge_lutens_fille_en_aiguilles.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Serge Lutens"
@@ -4480,7 +4480,7 @@ VALUES (
         12,
         "https://example.com/images/serge_lutens_un_bois_vanille.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Serge Lutens"
@@ -4495,7 +4495,7 @@ VALUES (
         8,
         "https://example.com/images/serge_lutens_ambre_sultan.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Serge Lutens"
@@ -4510,7 +4510,7 @@ VALUES (
         14,
         "https://example.com/images/serge_lutens_santal_majuscule.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Serge Lutens"
@@ -4525,7 +4525,7 @@ VALUES (
         16,
         "https://example.com/images/serge_lutens_five_oclock_au_gingembre.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Serge Lutens"
@@ -4540,7 +4540,7 @@ VALUES (
         18,
         "https://example.com/images/serge_lutens_nuit_de_cellophane.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Serge Lutens"
@@ -4555,7 +4555,7 @@ VALUES (
         11,
         "https://example.com/images/serge_lutens_clair_de_musc.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Serge Lutens"
@@ -4570,7 +4570,7 @@ VALUES (
         9,
         "https://example.com/images/serge_lutens_bapteme_du_feu.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Serge Lutens"
@@ -4597,7 +4597,7 @@ VALUES (
         20,
         "https://example.com/images/tamburins_bilingual.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Tamburins"
@@ -4612,7 +4612,7 @@ VALUES (
         15,
         "https://example.com/images/tamburins_suede_pear.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Tamburins"
@@ -4627,7 +4627,7 @@ VALUES (
         18,
         "https://example.com/images/tamburins_lale.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Tamburins"
@@ -4642,7 +4642,7 @@ VALUES (
         12,
         "https://example.com/images/tamburins_white_darjeeling.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Tamburins"
@@ -4657,7 +4657,7 @@ VALUES (
         10,
         "https://example.com/images/tamburins_french_needle.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Tamburins"
@@ -4672,7 +4672,7 @@ VALUES (
         14,
         "https://example.com/images/tamburins_thaw_sunset.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Tamburins"
@@ -4687,7 +4687,7 @@ VALUES (
         16,
         "https://example.com/images/tamburins_berga_sandal.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Tamburins"
@@ -4702,7 +4702,7 @@ VALUES (
         8,
         "https://example.com/images/tamburins_unknown_oud.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Tamburins"
@@ -4717,7 +4717,7 @@ VALUES (
         20,
         "https://example.com/images/tamburins_chamo.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Tamburins"
@@ -4732,7 +4732,7 @@ VALUES (
         15,
         "https://example.com/images/tamburins_haystacks.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Tamburins"
@@ -4759,7 +4759,7 @@ VALUES (
         10,
         "https://example.com/images/initio_oud_for_greatness.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Initio"
@@ -4774,7 +4774,7 @@ VALUES (
         12,
         "https://example.com/images/initio_atomic_rose.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Initio"
@@ -4789,7 +4789,7 @@ VALUES (
         8,
         "https://example.com/images/initio_side_effect.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Initio"
@@ -4804,7 +4804,7 @@ VALUES (
         15,
         "https://example.com/images/initio_musk_therapy.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Initio"
@@ -4819,7 +4819,7 @@ VALUES (
         11,
         "https://example.com/images/initio_rehab.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Initio"
@@ -4834,7 +4834,7 @@ VALUES (
         9,
         "https://example.com/images/initio_blessed_baraka.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Initio"
@@ -4849,7 +4849,7 @@ VALUES (
         13,
         "https://example.com/images/initio_addictive_vibration.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Initio"
@@ -4864,7 +4864,7 @@ VALUES (
         10,
         "https://example.com/images/initio_psychedelic_love.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Initio"
@@ -4879,7 +4879,7 @@ VALUES (
         14,
         "https://example.com/images/initio_high_frequency.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Initio"
@@ -4894,7 +4894,7 @@ VALUES (
         12,
         "https://example.com/images/initio_mystic_experience.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Initio"
@@ -4921,7 +4921,7 @@ VALUES (
         25,
         "https://example.com/images/bottega_veneta_edp.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Bottega Veneta"
@@ -4936,7 +4936,7 @@ VALUES (
         20,
         "https://example.com/images/bottega_veneta_knot.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Bottega Veneta"
@@ -4951,7 +4951,7 @@ VALUES (
         10,
         "https://example.com/images/bottega_veneta_parco_palladiano_vi.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Bottega Veneta"
@@ -4966,7 +4966,7 @@ VALUES (
         8,
         "https://example.com/images/bottega_veneta_parco_palladiano_v.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Bottega Veneta"
@@ -4981,7 +4981,7 @@ VALUES (
         12,
         "https://example.com/images/bottega_veneta_parco_palladiano_ii.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Bottega Veneta"
@@ -4996,7 +4996,7 @@ VALUES (
         5,
         "https://example.com/images/bottega_veneta_parco_palladiano_ix.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Bottega Veneta"
@@ -5011,7 +5011,7 @@ VALUES (
         15,
         "https://example.com/images/bottega_veneta_parco_palladiano_vii.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Bottega Veneta"
@@ -5026,7 +5026,7 @@ VALUES (
         10,
         "https://example.com/images/bottega_veneta_parco_palladiano_x.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Bottega Veneta"
@@ -5041,7 +5041,7 @@ VALUES (
         7,
         "https://example.com/images/bottega_veneta_parco_palladiano_iv.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Bottega Veneta"
@@ -5056,7 +5056,7 @@ VALUES (
         9,
         "https://example.com/images/bottega_veneta_parco_palladiano_iii.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Bottega Veneta"
@@ -5083,7 +5083,7 @@ VALUES (
         20,
         "https://example.com/images/ex_nihilo_fleur_narcotique.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Ex Nihilo"
@@ -5098,7 +5098,7 @@ VALUES (
         15,
         "https://example.com/images/ex_nihilo_amber_sky.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Ex Nihilo"
@@ -5113,7 +5113,7 @@ VALUES (
         18,
         "https://example.com/images/ex_nihilo_lust_in_paradise.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Ex Nihilo"
@@ -5128,7 +5128,7 @@ VALUES (
         12,
         "https://example.com/images/ex_nihilo_musc_infini.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Ex Nihilo"
@@ -5143,7 +5143,7 @@ VALUES (
         10,
         "https://example.com/images/ex_nihilo_venenum_kiss.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Ex Nihilo"
@@ -5158,7 +5158,7 @@ VALUES (
         20,
         "https://example.com/images/ex_nihilo_cologne_352.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Ex Nihilo"
@@ -5173,7 +5173,7 @@ VALUES (
         14,
         "https://example.com/images/ex_nihilo_sweet_morphine.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Ex Nihilo"
@@ -5188,7 +5188,7 @@ VALUES (
         16,
         "https://example.com/images/ex_nihilo_bois_dhiver.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Ex Nihilo"
@@ -5203,7 +5203,7 @@ VALUES (
         8,
         "https://example.com/images/ex_nihilo_oud_vendome.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Ex Nihilo"
@@ -5218,7 +5218,7 @@ VALUES (
         10,
         "https://example.com/images/ex_nihilo_the_hedonist.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Ex Nihilo"
@@ -5245,7 +5245,7 @@ VALUES (
         25,
         "https://example.com/images/acqua_di_parma_colonia.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Acqua di Parma"
@@ -5260,7 +5260,7 @@ VALUES (
         20,
         "https://example.com/images/acqua_di_parma_colonia_essenza.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Acqua di Parma"
@@ -5275,7 +5275,7 @@ VALUES (
         22,
         "https://example.com/images/acqua_di_parma_colonia_pura.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Acqua di Parma"
@@ -5290,7 +5290,7 @@ VALUES (
         18,
         "https://example.com/images/acqua_di_parma_colonia_intensa.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Acqua di Parma"
@@ -5305,7 +5305,7 @@ VALUES (
         15,
         "https://example.com/images/acqua_di_parma_fico_di_amalfi.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Acqua di Parma"
@@ -5320,7 +5320,7 @@ VALUES (
         17,
         "https://example.com/images/acqua_di_parma_arancia_di_capri.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Acqua di Parma"
@@ -5335,7 +5335,7 @@ VALUES (
         12,
         "https://example.com/images/acqua_di_parma_mirto_di_panarea.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Acqua di Parma"
@@ -5350,7 +5350,7 @@ VALUES (
         20,
         "https://example.com/images/acqua_di_parma_colonia_club.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Acqua di Parma"
@@ -5365,7 +5365,7 @@ VALUES (
         10,
         "https://example.com/images/acqua_di_parma_colonia_leather.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Acqua di Parma"
@@ -5380,7 +5380,7 @@ VALUES (
         8,
         "https://example.com/images/acqua_di_parma_colonia_oud.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Acqua di Parma"
@@ -5407,7 +5407,7 @@ VALUES (
         15,
         "https://example.com/images/loubirouge.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Christian Louboutin"
@@ -5422,7 +5422,7 @@ VALUES (
         10,
         "https://example.com/images/loubicroc.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Christian Louboutin"
@@ -5437,7 +5437,7 @@ VALUES (
         12,
         "https://example.com/images/loubikiss.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Christian Louboutin"
@@ -5452,7 +5452,7 @@ VALUES (
         8,
         "https://example.com/images/loubiraj.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Christian Louboutin"
@@ -5467,7 +5467,7 @@ VALUES (
         20,
         "https://example.com/images/loubifunk.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Christian Louboutin"
@@ -5482,7 +5482,7 @@ VALUES (
         18,
         "https://example.com/images/loubidoo.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Christian Louboutin"
@@ -5497,7 +5497,7 @@ VALUES (
         10,
         "https://example.com/images/loubicrown.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Christian Louboutin"
@@ -5512,7 +5512,7 @@ VALUES (
         7,
         "https://example.com/images/loubicharme.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Christian Louboutin"
@@ -5539,7 +5539,7 @@ VALUES (
         20,
         "https://example.com/images/parade.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Celine"
@@ -5554,7 +5554,7 @@ VALUES (
         15,
         "https://example.com/images/black_tie.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Celine"
@@ -5569,7 +5569,7 @@ VALUES (
         10,
         "https://example.com/images/eau_de_californie.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Celine"
@@ -5584,7 +5584,7 @@ VALUES (
         12,
         "https://example.com/images/rimbaud.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Celine"
@@ -5599,7 +5599,7 @@ VALUES (
         8,
         "https://example.com/images/reptile.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Celine"
@@ -5614,7 +5614,7 @@ VALUES (
         18,
         "https://example.com/images/saint_germain.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Celine"
@@ -5629,7 +5629,7 @@ VALUES (
         20,
         "https://example.com/images/dans_paris.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Celine"
@@ -5644,7 +5644,7 @@ VALUES (
         15,
         "https://example.com/images/la_peau_nue.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Celine"
@@ -5659,7 +5659,7 @@ VALUES (
         10,
         "https://example.com/images/nightclubbing.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Celine"
@@ -5674,7 +5674,7 @@ VALUES (
         12,
         "https://example.com/images/cologne_francaise.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Celine"
@@ -5701,7 +5701,7 @@ VALUES (
         20,
         "https://kenperfume.com/wp-content/uploads/913.45/04/nuoc-hoa-unisex-bdk-parfums-gris-charnel-edp-100ml-600x600.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "BDK"
@@ -5716,7 +5716,7 @@ VALUES (
         15,
         "https://kenperfume.com/wp-content/uploads/407.60/04/nuoc-hoa-unisex-bdk-parfums-rouge-smoking-edp-100ml-600x600.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "BDK"
@@ -5731,7 +5731,7 @@ VALUES (
         18,
         "https://kenperfume.com/wp-content/uploads/403.59/04/nuoc-hoa-unisex-bdk-parfums-pas-ce-soir-edp-100ml-600x600.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "BDK"
@@ -5746,7 +5746,7 @@ VALUES (
         12,
         "https://luxuby.com/wp-content/uploads/936.50/05/nuoc-hoa-bdk-parfums-bouquet-de-hongrie-100ml-600x600.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "BDK"
@@ -5761,7 +5761,7 @@ VALUES (
         10,
         "https://parissecret.vn/wp-content/uploads/789.30/04/nuoc-hoa-niche-bdk-tubereuse-imperiale-600x600.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "BDK"
@@ -5776,7 +5776,7 @@ VALUES (
         14,
         "https://kenperfume.com/wp-content/uploads/563.50/04/nuoc-hoa-unisex-bdk-parfums-creme-de-cuir-edp-100ml-600x600.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "BDK"
@@ -5791,7 +5791,7 @@ VALUES (
         8,
         "https://kenperfume.com/wp-content/uploads/830.39/04/nuoc-hoa-unisex-bdk-parfums-wood-jasmin-edp-100ml-600x600.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "BDK"
@@ -5806,7 +5806,7 @@ VALUES (
         16,
         "https://kenperfume.com/wp-content/uploads/843.10/04/nuoc-hoa-unisex-bdk-parfums-sel-dargent-edp-100ml-600x600.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "BDK"
@@ -5821,7 +5821,7 @@ VALUES (
         20,
         "https://kenperfume.com/wp-content/uploads/398.45/04/nuoc-hoa-unisex-bdk-parfums-citrus-riviera-edp-100ml-600x600.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "BDK"
@@ -5836,7 +5836,7 @@ VALUES (
         9,
         "https://kenperfume.com/wp-content/uploads/775.80/04/nuoc-hoa-unisex-bdk-parfums-nuit-de-sable-edp-100ml-600x600.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "BDK"
@@ -5863,7 +5863,7 @@ VALUES (
         20,
         "https://example.com/images/loewe_001_woman_edp.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Loewe"
@@ -5878,7 +5878,7 @@ VALUES (
         15,
         "https://example.com/images/loewe_001_man_edt.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Loewe"
@@ -5893,7 +5893,7 @@ VALUES (
         10,
         "https://example.com/images/loewe_solo_esencial.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Loewe"
@@ -5908,7 +5908,7 @@ VALUES (
         12,
         "https://example.com/images/loewe_solo_ella_edt.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Loewe"
@@ -5923,7 +5923,7 @@ VALUES (
         8,
         "https://example.com/images/loewe_7_anonimo_edp.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Loewe"
@@ -5938,7 +5938,7 @@ VALUES (
         18,
         "https://example.com/images/loewe_agua_miami.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Loewe"
@@ -5953,7 +5953,7 @@ VALUES (
         10,
         "https://example.com/images/loewe_esencia_pour_homme_edp.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Loewe"
@@ -5968,7 +5968,7 @@ VALUES (
         14,
         "https://example.com/images/loewe_aura_pink_magnolia_edp.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Loewe"
@@ -5983,7 +5983,7 @@ VALUES (
         20,
         "https://example.com/images/loewe_7_edt.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Loewe"
@@ -5998,7 +5998,7 @@ VALUES (
         16,
         "https://example.com/images/loewe_paulas_ibiza_edt.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Loewe"
@@ -6025,7 +6025,7 @@ VALUES (
         20,
         "https://example.com/images/lorchestre_piano_santal.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "L'Orchestre Parfum"
@@ -6040,7 +6040,7 @@ VALUES (
         15,
         "https://example.com/images/lorchestre_bouquet_encore.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "L'Orchestre Parfum"
@@ -6055,7 +6055,7 @@ VALUES (
         10,
         "https://example.com/images/lorchestre_rose_trombone.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "L'Orchestre Parfum"
@@ -6070,7 +6070,7 @@ VALUES (
         12,
         "https://example.com/images/lorchestre_the_darbouka.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "L'Orchestre Parfum"
@@ -6085,7 +6085,7 @@ VALUES (
         8,
         "https://example.com/images/lorchestre_cuir_kora.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "L'Orchestre Parfum"
@@ -6100,7 +6100,7 @@ VALUES (
         20,
         "https://example.com/images/lorchestre_electro_limonade.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "L'Orchestre Parfum"
@@ -6115,7 +6115,7 @@ VALUES (
         15,
         "https://example.com/images/lorchestre_encens_asakusa.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "L'Orchestre Parfum"
@@ -6130,7 +6130,7 @@ VALUES (
         10,
         "https://example.com/images/lorchestre_flamenco_neroli.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "L'Orchestre Parfum"
@@ -6145,7 +6145,7 @@ VALUES (
         12,
         "https://example.com/images/lorchestre_liqueur_bpm.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "L'Orchestre Parfum"
@@ -6160,7 +6160,7 @@ VALUES (
         8,
         "https://example.com/images/lorchestre_vetiver_overdrive.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "L'Orchestre Parfum"
@@ -6187,7 +6187,7 @@ VALUES (
         50,
         "https://example.com/images/jo_malone_peony_blush_suede.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Jo Malone"
@@ -6202,7 +6202,7 @@ VALUES (
         60,
         "https://example.com/images/jo_malone_wood_sage_sea_salt.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Jo Malone"
@@ -6217,7 +6217,7 @@ VALUES (
         70,
         "https://example.com/images/jo_malone_lime_basil_mandarin.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Jo Malone"
@@ -6232,7 +6232,7 @@ VALUES (
         55,
         "https://example.com/images/jo_malone_english_pear_freesia.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Jo Malone"
@@ -6247,7 +6247,7 @@ VALUES (
         50,
         "https://example.com/images/jo_malone_nectarine_blossom_honey.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Jo Malone"
@@ -6262,7 +6262,7 @@ VALUES (
         45,
         "https://example.com/images/jo_malone_red_roses.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Jo Malone"
@@ -6277,7 +6277,7 @@ VALUES (
         48,
         "https://example.com/images/jo_malone_blackberry_bay.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Jo Malone"
@@ -6292,7 +6292,7 @@ VALUES (
         40,
         "https://example.com/images/jo_malone_myrrh_tonka.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Jo Malone"
@@ -6307,7 +6307,7 @@ VALUES (
         35,
         "https://example.com/images/jo_malone_pomegranate_noir.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Jo Malone"
@@ -6322,7 +6322,7 @@ VALUES (
         65,
         "https://example.com/images/jo_malone_peony_blush_suede_cologne.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Jo Malone"
@@ -6349,7 +6349,7 @@ VALUES (
         15,
         "https://example.com/images/kilian_love_dont_be_shy.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Kilian"
@@ -6364,7 +6364,7 @@ VALUES (
         10,
         "https://example.com/images/kilian_black_phantom.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Kilian"
@@ -6379,7 +6379,7 @@ VALUES (
         12,
         "https://example.com/images/kilian_good_girl_gone_bad.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Kilian"
@@ -6394,7 +6394,7 @@ VALUES (
         8,
         "https://example.com/images/kilian_straight_to_heaven.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Kilian"
@@ -6409,7 +6409,7 @@ VALUES (
         9,
         "https://example.com/images/kilian_rolling_in_love.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Kilian"
@@ -6424,7 +6424,7 @@ VALUES (
         11,
         "https://example.com/images/kilian_moonlight_in_heaven.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Kilian"
@@ -6439,7 +6439,7 @@ VALUES (
         7,
         "https://example.com/images/kilian_woman_in_gold.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Kilian"
@@ -6454,7 +6454,7 @@ VALUES (
         10,
         "https://example.com/images/kilian_forbidden_games.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Kilian"
@@ -6469,7 +6469,7 @@ VALUES (
         8,
         "https://example.com/images/kilian_vodka_on_the_rocks.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Kilian"
@@ -6484,7 +6484,7 @@ VALUES (
         6,
         "https://example.com/images/kilian_gold_knight.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Kilian"
@@ -6511,7 +6511,7 @@ VALUES (
         20,
         "https://example.com/images/clean_reserve_skin.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Clean Reserve"
@@ -6526,7 +6526,7 @@ VALUES (
         18,
         "https://example.com/images/clean_reserve_rain.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Clean Reserve"
@@ -6541,7 +6541,7 @@ VALUES (
         15,
         "https://example.com/images/clean_reserve_warm_cotton.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Clean Reserve"
@@ -6556,7 +6556,7 @@ VALUES (
         12,
         "https://example.com/images/clean_reserve_blonde_rose.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Clean Reserve"
@@ -6571,7 +6571,7 @@ VALUES (
         10,
         "https://example.com/images/clean_reserve_sueded_oud.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Clean Reserve"
@@ -6586,7 +6586,7 @@ VALUES (
         14,
         "https://example.com/images/clean_reserve_citron_fig.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Clean Reserve"
@@ -6601,7 +6601,7 @@ VALUES (
         13,
         "https://example.com/images/clean_reserve_solar_bloom.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Clean Reserve"
@@ -6616,7 +6616,7 @@ VALUES (
         11,
         "https://example.com/images/clean_reserve_velvet_flora.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Clean Reserve"
@@ -6631,7 +6631,7 @@ VALUES (
         17,
         "https://example.com/images/clean_reserve_lush_fleur.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Clean Reserve"
@@ -6646,7 +6646,7 @@ VALUES (
         16,
         "https://example.com/images/clean_reserve_radiant_nectar.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Clean Reserve"
@@ -6673,7 +6673,7 @@ VALUES (
         20,
         "https://example.com/images/giardini_bianco_latte.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Giardini di Toscana"
@@ -6688,7 +6688,7 @@ VALUES (
         15,
         "https://example.com/images/giardini_borabora.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Giardini di Toscana"
@@ -6703,7 +6703,7 @@ VALUES (
         10,
         "https://example.com/images/giardini_scintilla.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Giardini di Toscana"
@@ -6718,7 +6718,7 @@ VALUES (
         12,
         "https://example.com/images/giardini_christos.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Giardini di Toscana"
@@ -6733,7 +6733,7 @@ VALUES (
         8,
         "https://example.com/images/giardini_blu_indaco.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Giardini di Toscana"
@@ -6748,7 +6748,7 @@ VALUES (
         14,
         "https://example.com/images/giardini_colonia_nobile.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Giardini di Toscana"
@@ -6763,7 +6763,7 @@ VALUES (
         9,
         "https://example.com/images/giardini_rosso_radice.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Giardini di Toscana"
@@ -6778,7 +6778,7 @@ VALUES (
         11,
         "https://example.com/images/giardini_rosso_rubino.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Giardini di Toscana"
@@ -6793,7 +6793,7 @@ VALUES (
         13,
         "https://example.com/images/giardini_shabby_chic.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Giardini di Toscana"
@@ -6808,7 +6808,7 @@ VALUES (
         7,
         "https://example.com/images/giardini_blu_mare.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Giardini di Toscana"
@@ -6835,7 +6835,7 @@ VALUES (
         10,
         "https://example.com/images/liis_studied.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Liis"
@@ -6850,7 +6850,7 @@ VALUES (
         12,
         "https://example.com/images/liis_floating.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Liis"
@@ -6865,7 +6865,7 @@ VALUES (
         8,
         "https://example.com/images/liis_rose_struck.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Liis"
@@ -6880,7 +6880,7 @@ VALUES (
         9,
         "https://example.com/images/liis_bo.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Liis"
@@ -6895,7 +6895,7 @@ VALUES (
         11,
         "https://example.com/images/liis_ethereal_wave.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Liis"
@@ -6910,7 +6910,7 @@ VALUES (
         7,
         "https://example.com/images/liis_lucid.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Liis"
@@ -6925,7 +6925,7 @@ VALUES (
         6,
         "https://example.com/images/liis_mirage.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Liis"
@@ -6940,7 +6940,7 @@ VALUES (
         5,
         "https://example.com/images/liis_solstice.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Liis"
@@ -6955,7 +6955,7 @@ VALUES (
         4,
         "https://example.com/images/liis_nocturne.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Liis"
@@ -6970,7 +6970,7 @@ VALUES (
         3,
         "https://example.com/images/liis_dawn.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Liis"
@@ -6997,7 +6997,7 @@ VALUES (
         15,
         "https://example.com/images/what_about_pop.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "THOO"
@@ -7012,7 +7012,7 @@ VALUES (
         20,
         "https://example.com/images/almond_harmony.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "THOO"
@@ -7027,7 +7027,7 @@ VALUES (
         18,
         "https://example.com/images/empathy.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "THOO"
@@ -7042,7 +7042,7 @@ VALUES (
         22,
         "https://example.com/images/keep_glazed.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "THOO"
@@ -7057,7 +7057,7 @@ VALUES (
         25,
         "https://example.com/images/live_in_colours.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "THOO"
@@ -7072,7 +7072,7 @@ VALUES (
         12,
         "https://example.com/images/blessing_silence.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "THOO"
@@ -7087,7 +7087,7 @@ VALUES (
         17,
         "https://example.com/images/breath_of_the_infinite.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "THOO"
@@ -7102,7 +7102,7 @@ VALUES (
         20,
         "https://example.com/images/cypress_shade.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "THOO"
@@ -7117,7 +7117,7 @@ VALUES (
         15,
         "https://example.com/images/golden_powder.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "THOO"
@@ -7132,7 +7132,7 @@ VALUES (
         18,
         "https://example.com/images/dates_delight.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "THOO"
@@ -7159,7 +7159,7 @@ VALUES (
         80,
         "https://example.com/images/dior_sauvage.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Dior"
@@ -7174,7 +7174,7 @@ VALUES (
         75,
         "https://example.com/images/dior_jadore.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Dior"
@@ -7189,7 +7189,7 @@ VALUES (
         70,
         "https://example.com/images/dior_homme.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Dior"
@@ -7204,7 +7204,7 @@ VALUES (
         65,
         "https://example.com/images/dior_miss_dior.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Dior"
@@ -7219,7 +7219,7 @@ VALUES (
         60,
         "https://example.com/images/dior_addict.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Dior"
@@ -7234,7 +7234,7 @@ VALUES (
         55,
         "https://example.com/images/dior_fahrenheit.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Dior"
@@ -7249,7 +7249,7 @@ VALUES (
         50,
         "https://example.com/images/dior_pure_poison.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Dior"
@@ -7264,7 +7264,7 @@ VALUES (
         45,
         "https://example.com/images/dior_homme_intense.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Dior"
@@ -7279,7 +7279,7 @@ VALUES (
         60,
         "https://example.com/images/dior_diorissimo.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Dior"
@@ -7294,11 +7294,192 @@ VALUES (
         55,
         "https://example.com/images/dior_poison_girl.jpg",
         (
-            SELECT ID
+            SELECT id
             FROM Brands
             WHERE
                 name = "Dior"
             LIMIT 1
         ),
         3
+    );
+
+-- Insert data to Cart
+INSERT INTO
+    Cart (customer_id)
+SELECT id
+FROM Customers;
+
+-- Insert data to Cart Items
+INSERT INTO
+    Cart_Items (
+        cart_id,
+        product_id,
+        quantity,
+        price,
+        subtotal
+    )
+VALUES (
+        1,
+        42,
+        1,
+        320.00,
+        320.00
+    ),
+    (
+        1,
+        41,
+        2,
+        350.00,
+        700.00
+    ),
+    (
+        2,
+        61,
+        5,
+        300.00,
+        1500.00
+    ),
+    (
+        3,
+        91,
+        20,
+        450.00,
+        9000.00
+    ),
+    (
+        4,
+        32,
+        10,
+        200.00,
+        2000.00
+    );
+
+-- Insert data to Wishlist
+INSERT INTO
+    Wishlist (customer_id, product_id)
+VALUES
+    (1, 1),
+    (1, 5),
+    (1, 100),
+    (1, 350),
+    (2, 10),
+    (2, 69),
+    (3, 25),
+    (4, 91);
+
+-- Insert data to Reviews
+INSERT INTO
+    Reviews (
+        product_id,
+        customer_id,
+        content,
+        rating
+    )
+VALUES (
+        1,
+        1,
+        "Nước hoa thơm, giữ mùi lâu.",
+        5
+    ),
+    (
+        5,
+        2,
+        "Mùi hương dễ chịu, phù hợp với mùa hè.",
+        4
+    ),
+    (
+        25,
+        3,
+        "Sản phẩm tốt, giá hơi cao.",
+        4
+    ),
+    (
+        3,
+        4,
+        "Rất hài lòng với sản phẩm này.",
+        5
+    ),
+    (
+        34,
+        1,
+        "Mùi hương nam tính, mạnh mẽ.",
+        5
+    );
+
+-- Insert data to Orders
+INSERT INTO
+    Orders (
+        customer_id,
+        payment_method_id,
+        total_amount,
+        status_id
+    )
+VALUES (
+        1,
+        2,
+        430.00,
+        1
+    ),
+    (
+        2,
+        1,
+        368.00,
+        2
+    ),
+    (
+        3,
+        2,
+        3825.00,
+        3
+    ),
+    (
+        4,
+        2,
+        5780.00,
+        1
+    );
+
+-- Insert data to Order Details
+INSERT INTO
+    Order_Details (
+        order_id,
+        product_id,
+        promo_code_id,
+        quantity,
+        price
+    )
+VALUES (
+        1,
+        1,
+        NULL,
+        1,
+        150.00
+    ),
+    (
+        1,
+        5,
+        NULL,
+        2,
+        140.00
+    ),
+    (
+        2,
+        10,
+        1,
+        4,
+        115.00
+    ),
+    (
+        3,
+        25,
+        2,
+        1,
+        170.00
+    ),
+    (
+        4,
+        34,
+        NULL,
+        4,
+        170.00
     );
