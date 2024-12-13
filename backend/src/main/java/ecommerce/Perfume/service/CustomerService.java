@@ -1,70 +1,67 @@
 package ecommerce.Perfume.service;
 
 import ecommerce.Perfume.model.Customer;
-import ecommerce.Perfume.model.Order;
 import ecommerce.Perfume.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 
+
 @Service
-@Transactional
 public class CustomerService {
 
     @Autowired
     private CustomerRepository customerRepository;
 
-    // Tạo Customer
-    public Customer createCustomer(Customer customer) {
+    public boolean isCreatable(String name, String email, String phone, String address, String password) {
+        // check if user already exists
+        if (Objects.nonNull(getCustomerByEmail(email))
+                || Objects.nonNull(getCustomerByPhone(phone))) {
+            return false;
+        }
+
+        return true;
+    }
+
+    public Customer createCustomer(String name, String email, String phone, String address, String password) {
+        if (!isCreatable(name, email, phone, address, password)) {
+            throw new IllegalArgumentException("Customer already exists");
+        }
+
+        Customer customer = new Customer();
+
+        customer.setName(name);
+        customer.setEmail(email);
+        customer.setPhone(phone);
+        customer.setAddress(address);
+        customer.setPassword(password);
+        customer.setCreatedAt(java.time.LocalDateTime.now());
+
         return customerRepository.save(customer);
     }
 
-    // Lấy Customer theo ID
-    public Optional<Customer> getCustomerById(Integer id) {
-        return customerRepository.findById(id);
-    }
-
-    // Lấy tất cả Customers
     public List<Customer> getAllCustomers() {
         return customerRepository.findAll();
     }
 
-    // Cập nhật Customer
-    public Customer updateCustomer(Integer id, Customer updatedCustomer) {
-        Optional<Customer> existingCustomer = customerRepository.findById(id);
-        if (existingCustomer.isPresent()) {
-            Customer customer = existingCustomer.get();
-            customer.setName(updatedCustomer.getName());
-            customer.setEmail(updatedCustomer.getEmail());
-            customer.setPhone(updatedCustomer.getPhone());
-            customer.setAddress(updatedCustomer.getAddress());
-            if (updatedCustomer.getPassword() != null) {
-                customer.setPassword(updatedCustomer.getPassword());
-            }
-            return customerRepository.save(customer);
-        }
-        throw new IllegalArgumentException("Customer with ID " + id + " not found.");
+    public Customer getCustomerByEmail(String email) {
+        return customerRepository.getCustomerByEmail(email);
     }
 
-    // Xoá Customer
-    public void deleteCustomer(Integer id) {
-        if (customerRepository.existsById(id)) {
-            customerRepository.deleteById(id);
-        } else {
-            throw new IllegalArgumentException("Customer with ID " + id + " not found.");
-        }
+    public Customer getCustomerByPhone(String phone) {
+        return customerRepository.getCustomerByPhone(phone);
     }
 
-    // Lấy danh sách đơn hàng của Customer
-    public List<Order> getOrdersByCustomerId(Integer customerId) {
-        Optional<Customer> customer = customerRepository.findById(customerId);
-        if (customer.isPresent()) {
-            return customer.get().getOrders();
-        }
-        throw new IllegalArgumentException("Customer with ID " + customerId + " not found.");
+    public List<Customer> findByNameContainingIgnoreCase(String name) {
+        return customerRepository.findByNameContainingIgnoreCase(name);
+    }
+
+    public Customer getCustomerById(Integer id) {
+        return customerRepository.findById(id)
+                .orElse(null);
     }
 
     // Đăng nhập Customer

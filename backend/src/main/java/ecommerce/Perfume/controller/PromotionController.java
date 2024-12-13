@@ -7,6 +7,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.math.BigDecimal;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
@@ -18,10 +20,34 @@ public class PromotionController {
     private PromotionService promotionService;
 
     // Tạo mới Promotion
-    @PostMapping
-    public ResponseEntity<Promotion> createPromotion(@RequestBody Promotion promotion) {
-        Promotion createdPromotion = promotionService.createPromotion(promotion);
-        return new ResponseEntity<>(createdPromotion, HttpStatus.CREATED);
+    @PostMapping("/create")
+    public ResponseEntity<Promotion> createPromotion(@RequestParam String promoCode,
+                                                     @RequestParam String description,
+                                                     @RequestParam BigDecimal discountPercentage,
+                                                     @RequestParam String startDate,
+                                                     @RequestParam String endDate) {
+        try {
+            // Parse the dates from String to LocalDate
+            LocalDate start = LocalDate.parse(startDate);
+            LocalDate end = LocalDate.parse(endDate);
+
+            // Create the promotion
+            Promotion promotion = promotionService.createPromotion(promoCode, description, discountPercentage, start, end);
+            return ResponseEntity.ok(promotion);
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body(null);
+        }
+    }
+
+    // Lấy Promotion theo code
+    @GetMapping("/{promoCode}")
+    public ResponseEntity<Promotion> findPromotionByCode(@PathVariable String promoCode) {
+        Promotion promotion = promotionService.findByPromoCode(promoCode);
+        if (promotion != null) {
+            return ResponseEntity.ok(promotion);
+        } else {
+            return ResponseEntity.notFound().build();
+        }
     }
 
     // Lấy Promotion theo ID
@@ -59,13 +85,5 @@ public class PromotionController {
         } catch (IllegalArgumentException e) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
-    }
-
-    // Tìm Promotion theo mã promoCode
-    @GetMapping("/promoCode/{promoCode}")
-    public ResponseEntity<Promotion> getPromotionByPromoCode(@PathVariable String promoCode) {
-        Optional<Promotion> promotion = promotionService.getPromotionByPromoCode(promoCode);
-        return promotion.map(ResponseEntity::ok)
-                .orElseGet(() -> new ResponseEntity<>(HttpStatus.NOT_FOUND));
     }
 }

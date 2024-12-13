@@ -41,6 +41,31 @@ public class OrderService {
     @Autowired
     private ShippingService shippingService;
 
+    public Order createOrder(Integer customerId, Integer paymentMethodId) {
+        // Tìm khách hàng
+        Customer customer = customerRepository.findById(customerId)
+                .orElseThrow(() -> new RuntimeException("Customer not found"));
+
+        // Tìm phương thức thanh toán
+        PaymentMethod paymentMethod = paymentMethodRepository.findById(paymentMethodId)
+                .orElseThrow(() -> new RuntimeException("Payment method not found"));
+
+        // Tạo đối tượng đơn hàng mới
+        Order newOrder = new Order();
+        newOrder.setCustomer(customer);
+        newOrder.setPaymentMethod(paymentMethod);
+        newOrder.setStatus(orderStatusRepository.findById(1).orElseThrow(() -> new RuntimeException("Order status not found")));
+        newOrder.setOrderDate(java.time.LocalDateTime.now());
+        newOrder.setTotalAmount(BigDecimal.ZERO);
+
+        // Lưu đơn hàng
+        return orderRepository.save(newOrder);
+    }
+
+    public Order saveOrder(Order order) {
+        return orderRepository.save(order);
+    }
+
     public Order createOrderFromCart(Integer customerId, Integer cartId, Integer paymentMethodId, Integer shippingId, String promoCode, Integer orderStatusId) {
         // Tìm giỏ hàng của khách hàng
         Cart cart = cartRepository.findById(cartId)
