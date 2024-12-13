@@ -50,11 +50,17 @@ public class ShippingService {
         }
 
         Shipping shipping = shippingOptional.get();
+
+        // Cập nhật thông tin nếu có thay đổi
         shipping.setShippingMethod(shippingMethod);
         shipping.setShippingAddress(shippingAddress);
-        shipping.setTrackingNumber(trackingNumber);
 
-        // Cập nhật lại thông tin giao hàng trong cơ sở dữ liệu
+        // Chỉ cập nhật trackingNumber nếu không null
+        if (trackingNumber != null) {
+            shipping.setTrackingNumber(trackingNumber);
+        }
+
+        // Lưu thông tin giao hàng cập nhật
         return shippingRepository.save(shipping);
     }
 

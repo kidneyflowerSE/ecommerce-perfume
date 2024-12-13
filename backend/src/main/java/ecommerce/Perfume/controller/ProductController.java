@@ -1,6 +1,6 @@
 package ecommerce.Perfume.controller;
 
-import ecommerce.Perfume.dto.request.ProductCreation;
+import ecommerce.Perfume.dto.request.ProductDto;
 import ecommerce.Perfume.model.Product;
 import ecommerce.Perfume.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +22,7 @@ public class ProductController {
 
     // Tạo sản phẩm mới
     @PostMapping
-    public ResponseEntity<Product> createProduct(@RequestBody ProductCreation productCreation) {
+    public ResponseEntity<Product> createProduct(@RequestBody Product productCreation) {
         Product product = productService.createProduct(productCreation);
         return new ResponseEntity<>(product, HttpStatus.CREATED);
     }
@@ -30,7 +30,7 @@ public class ProductController {
     // Cập nhật sản phẩm
     @PutMapping("/{id}")
     public ResponseEntity<Product> updateProduct(@PathVariable Integer id,
-                                                 @RequestBody ProductCreation productCreation) {
+                                                 @RequestBody Product productCreation) {
         Product updatedProduct = productService.updateProduct(id, productCreation);
         return new ResponseEntity<>(updatedProduct, HttpStatus.OK);
     }
@@ -99,8 +99,8 @@ public class ProductController {
 
     // Lấy top 10 sản phẩm bán chạy nhất
     @GetMapping("/top-selling")
-    public ResponseEntity<List<Product>> getTop10BestSellingProducts() {
-        List<Product> products = productService.getTop10BestSellingProducts();
+    public ResponseEntity<List<ProductDto>> getTop10BestSellingProducts() {
+        List<ProductDto> products = productService.getTop10BestSellingProducts();
         return new ResponseEntity<>(products, HttpStatus.OK);
     }
 }

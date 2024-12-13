@@ -49,9 +49,12 @@ public class OrderService {
         // Lấy danh sách các sản phẩm trong giỏ hàng
         List<CartItem> cartItems = cartItemRepository.findByCartId(cartId);
 
-        // Tìm khách hàng
-        Customer customer = customerRepository.findById(customerId)
-                .orElseThrow(() -> new RuntimeException("Customer not found"));
+        // Tìm khách hàng nếu được cung cấp, nếu không để null hoặc gán giá trị mặc định
+        Customer customer = null;
+        if (customerId != null) {
+            customer = customerRepository.findById(customerId)
+                    .orElseThrow(() -> new RuntimeException("Customer not found"));
+        }
 
         // Tìm phương thức thanh toán
         PaymentMethod paymentMethod = paymentMethodRepository.findById(paymentMethodId)
@@ -67,7 +70,7 @@ public class OrderService {
 
         // Tạo đối tượng đơn hàng mới
         Order newOrder = new Order();
-        newOrder.setCustomer(customer);
+        newOrder.setCustomer(customer); // Có thể null nếu không cung cấp
         newOrder.setPaymentMethod(paymentMethod);
         newOrder.setShipping(shipping);
         newOrder.setStatus(orderStatus);
@@ -77,11 +80,13 @@ public class OrderService {
                 .map(item -> item.getPrice().multiply(BigDecimal.valueOf(item.getQuantity())))
                 .reduce(BigDecimal.ZERO, BigDecimal::add);
 
-        // Áp dụng mã khuyến mãi nếu có
-        Optional<Promotion> promotion = promotionRepository.findByPromoCode(promoCode);
-        if (promotion.isPresent()) {
-            BigDecimal discount = promotion.get().getDiscountPercentage().divide(BigDecimal.valueOf(100));
-            totalAmount = totalAmount.subtract(totalAmount.multiply(discount));
+        // Áp dụng mã khuyến mãi nếu được cung cấp
+        if (promoCode != null && !promoCode.isEmpty()) {
+            Optional<Promotion> promotion = promotionRepository.findByPromoCode(promoCode);
+            if (promotion.isPresent()) {
+                BigDecimal discount = promotion.get().getDiscountPercentage().divide(BigDecimal.valueOf(100));
+                totalAmount = totalAmount.subtract(totalAmount.multiply(discount));
+            }
         }
 
         // Tính phí vận chuyển
