@@ -383,7 +383,7 @@ VALUES (
         "Một hương thơm sang trọng và tinh tế từ Louis Vuitton.",
         150.00,
         50,
-        "https://example.com/images/lv_edp.jpg",
+        "https://fimgs.net/mdimg/secundar/o.62243.jpg",
         (
             SELECT id
             FROM Brands
@@ -398,7 +398,7 @@ VALUES (
         "Hương thơm nhẹ nhàng và tươi mát từ Louis Vuitton.",
         120.00,
         75,
-        "https://example.com/images/lv_edt.jpg",
+        "https://fimgs.net/mdimg/secundar/o.77522.jpg",
         (
             SELECT id
             FROM Brands
@@ -413,7 +413,7 @@ VALUES (
         "Một phiên bản cologne thanh lịch từ Louis Vuitton.",
         100.00,
         60,
-        "https://example.com/images/lv_cologne.jpg",
+        "https://fimgs.net/mdimg/secundar/o.82303.jpg",
         (
             SELECT id
             FROM Brands
@@ -428,7 +428,7 @@ VALUES (
         "Hương thơm Oud đậm đà và quyến rũ từ Louis Vuitton.",
         200.00,
         40,
-        "https://example.com/images/lv_oud.jpg",
+        "https://1966mag.com/wp-content/uploads/2023/04/Louis-Vuitton-Ombre-Nomade.jpg",
         (
             SELECT id
             FROM Brands
@@ -443,7 +443,7 @@ VALUES (
         "Hương thơm gỗ mạnh mẽ và nam tính từ Louis Vuitton.",
         140.00,
         55,
-        "https://example.com/images/lv_woody.jpg",
+        "https://fimgs.net/mdimg/secundar/o.77523.jpg",
         (
             SELECT id
             FROM Brands
@@ -458,7 +458,7 @@ VALUES (
         "Hương thơm hoa nhẹ nhàng và nữ tính từ Louis Vuitton.",
         130.00,
         65,
-        "https://example.com/images/lv_floral.jpg",
+        "https://fimgs.net/himg/o.91609.jpg",
         (
             SELECT id
             FROM Brands
@@ -473,7 +473,7 @@ VALUES (
         "Hương thơm phương Đông quyến rũ từ Louis Vuitton.",
         160.00,
         45,
-        "https://example.com/images/lv_oriental.jpg",
+        "https://i.pinimg.com/originals/86/9d/fd/869dfdcbf03a900eebacb3190b17bb45.jpg",
         (
             SELECT id
             FROM Brands
@@ -488,7 +488,7 @@ VALUES (
         "Hương thơm tươi mát và sảng khoái từ Louis Vuitton.",
         110.00,
         80,
-        "https://example.com/images/lv_fresh.jpg",
+        "https://fimgs.net/mdimg/secundar/o.83830.jpg",
         (
             SELECT id
             FROM Brands
@@ -503,7 +503,7 @@ VALUES (
         "Hương thơm cay nồng và độc đáo từ Louis Vuitton.",
         145.00,
         50,
-        "https://example.com/images/lv_spicy.jpg",
+        "https://fimgs.net/himg/o.104168.jpg",
         (
             SELECT id
             FROM Brands
@@ -518,7 +518,7 @@ VALUES (
         "Hương thơm chanh tươi mát từ Louis Vuitton.",
         115.00,
         70,
-        "https://example.com/images/lv_citrus.jpg",
+        "https://piimages.parfumo.de/0/4/148913_1f23a5ab4ee71cab9ab66021b30ca8c9_pur-oud.jpg",
         (
             SELECT id
             FROM Brands
@@ -545,7 +545,7 @@ VALUES (
         "Hương thơm độc đáo và hiện đại từ Clive.",
         130.00,
         40,
-        "https://example.com/images/clive_edp.jpg",
+        "https://cdn.shopify.com/s/files/1/2170/5343/products/CLIVE-CHRISTIAN-NO1_2048x2048.png?v=1571609964",
         (
             SELECT id
             FROM Brands
@@ -560,7 +560,7 @@ VALUES (
         "Hương thơm nhẹ nhàng và thanh lịch từ Clive.",
         100.00,
         60,
-        "https://example.com/images/clive_edt.jpg",
+        "http://www.themilliardaire.co/wp-content/uploads/2013/11/Crystal-Perfume-Clive.jpg",
         (
             SELECT id
             FROM Brands
@@ -575,7 +575,7 @@ VALUES (
         "Một phiên bản cologne tươi mát từ Clive.",
         90.00,
         55,
-        "https://example.com/images/clive_cologne.jpg",
+        "https://www.wescents.com/wp-content/uploads/2020/10/Private-42.png",
         (
             SELECT id
             FROM Brands
@@ -590,7 +590,7 @@ VALUES (
         "Hương thơm Oud phong phú từ Clive.",
         180.00,
         35,
-        "https://example.com/images/clive_oud.jpg",
+        "https://media.neimanmarcus.com/f_auto,q_auto/w_1200,h_1500/01/nm_4088448_100000_m",
         (
             SELECT id
             FROM Brands
@@ -605,7 +605,7 @@ VALUES (
         "Hương thơm gỗ mạnh mẽ từ Clive.",
         120.00,
         50,
-        "https://example.com/images/clive_woody.jpg",
+        "https://n.nordstrommedia.com/id/sr3/6d6675f2-85be-4de5-862c-d06adf7f4b97.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
         (
             SELECT id
             FROM Brands
@@ -620,7 +620,7 @@ VALUES (
         "Hương thơm hoa tinh tế từ Clive.",
         110.00,
         65,
-        "https://example.com/images/clive_floral.jpg",
+        "https://i5.walmartimages.com/asr/5d67f214-f3c7-424f-a572-53079b6293d5_1.61178f1971c56e5f0f3bc7a52eed0157.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff",
         (
             SELECT id
             FROM Brands
@@ -635,7 +635,7 @@ VALUES (
         "Hương thơm phương Đông đầy mê hoặc từ Clive.",
         150.00,
         40,
-        "https://example.com/images/clive_oriental.jpg",
+        "https://i5.walmartimages.com/asr/55dee8b6-9a3c-4cc4-8abe-b57249804712_1.cf04f1a77eb0fff9686ec49cc25358d7.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff",
         (
             SELECT id
             FROM Brands
@@ -650,7 +650,7 @@ VALUES (
         "Hương thơm tươi mát và sảng khoái từ Clive.",
         95.00,
         70,
-        "https://example.com/images/clive_fresh.jpg",
+        "https://n.nordstrommedia.com/id/sr3/a75c9e04-a249-42b8-be98-d5c1ba912342.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=4",
         (
             SELECT id
             FROM Brands
@@ -665,7 +665,7 @@ VALUES (
         "Hương thơm cay nồng và ấm áp từ Clive.",
         125.00,
         45,
-        "https://example.com/images/clive_spicy.jpg",
+        "https://www.parfum.ch/temp/compressed_Clive-Original-No-1-Masculine-50ml-bottle-and-box.jpg",
         (
             SELECT id
             FROM Brands
@@ -680,7 +680,7 @@ VALUES (
         "Hương thơm chanh tươi mát từ Clive.",
         105.00,
         60,
-        "https://example.com/images/clive_citrus.jpg",
+        "https://bloomingdales.ae/on/demandware.static/-/Sites-bloomingdales-master-catalog/default/dw1665d9b1/images/hi-res/BLM/Clive%20Christian/211691344/211691344_IN.jpg",
         (
             SELECT id
             FROM Brands
@@ -707,7 +707,7 @@ VALUES (
         "Một hương thơm đậm đà và quyến rũ từ Tom Ford.",
         180.00,
         40,
-        "https://example.com/images/tomford_black_orchid.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dw4f7dbd2e/images/38947699/large/38947699_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -722,7 +722,7 @@ VALUES (
         "Hương thơm Oud quý phái và sang trọng từ Tom Ford.",
         200.00,
         35,
-        "https://example.com/images/tomford_oud_wood.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dwb9b23439/images/41273626/large/41273626_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -737,7 +737,7 @@ VALUES (
         "Hương thơm thơm mùi thuốc lá và vani từ Tom Ford.",
         190.00,
         30,
-        "https://example.com/images/tomford_tobacco_vanille.jpg",
+        "https://myfragrancesen.com/wp-content/uploads/2020/12/s-l1600-9-1-e1608704053986-1160x1009.jpg",
         (
             SELECT id
             FROM Brands
@@ -752,7 +752,7 @@ VALUES (
         "Hương thơm tươi mát và biển cả từ Tom Ford.",
         160.00,
         50,
-        "https://example.com/images/tomford_neroli_portofino.jpg",
+        "https://n.nordstrommedia.com/id/sr3/0c7a49a2-af3e-417d-9fde-dc80d98d2641.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=3",
         (
             SELECT id
             FROM Brands
@@ -767,7 +767,7 @@ VALUES (
         "Hương thơm nắng vàng và biển xanh từ Tom Ford.",
         170.00,
         45,
-        "https://example.com/images/tomford_soleil_blanc.jpg",
+        "https://www.sephora.de/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dwe45ec4bd/images/hi-res/all/alternates/PID_alternate2/P1920021_2.jpg",
         (
             SELECT id
             FROM Brands
@@ -782,7 +782,7 @@ VALUES (
         "Hương thơm cherry ngọt ngào và gợi cảm từ Tom Ford.",
         175.00,
         40,
-        "https://example.com/images/tomford_lost_cherry.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dw7bde2fc5/images/39849226/large/39849226_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -797,7 +797,7 @@ VALUES (
         "Hương thơm biển cả và thảo mộc từ Tom Ford.",
         165.00,
         50,
-        "https://example.com/images/tomford_costa_azzurra.jpg",
+        "https://images.neimanmarcus.com/ca/1/product_assets/C/5/4/Z/U/NMC54ZU_mz.jpg",
         (
             SELECT id
             FROM Brands
@@ -812,7 +812,7 @@ VALUES (
         "Hương thơm vetiver thanh lịch từ Tom Ford.",
         150.00,
         60,
-        "https://example.com/images/tomford_grey_vetiver.jpg",
+        "https://myfragrancesen.com/wp-content/uploads/2021/01/s-l1600-5-1160x1160.jpg",
         (
             SELECT id
             FROM Brands
@@ -827,7 +827,7 @@ VALUES (
         "Hương thơm patchouli tinh tế từ Tom Ford.",
         155.00,
         55,
-        "https://example.com/images/tomford_white_patchouli.jpg",
+        "https://perfume-bd.com/wp-content/uploads/2021/03/ss1.jpg",
         (
             SELECT id
             FROM Brands
@@ -842,7 +842,7 @@ VALUES (
         "Hương thơm đào đắng ngọt ngào từ Tom Ford.",
         160.00,
         50,
-        "https://example.com/images/tomford_bitter_peach.jpg",
+        "https://fimgs.net/himg/o.DzJGiAvxodK.jpg",
         (
             SELECT id
             FROM Brands
@@ -869,7 +869,7 @@ VALUES (
         "Hương thơm gỗ đàn hương đặc trưng từ Le Labo.",
         190.00,
         40,
-        "https://example.com/images/lelab_santal_33.jpg",
+        "https://i.etsystatic.com/29524207/r/il/66fbb9/3158354981/il_fullxfull.3158354981_9ol8.jpg",
         (
             SELECT id
             FROM Brands
@@ -884,7 +884,7 @@ VALUES (
         "Hương thơm đặc biệt và hiện đại từ Le Labo.",
         200.00,
         35,
-        "https://example.com/images/lelab_another_13.jpg",
+        "https://image.harrods.com/le-labo-vetiver-46-eau-de-parfum_15098053_25318620_2048.jpg",
         (
             SELECT id
             FROM Brands
@@ -899,7 +899,7 @@ VALUES (
         "Hương thơm hoa hồng tinh tế từ Le Labo.",
         180.00,
         50,
-        "https://example.com/images/lelab_rose_31.jpg",
+        "https://perfumeuae.com/wp-content/uploads/2022/07/santal-33.jpg",
         (
             SELECT id
             FROM Brands
@@ -914,7 +914,7 @@ VALUES (
         "Hương thơm chanh bergamot tươi mát từ Le Labo.",
         170.00,
         45,
-        "https://example.com/images/lelab_bergamote_22.jpg",
+        "https://m.media-amazon.com/images/I/71WU7UMo1zL.jpg",
         (
             SELECT id
             FROM Brands
@@ -929,7 +929,7 @@ VALUES (
         "Hương thơm trà đen sâu lắng từ Le Labo.",
         175.00,
         40,
-        "https://example.com/images/lelab_the_noir_29.jpg",
+        "https://fimgs.net/images/secundar/o.22823.jpg",
         (
             SELECT id
             FROM Brands
@@ -944,7 +944,7 @@ VALUES (
         "Hương thơm hoa iris thanh lịch từ Le Labo.",
         185.00,
         35,
-        "https://example.com/images/lelab_iris_39.jpg",
+        "https://www.net-a-porter.com/variants/images/4146401443174078/ou/w2000_q80.jpg",
         (
             SELECT id
             FROM Brands
@@ -959,7 +959,7 @@ VALUES (
         "Hương thơm patchouli đậm đà từ Le Labo.",
         165.00,
         50,
-        "https://example.com/images/lelab_patchouli_24.jpg",
+        "https://image.harrods.com/14/86/62/01/14866201_24657885_2048.jpg",
         (
             SELECT id
             FROM Brands
@@ -974,7 +974,7 @@ VALUES (
         "Hương thơm hoa nhài ngọt ngào từ Le Labo.",
         160.00,
         55,
-        "https://example.com/images/lelab_jasmin_17.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dwe7538b5e/images/42367291/large/42367291_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -989,7 +989,7 @@ VALUES (
         "Hương thơm hoa violet tinh tế từ Le Labo.",
         155.00,
         60,
-        "https://example.com/images/lelab_violet_22.jpg",
+        "https://www.net-a-porter.com/variants/images/3633577413577266/ou/w2000_q80.jpg",
         (
             SELECT id
             FROM Brands
@@ -1004,7 +1004,7 @@ VALUES (
         "Hương thơm chanh xanh tươi mát từ Le Labo.",
         150.00,
         65,
-        "https://example.com/images/lelab_lime_17.jpg",
+        "https://i.etsystatic.com/28855115/r/il/b24884/3218058307/il_fullxfull.3218058307_9b6c.jpg",
         (
             SELECT id
             FROM Brands
@@ -1031,7 +1031,7 @@ VALUES (
         "Một hương thơm xa xỉ và phức tạp từ Roja.",
         350.00,
         20,
-        "https://example.com/images/roja_dove_enigma.jpg",
+        "https://images.neimanmarcus.com/ca/5/product_assets/C/4/3/5/8/NMC4358_mz.jpg",
         (
             SELECT id
             FROM Brands
@@ -1046,7 +1046,7 @@ VALUES (
         "Hương thơm đầy quyến rũ và bí ẩn từ Roja.",
         320.00,
         25,
-        "https://example.com/images/roja_scandal.jpg",
+        "https://images.neimanmarcus.com/ca/10/product_assets/C/4/L/H/D/NMC4LHD_mz.jpg",
         (
             SELECT id
             FROM Brands
@@ -1061,7 +1061,7 @@ VALUES (
         "Hương thơm tươi mát và sang trọng từ Roja.",
         300.00,
         30,
-        "https://example.com/images/roja_elysium.jpg",
+        "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_790/01/nm_4070952_100000_m",
         (
             SELECT id
             FROM Brands
@@ -1076,7 +1076,7 @@ VALUES (
         "Hương thơm mạnh mẽ và cuốn hút từ Roja.",
         310.00,
         22,
-        "https://example.com/images/roja_danger.jpg",
+        "https://image.harrods.com/roja-parfums-parfum-pour-femme-100ml_16339995_44830865_1000.jpg",
         (
             SELECT id
             FROM Brands
@@ -1091,7 +1091,7 @@ VALUES (
         "Hương thơm đặc trưng và tinh tế từ Roja.",
         330.00,
         18,
-        "https://example.com/images/roja_signature.jpg",
+        "https://cdn.shopify.com/s/files/1/1979/0273/products/roja-haute-luxe-roja-parfums-396664.jpg?v=1606663132",
         (
             SELECT id
             FROM Brands
@@ -1106,7 +1106,7 @@ VALUES (
         "Hương thơm Oud ấm áp và sang trọng từ Roja.",
         340.00,
         15,
-        "https://example.com/images/roja_amber_aoud.jpg",
+        "https://image.harrods.com/roja-parfums-scandal-parfum-pour-femme-50ml_14790803_44094928_2048.jpg",
         (
             SELECT id
             FROM Brands
@@ -1121,7 +1121,7 @@ VALUES (
         "Một hương thơm tinh tế và độc đáo từ Roja.",
         290.00,
         28,
-        "https://example.com/images/roja_no18.jpg",
+        "https://i5.walmartimages.com/asr/63e8141d-6ed3-4fbf-aa97-e865bb0da0d3_2.11f9c967532bf586551889d8e8ac801e.jpeg",
         (
             SELECT id
             FROM Brands
@@ -1136,7 +1136,7 @@ VALUES (
         "Phiên bản dành cho nam của hương Enigma từ Roja.",
         350.00,
         20,
-        "https://example.com/images/roja_enigma_homme.jpg",
+        "https://i.notino.com/view/roja-parfums/rojtiau_apar20_02__4.jpg",
         (
             SELECT id
             FROM Brands
@@ -1151,7 +1151,7 @@ VALUES (
         "Hương thơm sáng tạo và nghệ thuật từ Roja.",
         310.00,
         25,
-        "https://example.com/images/roja_creation_e.jpg",
+        "https://image.harrods.com/roja-amber-aoud-crystal-pure-perfume-100ml_14791206_44135305_1000.jpg",
         (
             SELECT id
             FROM Brands
@@ -1166,7 +1166,7 @@ VALUES (
         "Hương thơm Oud da cá tính từ Roja.",
         360.00,
         10,
-        "https://example.com/images/roja_aoud_leather.jpg",
+        "https://i.notino.com/view/roja-parfums/rojroju_apar10_05__12.jpg",
         (
             SELECT id
             FROM Brands
@@ -1193,7 +1193,7 @@ VALUES (
         "Hương thơm hương cây vây và fig từ Diptyque.",
         95.00,
         100,
-        "https://example.com/images/diptyque_philosykos.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dw8593550f/images/36678676/large/36678676_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -1208,7 +1208,7 @@ VALUES (
         "Hương thơm hoa hồng tinh tế từ Diptyque.",
         90.00,
         120,
-        "https://example.com/images/diptyque_eau_rose.jpg",
+        "https://frenchgirlbeauty.com/wp-content/uploads/2023/04/best-Diptyque-Perfumes-800x1200.jpg",
         (
             SELECT id
             FROM Brands
@@ -1223,7 +1223,7 @@ VALUES (
         "Hương thơm gỗ đàn hương thanh lịch từ Diptyque.",
         100.00,
         80,
-        "https://example.com/images/diptyque_tam_dao.jpg",
+        "https://i5.walmartimages.com/asr/835a0403-0faf-4ff7-960d-ce0fe5c235ea_2.98d4ad0e7cfc76644fe50ac26c8de011.jpeg",
         (
             SELECT id
             FROM Brands
@@ -1238,7 +1238,7 @@ VALUES (
         "Hương thơm cam bergamot và hoa quỳnh từ Diptyque.",
         105.00,
         90,
-        "https://example.com/images/diptyque_eau_des_sens.jpg",
+        "https://media.allure.com/photos/59a5c4ae458793382ace341c/master/pass/Diptyque-Vetiverio_lede.jpg?mbid=social_retweet",
         (
             SELECT id
             FROM Brands
@@ -1253,7 +1253,7 @@ VALUES (
         "Hương thơm hoa tuberose từ Diptyque.",
         95.00,
         110,
-        "https://example.com/images/diptyque_do_son.jpg",
+        "https://vioralondon.com/wp-content/uploads/2020/04/10-Most-Popular-Diptyque-Perfumes-For-Her-main-image.jpg",
         (
             SELECT id
             FROM Brands
@@ -1268,7 +1268,7 @@ VALUES (
         "Hương thơm hoa hồng và nước hoa nhài từ Diptyque.",
         100.00,
         85,
-        "https://example.com/images/diptyque_eau_rose_poetic.jpg",
+        "https://editorialist.com/wp-content/uploads/2021/07/Diptique-Scents_0007_3-Diptyque-Do-Son-Eau-De-Parfum.jpg",
         (
             SELECT id
             FROM Brands
@@ -1283,7 +1283,7 @@ VALUES (
         "Hương thơm quả mâm xôi và hoa hồng từ Diptyque.",
         110.00,
         75,
-        "https://example.com/images/diptyque_ombre_dans_l_eau.jpg",
+        "https://clothbase.s3.amazonaws.com/uploads/6550e695-000d-4748-9c22-396555aff300/eau-rose-eau-de-parfum-75-ml.jpg",
         (
             SELECT id
             FROM Brands
@@ -1298,7 +1298,7 @@ VALUES (
         "Hương thơm vani đậm đà từ Diptyque.",
         115.00,
         70,
-        "https://example.com/images/diptyque_eau_duelle.jpg",
+        "https://fimgs.net/mdimg/secundar/o.61794.jpg",
         (
             SELECT id
             FROM Brands
@@ -1313,7 +1313,7 @@ VALUES (
         "Hương thơm cổ điển và thanh lịch từ Diptyque.",
         120.00,
         65,
-        "https://example.com/images/diptyque_34_boulevard_saint_germain.jpg",
+        "https://editorialist.com/wp-content/uploads/2021/07/Diptyque-Scents_Square.jpg",
         (
             SELECT id
             FROM Brands
@@ -1328,7 +1328,7 @@ VALUES (
         "Hương thơm đa dạng và tinh tế từ Diptyque.",
         100.00,
         95,
-        "https://example.com/images/diptyque_eau_de_parfum.jpg",
+        "http://www.stormfashion.dk/uploads/products/storm/philosykos-diptyque_diptyque_perfume_storm_7.jpg",
         (
             SELECT id
             FROM Brands
@@ -1355,7 +1355,7 @@ VALUES (
         "Hương thơm sang trọng và phức tạp từ MFK.",
         300.00,
         30,
-        "https://example.com/images/mfk_baccarat_rouge_540.jpg",
+        "https://i.pinimg.com/originals/a6/13/02/a61302fe17319fa196b1ffcacf6527d0.jpg",
         (
             SELECT id
             FROM Brands
@@ -1370,7 +1370,7 @@ VALUES (
         "Hương thơm tươi mát và trong lành từ MFK.",
         250.00,
         40,
-        "https://example.com/images/mfk_aqua_universalis.jpg",
+        "https://cdn.shopify.com/s/files/1/0436/4012/7649/products/Baccaratedp_1024x1024@2x.jpg?v=1626289540",
         (
             SELECT id
             FROM Brands
@@ -1385,7 +1385,7 @@ VALUES (
         "Hương thơm Oud mềm mại và quyến rũ từ MFK.",
         350.00,
         25,
-        "https://example.com/images/mfk_oud_satin_mood.jpg",
+        "https://editorialist.com/wp-content/uploads/2021/11/Best-Maison-Francis-Kurkdjian-Perfume_HoldingHero.jpg",
         (
             SELECT id
             FROM Brands
@@ -1400,7 +1400,7 @@ VALUES (
         "Một hương thơm nam tính và quyến rũ từ MFK.",
         220.00,
         50,
-        "https://example.com/images/mfk_le_male.jpg",
+        "https://cdn.cliqueinc.com/posts/298966/best-maison-francis-kurkdjian-perfumes-298966-1649106960803-main.700x0c.jpg",
         (
             SELECT id
             FROM Brands
@@ -1415,7 +1415,7 @@ VALUES (
         "Hương thơm tươi mát và ngọt ngào từ MFK.",
         240.00,
         45,
-        "https://example.com/images/mfk_petit_matin.jpg",
+        "https://images.neimanmarcus.com/ca/8/product_assets/C/1/U/B/C/NMC1UBC_mz.jpg",
         (
             SELECT id
             FROM Brands
@@ -1430,7 +1430,7 @@ VALUES (
         "Hương thơm quyến rũ và đầy bí ẩn từ MFK.",
         280.00,
         35,
-        "https://example.com/images/mfk_lumiere_noire_pour_femme.jpg",
+        "https://cdn.shopify.com/s/files/1/0418/0662/6967/products/MaisonFrancisKurkdjianParisSample-724EDP_1mlvial.png?v=1664381046&width=1445",
         (
             SELECT id
             FROM Brands
@@ -1445,7 +1445,7 @@ VALUES (
         "Hương thơm hoa hồng tinh tế từ MFK.",
         260.00,
         40,
-        "https://example.com/images/mfk_a_la_rose.jpg",
+        "https://www.franciskurkdjian.com/on/demandware.static/-/Sites-mfk-storefront-catalog-us/default/dw03d16915/CollectionDecouverte-headerPLP-Mobile_HD_2250x1063.jpg",
         (
             SELECT id
             FROM Brands
@@ -1460,7 +1460,7 @@ VALUES (
         "Hương thơm hoa iris độc đáo từ MFK.",
         270.00,
         38,
-        "https://example.com/images/mfk_iris_rebelle.jpg",
+        "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_790/01/nm_2259800_100000_m",
         (
             SELECT id
             FROM Brands
@@ -1475,7 +1475,7 @@ VALUES (
         "Hương thơm phong cách và sang trọng từ MFK.",
         290.00,
         30,
-        "https://example.com/images/mfk_absolue_pour_le_soir.jpg",
+        "https://i.pinimg.com/originals/6a/7a/12/6a7a12c66abaae9a0f5a1436f183459b.jpg",
         (
             SELECT id
             FROM Brands
@@ -1490,7 +1490,7 @@ VALUES (
         "Hương thơm tươi mát và trẻ trung từ MFK.",
         250.00,
         42,
-        "https://example.com/images/mfk_silver_mountain_water.jpg",
+        "https://perfumeuae.com/wp-content/uploads/2023/06/mfk-cologne-forte-1.jpg",
         (
             SELECT id
             FROM Brands
@@ -1517,7 +1517,7 @@ VALUES (
         "Hương thơm tươi mát và mộc mạc từ Byredo.",
         180.00,
         60,
-        "https://example.com/images/byredo_gypsy_water.jpg",
+        "https://media-live.byredo.com/__live__/media/wysiwyg/OS_1440x1120_CLEAN_5.jpg",
         (
             SELECT id
             FROM Brands
@@ -1532,7 +1532,7 @@ VALUES (
         "Hương thơm độc đáo và bí ẩn từ Byredo.",
         200.00,
         55,
-        "https://example.com/images/byredo_mojave_ghost.jpg",
+        "https://media-live.byredo.com/__live__/media/wysiwyg/Byredo_210414-386_1500x1680-min.jpg",
         (
             SELECT id
             FROM Brands
@@ -1547,7 +1547,7 @@ VALUES (
         "Hương thơm phong cách và năng động từ Byredo.",
         170.00,
         65,
-        "https://example.com/images/byredo_bal_d_afrique.jpg",
+        "https://i5.walmartimages.com/asr/1b38fd43-d4e4-450b-9143-d115a18fe836_1.7a77da244f119074ee680c4c87720fe2.jpeg",
         (
             SELECT id
             FROM Brands
@@ -1562,7 +1562,7 @@ VALUES (
         "Hương thơm trong sáng và tinh tế từ Byredo.",
         160.00,
         70,
-        "https://example.com/images/byredo_blanche.jpg",
+        "https://media-live.byredo.com/__live__/media/wysiwyg/Byredo_210414-376_1440x1612-min.jpg",
         (
             SELECT id
             FROM Brands
@@ -1577,7 +1577,7 @@ VALUES (
         "Hương thơm gỗ đàn hương mạnh mẽ từ Byredo.",
         175.00,
         50,
-        "https://example.com/images/byredo_super_cedar.jpg",
+        "https://images.ctfassets.net/g8qtv9gzg47d/2ySideBEg0MYQwmSMu0Iag/f977a8eb7fa7f058f4e550aa02ead471/FullSizeRender_2.jpg",
         (
             SELECT id
             FROM Brands
@@ -1592,7 +1592,7 @@ VALUES (
         "Hương thơm trái cây ngọt ngào từ Byredo.",
         165.00,
         68,
-        "https://example.com/images/byredo_pulp.jpg",
+        "https://image-cdn.hypb.st/https://hypebeast.com/wp-content/blogs.dir/6/files/2021/06/byredo-blanche-collectors-edition-perfume-bottle-campaign-notes-release-0.jpg?fit=max&cbr=1&q=90&w=1125&h=750",
         (
             SELECT id
             FROM Brands
@@ -1607,7 +1607,7 @@ VALUES (
         "Hương thơm hoa tulip tươi mát từ Byredo.",
         155.00,
         72,
-        "https://example.com/images/byredo_la_tulipe.jpg",
+        "https://i.etsystatic.com/24716366/r/il/3e6346/2709893130/il_1588xN.2709893130_5vhu.jpg",
         (
             SELECT id
             FROM Brands
@@ -1622,7 +1622,7 @@ VALUES (
         "Hương thơm safran đen độc đáo từ Byredo.",
         185.00,
         58,
-        "https://example.com/images/byredo_black_saffron.jpg",
+        "https://i.etsystatic.com/24716366/r/il/484f5d/2879029559/il_fullxfull.2879029559_ku84.jpg",
         (
             SELECT id
             FROM Brands
@@ -1637,7 +1637,7 @@ VALUES (
         "Hương thơm cỏ tự nhiên từ Byredo.",
         170.00,
         62,
-        "https://example.com/images/byredo_mojave_grass.jpg",
+        "https://i5.walmartimages.com/asr/7a2ced9b-7d9c-4868-8f31-7440855bc163.c8cb180cc004568c883b80446be9e1d5.jpeg",
         (
             SELECT id
             FROM Brands
@@ -1652,7 +1652,7 @@ VALUES (
         "Hương thơm cam tươi mát từ Byredo.",
         160.00,
         75,
-        "https://example.com/images/byredo_sundazed.jpg",
+        "https://hips.hearstapps.com/hmg-prod/images/screen-shot-2023-10-05-at-12-08-37-pm-651edfaadb714.png?crop=1.00xw:0.897xh;0,0.103xh&resize=1200:*",
         (
             SELECT id
             FROM Brands
@@ -1679,7 +1679,7 @@ VALUES (
         "Hương thơm thanh lịch và tinh tế từ Amouage.",
         300.00,
         25,
-        "https://example.com/images/amouage_reflection_man.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dwd5535d3b/images/43068181/large/43068181_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -1694,7 +1694,7 @@ VALUES (
         "Hương thơm phức tạp và mạnh mẽ từ Amouage.",
         320.00,
         20,
-        "https://example.com/images/amouage_interlude_man.jpg",
+        "https://image.harrods.com/amouage-epic-woman-eau-de-parfum-100ml_18963699_41708002_2048.jpg",
         (
             SELECT id
             FROM Brands
@@ -1709,7 +1709,7 @@ VALUES (
         "Hương thơm xa xỉ và sang trọng từ Amouage.",
         350.00,
         15,
-        "https://example.com/images/amouage_jubilation_xxv.jpg",
+        "http://1.bp.blogspot.com/-3-rak5RIxfM/VBqBhHIgpSI/AAAAAAAATao/JkSBQZK8eYc/s1600/amouagegold.jpg",
         (
             SELECT id
             FROM Brands
@@ -1724,7 +1724,7 @@ VALUES (
         "Hương thơm tươi mát và sảng khoái từ Amouage.",
         280.00,
         30,
-        "https://example.com/images/amouage_sunshine_man.jpg",
+        "https://i5.walmartimages.com/asr/2e35db3a-c3a4-4e43-8989-cf3cd2935ca0_1.c399828195fa672027c30fce465e0574.jpeg",
         (
             SELECT id
             FROM Brands
@@ -1739,7 +1739,7 @@ VALUES (
         "Hương thơm tinh tế và quyến rũ từ Amouage.",
         290.00,
         28,
-        "https://example.com/images/amouage_honour_woman.jpg",
+        "https://prod-admin-images.s3.amazonaws.com/PeZho1KcxJ6lLWV8SlDT/product/Amouage%20Ciel%20L%20EDP%20100ML%20btl.jpg",
         (
             SELECT id
             FROM Brands
@@ -1754,7 +1754,7 @@ VALUES (
         "Hương thơm hiện đại và nam tính từ Amouage.",
         310.00,
         22,
-        "https://example.com/images/amouage_dia_man.jpg",
+        "https://i5.walmartimages.com/asr/a158db5c-f2b0-4eee-8874-e853d81b27d9_1.8cd1548aefa790a2cc43a661a2e9d004.jpeg",
         (
             SELECT id
             FROM Brands
@@ -1769,7 +1769,7 @@ VALUES (
         "Hương thơm mạnh mẽ và đẳng cấp từ Amouage.",
         330.00,
         18,
-        "https://example.com/images/amouage_epic_man.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dw52c2137b/images/41365648/large/41365648_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -1784,7 +1784,7 @@ VALUES (
         "Hương thơm huyền bí và sâu lắng từ Amouage.",
         340.00,
         16,
-        "https://example.com/images/amouage_memoir_man.jpg",
+        "http://3.bp.blogspot.com/-5IyERJb03Ug/Vj7RIN3RPpI/AAAAAAAAAUA/jCjdBGGVneQ/s1600/7112Q%252Bb6NtL._SL1500_.jpg",
         (
             SELECT id
             FROM Brands
@@ -1799,7 +1799,7 @@ VALUES (
         "Hương thơm tinh tế và nghệ thuật từ Amouage.",
         295.00,
         20,
-        "https://example.com/images/amouage_lyric_man.jpg",
+        "https://image.harrods.com/amouage-gold-woman-eau-de-parfum-100ml_14791466_32784792_1000.jpg",
         (
             SELECT id
             FROM Brands
@@ -1814,7 +1814,7 @@ VALUES (
         "Hương thơm may mắn và lôi cuốn từ Amouage.",
         310.00,
         19,
-        "https://example.com/images/amouage_fate_man.jpg",
+        "https://images.flannels.com/images/imgzoom/75/75471990_xxl.jpg",
         (
             SELECT id
             FROM Brands
@@ -1841,7 +1841,7 @@ VALUES (
         "Hương thơm độc đáo và sang trọng từ Xerjoff.",
         450.00,
         10,
-        "https://example.com/images/xerjoff_naxos.jpg",
+        "https://fimgs.net/himg/o.79563.jpg",
         (
             SELECT id
             FROM Brands
@@ -1856,7 +1856,7 @@ VALUES (
         "Hương thơm tươi mát và tinh tế từ Xerjoff.",
         400.00,
         12,
-        "https://example.com/images/xerjoff_uden.jpg",
+        "https://ifragranceofficial.com/wp-content/uploads/2022/08/PXL_20220809_172500787.PORTRAIT-scaled.jpg",
         (
             SELECT id
             FROM Brands
@@ -1871,7 +1871,7 @@ VALUES (
         "Hương thơm quyến rũ và lôi cuốn từ Xerjoff.",
         480.00,
         8,
-        "https://example.com/images/xerjoff_alexandria_ii.jpg",
+        "https://fimgs.net/mdimg/secundar/o.77476.jpg",
         (
             SELECT id
             FROM Brands
@@ -1886,7 +1886,7 @@ VALUES (
         "Hương thơm lịch lãm và cổ điển từ Xerjoff.",
         420.00,
         14,
-        "https://example.com/images/xerjoff_casamorati_1888.jpg",
+        "https://fimgs.net/himg/o.79565.jpg",
         (
             SELECT id
             FROM Brands
@@ -1901,7 +1901,7 @@ VALUES (
         "Hương thơm nam tính và mạnh mẽ từ Xerjoff.",
         430.00,
         11,
-        "https://example.com/images/xerjoff_uomo.jpg",
+        "https://lacasadelperfume.cl/wp-content/uploads/2022/04/xerjoff-more-than-words-edp-100-ml.jpg",
         (
             SELECT id
             FROM Brands
@@ -1916,7 +1916,7 @@ VALUES (
         "Hương thơm hiện đại và trẻ trung từ Xerjoff.",
         390.00,
         13,
-        "https://example.com/images/xerjoff_17_man.jpg",
+        "https://image.harrods.com/xerjoff-soprano-eau-de-parfum_15060912_25833285_2048.jpg",
         (
             SELECT id
             FROM Brands
@@ -1931,7 +1931,7 @@ VALUES (
         "Hương thơm hoa cỏ và gỗ từ Xerjoff.",
         410.00,
         9,
-        "https://example.com/images/xerjoff_zafir.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dwe5247e5e/images/43099453/large/43099453_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -1946,7 +1946,7 @@ VALUES (
         "Hương thơm phong cách và năng động từ Xerjoff.",
         395.00,
         10,
-        "https://example.com/images/xerjoff_milan_33.jpg",
+        "https://fraguru.com/mdimg/secundar/o.67832.jpg",
         (
             SELECT id
             FROM Brands
@@ -1961,7 +1961,7 @@ VALUES (
         "Hương thơm trái cây và tươi mát từ Xerjoff.",
         375.00,
         16,
-        "https://example.com/images/xerjoff_erba_pura.jpg",
+        "https://image.harrods.com/xerjoff-amber-gold-rose-pure-perfume-set-50ml_16527219_31997327_2048.jpg",
         (
             SELECT id
             FROM Brands
@@ -1976,7 +1976,7 @@ VALUES (
         "Hương thơm Oud đậm đà từ Xerjoff.",
         500.00,
         5,
-        "https://example.com/images/xerjoff_alexandria_ii_oud.jpg",
+        "https://fimgs.net/photogram/p1200/kd/0u/tCJSvSSz5VTLUCrY.jpg",
         (
             SELECT id
             FROM Brands
@@ -2003,7 +2003,7 @@ VALUES (
         "Hương thơm Oud quyến rũ từ Bond No. 9.",
         220.00,
         30,
-        "https://example.com/images/bond_no9_new_york_oud.jpg",
+        "https://images-na.ssl-images-amazon.com/images/I/81LkjCDs-4L._AC_SL1500_.jpg",
         (
             SELECT id
             FROM Brands
@@ -2018,7 +2018,7 @@ VALUES (
         "Hương thơm hoa quỳnh từ Bond No. 9.",
         210.00,
         35,
-        "https://example.com/images/bond_no9_greenwich_village.jpg",
+        "https://images-na.ssl-images-amazon.com/images/I/81eEwjIDXtL._SL1500_.jpg",
         (
             SELECT id
             FROM Brands
@@ -2033,7 +2033,7 @@ VALUES (
         "Hương thơm tươi mát và thanh lịch từ Bond No. 9.",
         200.00,
         40,
-        "https://example.com/images/bond_no9_scent_of_peace.jpg",
+        "https://i5.walmartimages.com/asr/6f5f7d5c-2e19-4f48-af3d-bc96007b3c6d_1.1af27fcd934deeee7f2d07577c8705de.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff",
         (
             SELECT id
             FROM Brands
@@ -2048,7 +2048,7 @@ VALUES (
         "Hương thơm hoa anh đào từ Bond No. 9.",
         215.00,
         28,
-        "https://example.com/images/bond_no9_central_park.jpg",
+        "https://i5.walmartimages.com/asr/7fc93ea5-d17d-4fdf-ad8c-f206166888a0_2.0b2ed7de402dfb6c0df10ca3a010c1ec.jpeg",
         (
             SELECT id
             FROM Brands
@@ -2063,7 +2063,7 @@ VALUES (
         "Hương thơm quyến rũ và mạnh mẽ từ Bond No. 9.",
         230.00,
         22,
-        "https://example.com/images/bond_no9_new_york_nights.jpg",
+        "https://fimgs.net/images/secundar/o.50652.jpg",
         (
             SELECT id
             FROM Brands
@@ -2078,7 +2078,7 @@ VALUES (
         "Hương thơm năng động và hiện đại từ Bond No. 9.",
         205.00,
         33,
-        "https://example.com/images/bond_no9_broadway.jpg",
+        "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_790/01/nm_4308519_100000_m",
         (
             SELECT id
             FROM Brands
@@ -2093,7 +2093,7 @@ VALUES (
         "Hương thơm tươi sáng và sảng khoái từ Bond No. 9.",
         195.00,
         37,
-        "https://example.com/images/bond_no9_times_square.jpg",
+        "https://www.tiffbenson.com/wp-content/uploads/2017/01/Top-10-Best-Bond-No-9-Perfume-10k-Subscriber-Giveaway-Bond-No-9-Fragrances-Fragrance-Reviews.jpg",
         (
             SELECT id
             FROM Brands
@@ -2108,7 +2108,7 @@ VALUES (
         "Hương thơm mạnh mẽ và nam tính từ Bond No. 9.",
         225.00,
         25,
-        "https://example.com/images/bond_no9_wall_street.jpg",
+        "https://images-na.ssl-images-amazon.com/images/I/91mbpLe4-KL._AC_SL1500_.jpg",
         (
             SELECT id
             FROM Brands
@@ -2123,7 +2123,7 @@ VALUES (
         "Hương thơm cổ điển và lịch lãm từ Bond No. 9.",
         210.00,
         32,
-        "https://example.com/images/bond_no9_east_side.jpg",
+        "https://image.harrods.com/bond-no-9-new-york-nights-eau-de-parfum-100-ml_15131601_25634347_1000.jpg",
         (
             SELECT id
             FROM Brands
@@ -2138,7 +2138,7 @@ VALUES (
         "Hương thơm đặc trưng và phong cách từ Bond No. 9.",
         220.00,
         29,
-        "https://example.com/images/bond_no9_chinatown.jpg",
+        "https://m.media-amazon.com/images/I/71UHlZIXOTL.jpg",
         (
             SELECT id
             FROM Brands
@@ -2165,7 +2165,7 @@ VALUES (
         "Hương thơm mạnh mẽ và nam tính từ Parfums de Marly.",
         280.00,
         20,
-        "https://example.com/images/pdm_herod.jpg",
+        "https://www.maxaroma.com/productimages/large/UP3700578523006.jpg?ver=1596609245",
         (
             SELECT id
             FROM Brands
@@ -2180,7 +2180,7 @@ VALUES (
         "Hương thơm tinh tế và sang trọng từ Parfums de Marly.",
         270.00,
         25,
-        "https://example.com/images/pdm_layton.jpg",
+        "https://perfume-bd.com/wp-content/uploads/2020/03/parfum-de-marly-carlisle.jpg",
         (
             SELECT id
             FROM Brands
@@ -2195,7 +2195,7 @@ VALUES (
         "Hương thơm tươi mát và năng động từ Parfums de Marly.",
         260.00,
         30,
-        "https://example.com/images/pdm_percival.jpg",
+        "https://perfume-bd.com/wp-content/uploads/2021/04/Untitled-design-38-15.png",
         (
             SELECT id
             FROM Brands
@@ -2210,7 +2210,7 @@ VALUES (
         "Hương thơm hoa quyến rũ từ Parfums de Marly.",
         250.00,
         35,
-        "https://example.com/images/pdm_delina.jpg",
+        "https://ean-images.booztcdn.com/parfums-de-marley/1300x1700/pdmpm1801pv_cclear.jpg",
         (
             SELECT id
             FROM Brands
@@ -2225,7 +2225,7 @@ VALUES (
         "Phiên bản đặc biệt của hương Layton từ Parfums de Marly.",
         300.00,
         15,
-        "https://example.com/images/pdm_layton_exclusif.jpg",
+        "https://i.redd.it/sahjk0of1o1b1.jpg",
         (
             SELECT id
             FROM Brands
@@ -2240,7 +2240,7 @@ VALUES (
         "Hương thơm mạnh mẽ và sang trọng từ Parfums de Marly.",
         290.00,
         18,
-        "https://example.com/images/pdm_pegasus.jpg",
+        "https://perfume-bd.com/wp-content/uploads/2020/03/71ujkghyipl._sl1500.jpg",
         (
             SELECT id
             FROM Brands
@@ -2255,7 +2255,7 @@ VALUES (
         "Hương thơm mạnh mẽ và ấm áp từ Parfums de Marly.",
         275.00,
         22,
-        "https://example.com/images/pdm_galloway.jpg",
+        "https://cf.shopee.co.th/file/d1c312128e975ac0cc69a59e5e8b84dd",
         (
             SELECT id
             FROM Brands
@@ -2270,7 +2270,7 @@ VALUES (
         "Phiên bản đặc biệt của hương Delina từ Parfums de Marly.",
         310.00,
         12,
-        "https://example.com/images/pdm_delina_exclusif.jpg",
+        "https://n.nordstrommedia.com/id/sr3/3c63e47d-7aec-43e3-8bda-10b52d8a33bd.jpeg?h=365&w=240&dpr=2",
         (
             SELECT id
             FROM Brands
@@ -2285,7 +2285,7 @@ VALUES (
         "Hương thơm cao cấp của hương Layton từ Parfums de Marly.",
         320.00,
         10,
-        "https://example.com/images/pdm_layton_superieur.jpg",
+        "https://cf.shopee.co.th/file/2838391f8a27f453edc2b6dca986441e",
         (
             SELECT id
             FROM Brands
@@ -2300,7 +2300,7 @@ VALUES (
         "Phiên bản hoa tulip của hương Layton từ Parfums de Marly.",
         300.00,
         14,
-        "https://example.com/images/pdm_layton_champ_de_tulipe.jpg",
+        "https://i.etsystatic.com/30802929/r/il/ef476e/3515553232/il_fullxfull.3515553232_msef.jpg",
         (
             SELECT id
             FROM Brands
@@ -2327,7 +2327,7 @@ VALUES (
         "Hương thơm độc đáo lấy cảm hứng từ cánh đồng lúa, kết hợp với các nốt hương hiện đại.",
         771.79,
         20,
-        "https://piger.vn/wp-content/uploads/636.69/05/nuoc-hoa-unisex-btso-dirty-rice-edp-50ml.jpg",
+        "http://bloomperfume.co.uk/cdn/shop/articles/331080886_1004128733954185_3067424582972585592_n_1024x1024.jpg?v=1676643933",
         (
             SELECT id
             FROM Brands
@@ -2342,7 +2342,7 @@ VALUES (
         "Hương gỗ Hinoki tươi mát, mang lại cảm giác thư giãn và sảng khoái.",
         354.60,
         15,
-        "https://yperfume.net/wp-content/uploads/815.60/05/nuoc-hoa-borntostandout-btso-hinoki-shower.jpg",
+        "http://mensbiz.com.au/cdn/shop/collections/Banner_db417bac-afec-4594-a18c-38538d654530.jpg?v=1675396154",
         (
             SELECT id
             FROM Brands
@@ -2357,7 +2357,7 @@ VALUES (
         "Hương xạ hương mạnh mẽ và quyến rũ, dành cho những ai muốn thể hiện cá tính.",
         406.19,
         10,
-        "https://yperfume.net/wp-content/uploads/824.55/05/nuoc-hoa-borntostandout-btso-filthy-musk.jpg",
+        "https://i0.wp.com/tinyfragrances.co.uk/wp-content/uploads/2023/07/btsom.jpg",
         (
             SELECT id
             FROM Brands
@@ -2372,7 +2372,7 @@ VALUES (
         "Hương trái vả kết hợp với hoa mẫu đơn, tạo nên mùi hương ngọt ngào và tinh tế.",
         864.10,
         12,
-        "https://yperfume.net/wp-content/uploads/898.05/05/nuoc-hoa-borntostandout-btso-fig-forn.jpg",
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ludi3ntw8ljz7d",
         (
             SELECT id
             FROM Brands
@@ -2387,7 +2387,7 @@ VALUES (
         "Hương thơm sạch sẽ và tươi mới, gợi nhớ đến cảm giác của quần áo mới giặt.",
         704.25,
         18,
-        "https://yperfume.net/wp-content/uploads/309.69/05/nuoc-hoa-borntostandout-btso-naked-laundry.jpg",
+        "https://i.pinimg.com/originals/cd/88/61/cd88616d1e2cbb26c754d218dd06acad.png",
         (
             SELECT id
             FROM Brands
@@ -2402,7 +2402,7 @@ VALUES (
         "Hương đất ẩm và gỗ, mang lại cảm giác gần gũi với thiên nhiên.",
         869.50,
         14,
-        "https://yperfume.net/wp-content/uploads/660.19/05/nuoc-hoa-borntostandout-btso-mud.jpg",
+        "https://atelierperfumery.com/wp-content/uploads/2024/02/btso-drunk-saffron-edp-50ml-02.png",
         (
             SELECT id
             FROM Brands
@@ -2417,7 +2417,7 @@ VALUES (
         "Hương hoa hồng cháy kết hợp với gỗ, tạo nên mùi hương ấm áp và bí ẩn.",
         860.80,
         16,
-        "https://yperfume.net/wp-content/uploads/530.65/05/nuoc-hoa-borntostandout-btso-burnt-roses.jpg",
+        "http://bloomperfume.com/cdn/shop/articles/446110412_1241557103455201_7664202619431627337_n_1024x1024.jpg?v=1716741761",
         (
             SELECT id
             FROM Brands
@@ -2432,7 +2432,7 @@ VALUES (
         "Sự kết hợp giữa xạ hương sạch sẽ và nhựa Styrax, mang đến cảm giác lạnh mát và sắc sảo.",
         314.65,
         20,
-        "https://whis.com.vn/wp-content/uploads/433.55/05/btso-x-fugazzi.jpg",
+        "https://so-avant-garde.com/cdn/shop/files/INDECENTCHERRY_RB.jpg?v=1707781588&width=1946",
         (
             SELECT id
             FROM Brands
@@ -2447,7 +2447,7 @@ VALUES (
         "Phiên bản đặc biệt của Dirty Rice với hương thơm đậm đà hơn.",
         572.50,
         8,
-        "https://grandencharm.com/wp-content/uploads/528.25/05/nuoc-hoa-btso-dirty-rice-special-edition.jpg",
+        "http://so-avant-garde.com/cdn/shop/files/burntroses.png?v=1718752952",
         (
             SELECT id
             FROM Brands
@@ -2462,7 +2462,7 @@ VALUES (
         "Phiên bản giới hạn của Hinoki Shower với thiết kế chai độc đáo.",
         577.85,
         5,
-        "https://lanperfume.com/wp-content/uploads/562.45/05/btso-hinoki-shower-limited.jpg",
+        "https://media.karousell.com/media/photos/products/2023/12/29/btso__not_vanilla_1703841672_e1e7c5ec_progressive.jpg",
         (
             SELECT id
             FROM Brands
@@ -2489,7 +2489,7 @@ VALUES (
         "Hương thơm quyến rũ với sự kết hợp của hoa hồng và rượu champagne.",
         480.00,
         15,
-        "https://kenperfume.com/san-pham/nuoc-hoa-unisex-les-liquides-imaginaires-dom-rosa/",
+        "https://piimages.parfumo.de/5/2/189402_39bd2ce1cb96935e2a6959cace1d14b9_liquide-2022.jpg",
         (
             SELECT id
             FROM Brands
@@ -2504,7 +2504,7 @@ VALUES (
         "Mùi hương hoa cỏ gỗ xạ hương, mang đến cảm giác thanh lịch và bí ẩn.",
         520.00,
         10,
-        "https://kenperfume.com/san-pham/nuoc-hoa-unisex-les-liquides-imaginaires-blanche-bete/",
+        "https://fraguru.com/himg/o.KhCqVhcL5Jc.jpg",
         (
             SELECT id
             FROM Brands
@@ -2519,7 +2519,7 @@ VALUES (
         "Hương thơm gỗ đàn hương kết hợp với dừa và bưởi, tạo nên sự sang trọng.",
         450.00,
         12,
-        "https://kenperfume.com/san-pham/nuoc-hoa-unisex-les-liquides-imaginaires-tumultu/",
+        "https://fimgs.net/mdimg/secundar/o.76469.jpg",
         (
             SELECT id
             FROM Brands
@@ -2534,7 +2534,7 @@ VALUES (
         "Hương thơm unisex với sự pha trộn của quả mọng và gỗ.",
         390.00,
         20,
-        "https://kenperfume.com/san-pham/nuoc-hoa-unisex-les-liquides-imaginaires-lile-pourpre/",
+        "https://img.perfume.com/images/products/parent/medium/76675w.jpg",
         (
             SELECT id
             FROM Brands
@@ -2549,7 +2549,7 @@ VALUES (
         "Hương thơm tươi mát với hoa cam và tiêu đen.",
         490.00,
         8,
-        "https://sisscents.com/products/nuoc-hoa-liquides-imaginaires-phantasma",
+        "https://img.perfume.com/images/products/parent/medium/76673w.jpg",
         (
             SELECT id
             FROM Brands
@@ -2564,7 +2564,7 @@ VALUES (
         "Hương thơm gợi cảm với sự kết hợp của hoa nhài và gỗ đàn hương.",
         500.00,
         7,
-        "https://kenperfume.com/san-pham/nuoc-hoa-unisex-les-liquides-imaginaires-belle-bete/",
+        "https://fimgs.net/photogram/p1200/07/0p/ZbVudFWNQsCWA1gj.jpg",
         (
             SELECT id
             FROM Brands
@@ -2579,7 +2579,7 @@ VALUES (
         "Hương thơm nhẹ nhàng với bạc hà và sả.",
         390.00,
         9,
-        "https://khonuochoa.com/nuoc-hoa-chiet-liquides-imaginaires-melancolia-10ml",
+        "https://fraguru.com/mdimg/secundar/o.91878.jpg",
         (
             SELECT id
             FROM Brands
@@ -2594,7 +2594,7 @@ VALUES (
         "Hương thơm mạnh mẽ với hạt dẻ và gỗ tuyết tùng.",
         450.00,
         6,
-        "https://khonuochoa.com/nuoc-hoa-chiet-liquides-imaginaires-bete-humaine-10ml",
+        "https://bizweb.dktcdn.net/100/335/381/files/242222107-570690350743680-612986874106412494-n.jpg?v=1648990585112",
         (
             SELECT id
             FROM Brands
@@ -2609,7 +2609,7 @@ VALUES (
         "Hương thơm ấm áp với gia vị và gỗ.",
         420.00,
         11,
-        "https://kenperfume.com/san-pham/nuoc-hoa-unisex-les-liquides-imaginaires-desert-suave/",
+        "https://perfumeart.ru/wp-content/uploads/2019/09/les-liquides-imaginaires-1920x1502.jpg",
         (
             SELECT id
             FROM Brands
@@ -2624,7 +2624,7 @@ VALUES (
         "Hương thơm sâu lắng với gỗ và hổ phách.",
         420.00,
         13,
-        "https://dailyscent.vn/san-pham/fortis/",
+        "https://fimgs.net/photogram/p1200/eb/nv/xLPWZwp0TiIhJht9.jpg",
         (
             SELECT id
             FROM Brands
@@ -2651,7 +2651,7 @@ VALUES (
         "Hương thơm cổ điển và thanh lịch từ Penhaligon's.",
         180.00,
         40,
-        "https://example.com/images/penhaligans_blenheim_bouquet.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dwf4f44db0/images/41811900/large/41811900_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -2666,7 +2666,7 @@ VALUES (
         "Hương thơm Oud mạnh mẽ từ Penhaligon's.",
         220.00,
         25,
-        "https://example.com/images/penhaligans_halfeti.jpg",
+        "https://static.independent.co.uk/2022/04/11/15/best-penhaligons-fragrances-indybest.jpg",
         (
             SELECT id
             FROM Brands
@@ -2681,7 +2681,7 @@ VALUES (
         "Hương thơm tươi mát và phong cách từ Penhaligon's.",
         190.00,
         35,
-        "https://example.com/images/penhaligans_juniper_sling.jpg",
+        "https://static.petersofkensington.com.au/images/ProductImages/589485-Zoom.jpg",
         (
             SELECT id
             FROM Brands
@@ -2696,7 +2696,7 @@ VALUES (
         "Hương thơm hoa nhài và hoa cỏ từ Penhaligon's.",
         200.00,
         30,
-        "https://example.com/images/penhaligans_artemisia.jpg",
+        "https://cdn.shopify.com/s/files/1/0020/6359/7631/products/ENDYMION.jpg?v=1611540970",
         (
             SELECT id
             FROM Brands
@@ -2711,7 +2711,7 @@ VALUES (
         "Hương thơm nhẹ nhàng và tinh tế từ Penhaligon's.",
         210.00,
         28,
-        "https://example.com/images/penhaligans_the_favourite.jpg",
+        "https://media.fashionnetwork.com/m/62a6/220e/e212/cf2b/05f8/6447/5498/73c6/a21a/7f47/7f47.jpg",
         (
             SELECT id
             FROM Brands
@@ -2726,7 +2726,7 @@ VALUES (
         "Hương thơm mạnh mẽ và nam tính từ Penhaligon's.",
         220.00,
         20,
-        "https://example.com/images/penhaligans_endymion.jpg",
+        "https://www.sephora.com.br/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/pt_BR/dwbe019b08/images/hi-res-BR/5056245021251.1_1000px.jpg?sw=1200&sh=1200&sm=fit",
         (
             SELECT id
             FROM Brands
@@ -2741,7 +2741,7 @@ VALUES (
         "Hương thơm ngọt ngào và nữ tính từ Penhaligon's.",
         200.00,
         30,
-        "https://example.com/images/penhaligans_luna.jpg",
+        "https://fraguru.com/mdimg/secundar/o.62997.jpg",
         (
             SELECT id
             FROM Brands
@@ -2756,7 +2756,7 @@ VALUES (
         "Hương thơm hoa lily quyến rũ từ Penhaligon's.",
         210.00,
         25,
-        "https://example.com/images/penhaligans_scarlett_lily.jpg",
+        "http://fimgs.net/images/secundar/o.33693.jpg",
         (
             SELECT id
             FROM Brands
@@ -2771,7 +2771,7 @@ VALUES (
         "Hương thơm hoa iris tinh tế từ Penhaligon's.",
         190.00,
         35,
-        "https://example.com/images/penhaligans_iris_prima.jpg",
+        "https://i5.walmartimages.com/asr/7488eef0-1aef-42d1-94e1-d7790fdfc6c6_1.c200c7fee40c9b833b85a4b2ff9281e0.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff",
         (
             SELECT id
             FROM Brands
@@ -2786,7 +2786,7 @@ VALUES (
         "Hương thơm vani ngọt ngào từ Penhaligon's.",
         200.00,
         30,
-        "https://example.com/images/penhaligans_vanila.jpg",
+        "https://i0.wp.com/fragroom.com/wp-content/uploads/2020/04/Best-Penhaligons-Fragrances-Blenheim-Bouquet-EDT-2-.jpg",
         (
             SELECT id
             FROM Brands
@@ -2813,7 +2813,7 @@ VALUES (
         "Hương thơm mạnh mẽ và nam tính từ Creed.",
         350.00,
         15,
-        "https://example.com/images/creed_aventus.jpg",
+        "https://cdn.shopify.com/s/files/1/2170/5343/products/71Xm33tqXWL._SL1200_1024x1024.jpg?v=1571752392",
         (
             SELECT id
             FROM Brands
@@ -2828,7 +2828,7 @@ VALUES (
         "Hương thơm tươi mát và lịch lãm từ Creed.",
         320.00,
         20,
-        "https://example.com/images/creed_green_irish_tweed.jpg",
+        "https://d1jbmqjs327xbn.cloudfront.net/_pa/spaces-identity.icperfumes/websites/creedboutique/Uploads/1572380241761/H19GG_sub4_img1_AV.jpg?w=1440",
         (
             SELECT id
             FROM Brands
@@ -2843,7 +2843,7 @@ VALUES (
         "Hương thơm tươi mát và tinh khiết từ Creed.",
         330.00,
         18,
-        "https://example.com/images/creed_silver_mountain_water.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dw373c068e/images/40626094/large/40626094_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -2858,7 +2858,7 @@ VALUES (
         "Hương thơm sang trọng và phức tạp từ Creed.",
         340.00,
         12,
-        "https://example.com/images/creed_millesime_imperial.jpg",
+        "https://i.notino.com/view/creed/creavem_aedp20-02__15.jpg",
         (
             SELECT id
             FROM Brands
@@ -2873,7 +2873,7 @@ VALUES (
         "Hương thơm tươi mát và tự nhiên từ Creed.",
         310.00,
         25,
-        "https://example.com/images/creed_green_valley.jpg",
+        "https://i5.walmartimages.com/asr/ca7eb945-faaf-4538-ab00-ae6da678b706_1.433db45e569806b550505c525051a83d.jpeg",
         (
             SELECT id
             FROM Brands
@@ -2888,7 +2888,7 @@ VALUES (
         "Hương thơm mạnh mẽ và nam tính từ Creed.",
         360.00,
         10,
-        "https://example.com/images/creed_viking.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dw78924e69/images/40626082/large/40626082_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -2903,7 +2903,7 @@ VALUES (
         "Hương thơm gỗ đàn hương từ Creed.",
         300.00,
         20,
-        "https://example.com/images/creed_original_santal.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dweb91e26b/images/40626088/large/40626088_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -2918,7 +2918,7 @@ VALUES (
         "Hương thơm tươi mát và thư giãn từ Creed.",
         290.00,
         22,
-        "https://example.com/images/creed_himalaya.jpg",
+        "https://prod-admin-images.s3.amazonaws.com/PeZho1KcxJ6lLWV8SlDT/product/Creed%20Aventus%20100ml.jpg",
         (
             SELECT id
             FROM Brands
@@ -2933,7 +2933,7 @@ VALUES (
         "Hương thơm mạnh mẽ và tinh tế từ Creed.",
         310.00,
         18,
-        "https://example.com/images/creed_pure_malt.jpg",
+        "https://i5.walmartimages.com/asr/eb0da11b-ff63-4871-9811-b97489fa8779_1.f8f154beb34b11d02b8a90d1ec7dfb99.jpeg",
         (
             SELECT id
             FROM Brands
@@ -2948,7 +2948,7 @@ VALUES (
         "Hương thơm nam tính và lịch lãm từ Creed.",
         320.00,
         15,
-        "https://example.com/images/creed_red_vest.jpg",
+        "https://i5.walmartimages.com/asr/43ee51d2-0dce-4171-9ad8-bff642f3f4ae_1.3cbff54d4bb0b9721e4e8bc67be35157.jpeg",
         (
             SELECT id
             FROM Brands
@@ -2975,7 +2975,7 @@ VALUES (
         "Hương thơm tươi mát và thanh lịch từ Armani.",
         120.00,
         80,
-        "https://example.com/images/armani_acqua_di_gio.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dwae66eb7b/images/40347091/large/40347091_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -2990,7 +2990,7 @@ VALUES (
         "Hương thơm nam tính và quyến rũ từ Armani.",
         130.00,
         70,
-        "https://example.com/images/armani_code.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dw99adf11a/images/41804920/large/41804920_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -3005,7 +3005,7 @@ VALUES (
         "Hương thơm nữ tính và hiện đại từ Armani.",
         140.00,
         65,
-        "https://example.com/images/armani_si.jpg",
+        "https://i5.walmartimages.com/asr/8704110e-6dbd-4c90-8b3a-bce3418dde42_1.71eec478316a87260e1e3525e453f55e.jpeg",
         (
             SELECT id
             FROM Brands
@@ -3020,7 +3020,7 @@ VALUES (
         "Hương thơm năng động và trẻ trung từ Armani.",
         115.00,
         75,
-        "https://example.com/images/armani_mania.jpg",
+        "http://passion4luxus.com/WordPress3/wp-content/uploads/2015/09/FullSizeRender-2.jpg",
         (
             SELECT id
             FROM Brands
@@ -3035,7 +3035,7 @@ VALUES (
         "Hương thơm mạnh mẽ và đẳng cấp từ Armani.",
         135.00,
         60,
-        "https://example.com/images/armani_code_black.jpg",
+        "https://a-static.mlcdn.com.br/1500x1500/stronger-with-you-giorgio-armani-eau-de-toilette-perfume-masculino-30ml/belezanaweb/50766/3dfe701dfd8469f398b47a7202bde16e.jpg",
         (
             SELECT id
             FROM Brands
@@ -3050,7 +3050,7 @@ VALUES (
         "Hương thơm quyến rũ và sâu lắng từ Armani.",
         150.00,
         50,
-        "https://example.com/images/armani_code_profumo.jpg",
+        "https://essenzawelt.com/wp-content/uploads/2020/11/Armani-Si-EDP-W-100ml-1_1200x1200-1.jpg",
         (
             SELECT id
             FROM Brands
@@ -3065,7 +3065,7 @@ VALUES (
         "Hương thơm hoa nhài độc đáo từ Armani Privé.",
         300.00,
         20,
-        "https://example.com/images/armani_prive_jasmine_exclusif.jpg",
+        "https://fimgs.net/mdimg/secundar/o.59127.jpg",
         (
             SELECT id
             FROM Brands
@@ -3080,7 +3080,7 @@ VALUES (
         "Hương thơm hoa hồng phương Đông từ Armani Privé.",
         310.00,
         18,
-        "https://example.com/images/armani_prive_rose_darabie.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dw26a148a0/images/30445158/large/30445158_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -3095,7 +3095,7 @@ VALUES (
         "Hương thơm Oud sang trọng từ Armani Privé.",
         320.00,
         15,
-        "https://example.com/images/armani_prive_oud_royal.jpg",
+        "https://brandedfragrance.com/wp-content/uploads/2021/06/Armani-Acqua-Di-Gio-Profumo-EDP-Men-75ml-1.jpg",
         (
             SELECT id
             FROM Brands
@@ -3110,7 +3110,7 @@ VALUES (
         "Hương thơm chanh tươi mát từ Armani Privé.",
         290.00,
         22,
-        "https://example.com/images/armani_prive_mandarine_di_amalfi.jpg",
+        "https://static.zattini.com.br/produtos/giorgio-armani-perfume-feminino-acqua-di-gioia-edp-100ml/60/L92-0021-460/L92-0021-460_zoom1.jpg?",
         (
             SELECT id
             FROM Brands
@@ -3137,12 +3137,12 @@ VALUES (
         "Hương thơm sang trọng và quý phái, lấy cảm hứng từ ngọc lục bảo hoàng gia.",
         911.05,
         10,
-        "https://example.com/images/imperial_emerald.jpg",
+        "https://theperfumeland.ir/wp-content/uploads/2021/08/TMOV-Venetian-Blue-Intense-Eau-De-Parfum-Concentree-400x400.jpeg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "The Merchant of Venice"
+                name = "TMOV"
             LIMIT 1
         ),
         2
@@ -3152,12 +3152,12 @@ VALUES (
         "Hương thơm quyến rũ và nữ tính, tôn vinh vẻ đẹp của hoa hồng Moceniga.",
         931.00,
         15,
-        "https://example.com/images/rosa_moceniga.jpg",
+        "https://www.veluto.es/wp-content/uploads/2020/09/Tmov-3-Venetiae-blue-1024x1024.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "The Merchant of Venice"
+                name = "TMOV"
             LIMIT 1
         ),
         3
@@ -3167,12 +3167,12 @@ VALUES (
         "Hương thơm tươi mát và thanh lịch, lấy cảm hứng từ trà xanh hoa đậu biếc.",
         596.45,
         20,
-        "https://example.com/images/blue_tea.jpg",
+        "https://limitedgallery.ae/wp-content/uploads/2022/06/TMOV-Sultan-Leather-EDP-100ML.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "The Merchant of Venice"
+                name = "TMOV"
             LIMIT 1
         ),
         1
@@ -3182,12 +3182,12 @@ VALUES (
         "Hương thơm tinh tế và sang trọng, biểu tượng của sự nữ tính.",
         716.19,
         12,
-        "https://example.com/images/my_pearls.jpg",
+        "https://cdn2.maisonniche.cl/6201-large_default/decants-tmov-ottoman-amber-edp-5ml.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "The Merchant of Venice"
+                name = "TMOV"
             LIMIT 1
         ),
         1
@@ -3197,12 +3197,12 @@ VALUES (
         "Hương thơm nam tính và cuốn hút, gợi nhớ đến sự huyền bí của Venice.",
         472.80,
         18,
-        "https://example.com/images/venetian_blue.jpg",
+        "https://i0.wp.com/limitedgallery.ae/wp-content/uploads/2022/06/TMOV-VENEZIA-ESSENZA-POUR-FEMME-EDP-100ML-1.jpg?fit=375%2C500&ssl=1",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "The Merchant of Venice"
+                name = "TMOV"
             LIMIT 1
         ),
         3
@@ -3212,12 +3212,12 @@ VALUES (
         "Hương thơm ấm áp và gợi cảm, lấy cảm hứng từ linh hồn Andalusia.",
         488.69,
         14,
-        "https://example.com/images/andalusian_soul.jpg",
+        "https://i0.wp.com/limitedgallery.ae/wp-content/uploads/2022/06/TMOV-LIBERTY-EDP-100ML.jpg?fit=375%2C500&ssl=1",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "The Merchant of Venice"
+                name = "TMOV"
             LIMIT 1
         ),
         2
@@ -3227,12 +3227,12 @@ VALUES (
         "Hương thơm độc đáo và nổi bật, kết hợp giữa nghệ tây và hoa nhài.",
         478.39,
         16,
-        "https://example.com/images/byzantium_saffron.jpg",
+        "https://theperfumeland.ir/wp-content/uploads/2021/08/TMOV-Perfumer-Kit-Woody-Fougere-Edt.jpeg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "The Merchant of Venice"
+                name = "TMOV"
             LIMIT 1
         ),
         1
@@ -3242,12 +3242,12 @@ VALUES (
         "Hương thơm thanh khiết và tinh tế, lấy cảm hứng từ trà Gyokuro Nhật Bản.",
         607.35,
         20,
-        "https://example.com/images/gyokuro.jpg",
+        "https://limitedgallery.ae/wp-content/uploads/2022/06/TMOV-Exclusive-Flamant-Rose-EDP-100ML.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "The Merchant of Venice"
+                name = "TMOV"
             LIMIT 1
         ),
         1
@@ -3257,12 +3257,12 @@ VALUES (
         "Hương thơm nhẹ nhàng và quyến rũ, tôn vinh vẻ đẹp của hoa hồng.",
         597.05,
         22,
-        "https://example.com/images/flamant_rose.jpg",
+        "https://rimage.ripley.cl/home.ripley/Attachment/MKP/4599/MPM10001536451/full_image-1.jpeg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "The Merchant of Venice"
+                name = "TMOV"
             LIMIT 1
         ),
         2
@@ -3272,12 +3272,12 @@ VALUES (
         "Hương thơm tươi mới và nữ tính, kết hợp giữa hoa mẫu đơn và hoa hồng.",
         457.89,
         18,
-        "https://example.com/images/suave_petals.jpg",
+        "https://limitedgallery.ae/wp-content/uploads/2023/12/Tmov-Exclusive-Queen-Of-The-Night.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "The Merchant of Venice"
+                name = "TMOV"
             LIMIT 1
         ),
         3
@@ -3299,7 +3299,7 @@ VALUES (
         "Hương thơm tươi mát và quyến rũ, lấy cảm hứng từ thần thoại Hy Lạp.",
         547.30,
         15,
-        "https://example.com/images/argos_adonis_awakens.jpg",
+        "https://argosfragrances.co.uk/wp-content/uploads/2019/09/TOB_PHOTOSHOOT__900x900-800x800.jpg",
         (
             SELECT id
             FROM Brands
@@ -3314,7 +3314,7 @@ VALUES (
         "Hương thơm mạnh mẽ và lôi cuốn, biểu tượng của tình yêu vĩnh cửu.",
         418.50,
         20,
-        "https://example.com/images/argos_bacio_immortale.jpg",
+        "https://cdn.shopify.com/s/files/1/0512/8231/3404/products/AdonisAwakens100ml_Frontview_3500X3500_728b1685-abc4-4cb0-be7f-17346efc1d86.jpg?v=1661526856",
         (
             SELECT id
             FROM Brands
@@ -3329,7 +3329,7 @@ VALUES (
         "Hương thơm nữ tính và thanh lịch, tôn vinh vẻ đẹp của nữ thần Venus.",
         736.59,
         10,
-        "https://example.com/images/argos_birth_of_venus.jpg",
+        "https://argosfragrances.co.uk/wp-content/uploads/2019/09/Triumph-Of-Bacchus-Argos-Fragrances-800x801.jpeg",
         (
             SELECT id
             FROM Brands
@@ -3344,7 +3344,7 @@ VALUES (
         "Hương thơm nam tính và bí ẩn, gợi nhớ đến những cuộc săn lùng cổ xưa.",
         509.69,
         12,
-        "https://example.com/images/argos_brivido_della_caccia.jpg",
+        "https://argosfragrances.co.uk/wp-content/uploads/2022/02/Argos-New-Perfume-Pallas-Athene-Front-View-Shot-UK-website-768x1152.jpg",
         (
             SELECT id
             FROM Brands
@@ -3359,7 +3359,7 @@ VALUES (
         "Hương thơm sang trọng và quý phái, lấy cảm hứng từ câu chuyện thần thoại về Danae.",
         490.25,
         8,
-        "https://example.com/images/argos_danae.jpg",
+        "https://argosfragrances.co.uk/wp-content/uploads/2021/11/UK-Variant-Argos-New-DANAE-Left-Facing-Crystal-Bottle-With-Updated-Color-Correction-2048x2048.jpg",
         (
             SELECT id
             FROM Brands
@@ -3374,7 +3374,7 @@ VALUES (
         "Hương thơm unisex, kết hợp giữa sự mạnh mẽ và tinh tế, đại diện cho nữ thần trí tuệ Athene.",
         984.59,
         18,
-        "https://example.com/images/argos_pallas_athene.jpg",
+        "https://argosfragrances.co.uk/wp-content/uploads/2021/11/UK-Argos-New-DANAE-Front-Facing-Crystal-Bottle-With-Updated-Color-Correction-2048x2048.jpg",
         (
             SELECT id
             FROM Brands
@@ -3389,7 +3389,7 @@ VALUES (
         "Hương thơm dành riêng cho phái đẹp, thể hiện sự tự tin và quyến rũ.",
         581.80,
         25,
-        "https://example.com/images/argos_pour_femme.jpg",
+        "https://argosfragrances.co.uk/wp-content/uploads/2019/09/argos-bacio-immortale-Front-Facing-Left.jpg",
         (
             SELECT id
             FROM Brands
@@ -3404,7 +3404,7 @@ VALUES (
         "Hương thơm dành cho nam giới, mang đến sự lịch lãm và mạnh mẽ.",
         775.99,
         30,
-        "https://example.com/images/argos_pour_homme.jpg",
+        "https://cdn.shopify.com/s/files/1/0512/8231/3404/products/TriumphofBacchus100ml_063_LeftSideview_Crystal_3500x3500_82eeda34-0d92-4273-a97f-86ae93aeb727_900x.jpg?v=1631895219",
         (
             SELECT id
             FROM Brands
@@ -3419,7 +3419,7 @@ VALUES (
         "Hương thơm nồng nàn và say đắm, lấy cảm hứng từ thần Bacchus.",
         821.65,
         22,
-        "https://example.com/images/argos_triumph_of_bacchus.jpg",
+        "https://pimages.parfumo.de/720/134716_img-3643-argos-triumph-of-bacchus-eau-de-parfum_720.jpg",
         (
             SELECT id
             FROM Brands
@@ -3434,7 +3434,7 @@ VALUES (
         "Hương thơm mạnh mẽ và dũng mãnh, gợi nhớ đến sư tử Nemean trong thần thoại.",
         934.99,
         5,
-        "https://example.com/images/argos_nemean_lion.jpg",
+        "https://fimgs.net/photogram/p1200/kd/y5/lRATTuPVEfDOYoub.jpg",
         (
             SELECT id
             FROM Brands
@@ -3461,7 +3461,7 @@ VALUES (
         "Hương thơm xa xỉ và quý phái từ Van Cleef & Arpels.",
         400.00,
         10,
-        "https://example.com/images/van_cleef_extraordinaire.jpg",
+        "https://fimgs.net/images/secundar/o.40466.jpg",
         (
             SELECT id
             FROM Brands
@@ -3476,7 +3476,7 @@ VALUES (
         "Hương thơm hoa nhài quyến rũ từ Van Cleef & Arpels.",
         350.00,
         15,
-        "https://example.com/images/van_cleef_feerie.jpg",
+        "http://fperfumesandfragrance.com/wp-content/uploads/2017/09/mid.jpg",
         (
             SELECT id
             FROM Brands
@@ -3491,7 +3491,7 @@ VALUES (
         "Hương thơm cherry ngọt ngào từ Van Cleef & Arpels.",
         360.00,
         12,
-        "https://example.com/images/van_cleef_cherry_in_the_air.jpg",
+        "https://www.webscents.com.au/bundles/webscents/images/products/422665.jpg",
         (
             SELECT id
             FROM Brands
@@ -3506,7 +3506,7 @@ VALUES (
         "Hương thơm hoa iris thanh lịch từ Van Cleef & Arpels.",
         340.00,
         18,
-        "https://example.com/images/van_cleef_iris.jpg",
+        "https://fimgs.net/images/secundar/o.3899.jpg",
         (
             SELECT id
             FROM Brands
@@ -3521,7 +3521,7 @@ VALUES (
         "Hương thơm Ambre đậm đà từ Van Cleef & Arpels.",
         380.00,
         8,
-        "https://example.com/images/van_cleef_ambre_imperial.jpg",
+        "https://images.neimanmarcus.com/ca/3/products/mz/NMC0AUS_mz.jpg",
         (
             SELECT id
             FROM Brands
@@ -3536,7 +3536,7 @@ VALUES (
         "Hương thơm đỏ rực rỡ từ Van Cleef & Arpels.",
         400.00,
         10,
-        "https://example.com/images/van_cleef_feverie_rouge.jpg",
+        "https://fimgs.net/images/perfume/social.1102.jpg",
         (
             SELECT id
             FROM Brands
@@ -3551,7 +3551,7 @@ VALUES (
         "Hương thơm hoa sáng sớm từ Van Cleef & Arpels.",
         390.00,
         14,
-        "https://example.com/images/van_cleef_fleurs_de_matin.jpg",
+        "http://3.static.fragrancenet.com/images/photos/900x900/249507.jpg",
         (
             SELECT id
             FROM Brands
@@ -3566,7 +3566,7 @@ VALUES (
         "Hương thơm quyến rũ của Paris từ Van Cleef & Arpels.",
         370.00,
         16,
-        "https://example.com/images/van_cleef_midnight_in_paris.jpg",
+        "http://www.webscents.com.au/bundles/webscents/images/products/413376.jpg",
         (
             SELECT id
             FROM Brands
@@ -3581,7 +3581,7 @@ VALUES (
         "Hương thơm tươi mát của buổi sáng từ Van Cleef & Arpels.",
         360.00,
         20,
-        "https://example.com/images/van_cleef_fraicheur_du_matin.jpg",
+        "https://fimgs.net/images/secundar/o.32510.jpg",
         (
             SELECT id
             FROM Brands
@@ -3596,7 +3596,7 @@ VALUES (
         "Hương thơm nhẹ nhàng và tinh tế từ Van Cleef & Arpels.",
         350.00,
         18,
-        "https://example.com/images/van_cleef_perle.jpg",
+        "https://media.s-bol.com/RLk8yk3pD0E0/844x1200.jpg",
         (
             SELECT id
             FROM Brands
@@ -3623,7 +3623,7 @@ VALUES (
         "Hương thơm tươi mát và sang trọng, kết hợp giữa cam bergamot, dứa và rêu sồi.",
         460.00,
         20,
-        "https://example.com/images/nishane_hacivat.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dwfded00ee/images/41649821/large/41649821_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -3638,7 +3638,7 @@ VALUES (
         "Hương vani ấm áp kết hợp với gừng và cam bergamot, tạo nên sự quyến rũ và bí ẩn.",
         440.00,
         15,
-        "https://example.com/images/nishane_ani.jpg",
+        "http://fimgs.net/images/perfume/o.37602.jpg",
         (
             SELECT id
             FROM Brands
@@ -3653,7 +3653,7 @@ VALUES (
         "Hương hoa cỏ phương Đông với hoa nhài, hoa huệ và vani, mang đến sự thanh lịch và gợi cảm.",
         430.00,
         18,
-        "https://example.com/images/nishane_hundred_silent_ways.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dw55878b07/images/41649820/large/41649820_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -3668,7 +3668,7 @@ VALUES (
         "Hương trà ô long tươi mát kết hợp với cam bergamot và quả vả, tạo cảm giác thư giãn và sảng khoái.",
         420.00,
         12,
-        "https://example.com/images/nishane_wulong_cha.jpg",
+        "https://image.harrods.com/nishane-fan-your-flames-perfume-extract-50ml_15484719_27855673_1000.jpg",
         (
             SELECT id
             FROM Brands
@@ -3683,7 +3683,7 @@ VALUES (
         "Hương thuốc lá và dừa độc đáo, kết hợp với rượu rum và đậu tonka, mang đến sự ấm áp và lôi cuốn.",
         450.00,
         10,
-        "https://example.com/images/nishane_fan_your_flames.jpg",
+        "https://image.harrods.com/nishane-shem-extrait-de-parfum-50ml_17430758_36548140_2048.jpg",
         (
             SELECT id
             FROM Brands
@@ -3698,7 +3698,7 @@ VALUES (
         "Hương cỏ hương bài mạnh mẽ kết hợp với hoắc hương và hổ phách, tạo nên sự nam tính và bí ẩn.",
         440.00,
         14,
-        "https://example.com/images/nishane_sultan_vetiver.jpg",
+        "https://img.fragrancex.com/images/products/sku/large/nisnwq.jpg",
         (
             SELECT id
             FROM Brands
@@ -3713,7 +3713,7 @@ VALUES (
         "Hương hoa huệ trắng kết hợp với hoa nhài và hoa cam, mang đến sự nữ tính và quyến rũ.",
         430.00,
         16,
-        "https://example.com/images/nishane_tuberoza.jpg",
+        "https://image.harrods.com/nishane-hundred-silent-ways-extrait-de-parfum-50ml_15483481_30139312_2048.jpg",
         (
             SELECT id
             FROM Brands
@@ -3728,7 +3728,7 @@ VALUES (
         "Hương hoa hồng và quả mọng đỏ, kết hợp với gỗ đàn hương và vani, tạo nên sự ngọt ngào và lãng mạn.",
         435.00,
         13,
-        "https://example.com/images/nishane_vain_naive.jpg",
+        "https://fimgs.net/images/secundar/o.38931.jpg",
         (
             SELECT id
             FROM Brands
@@ -3743,7 +3743,7 @@ VALUES (
         "Hương gỗ và xạ hương kết hợp với hoa oải hương và cỏ hương bài, mang đến sự thanh lịch và sâu lắng.",
         445.00,
         11,
-        "https://example.com/images/nishane_b_612.jpg",
+        "https://image.harrods.com/nishane-ani-perfume-extract-100ml_16041057_29854039_2048.jpg",
         (
             SELECT id
             FROM Brands
@@ -3758,7 +3758,7 @@ VALUES (
         "Hương hoa nghệ tây, mật ong và rượu whisky, kết hợp với gỗ đàn hương và hổ phách, tạo nên sự sang trọng và quý phái.",
         500.00,
         8,
-        "https://example.com/images/nishane_nefs.jpg",
+        "https://jptluxury.cl/wp-content/uploads/2021/06/01NSH100SILWAYEPUUN50.jpg",
         (
             SELECT id
             FROM Brands
@@ -3785,7 +3785,7 @@ VALUES (
         "Hương thơm ngọt ngào và quyến rũ lấy cảm hứng từ loài ong.",
         210.00,
         15,
-        "https://example.com/images/zoologist_bee.jpg",
+        "https://frgs.me/cdn-cgi/image/width=1200,quality=75/photogram/ou/vk/LanfqcGj1khoy0c8.jpg",
         (
             SELECT id
             FROM Brands
@@ -3800,7 +3800,7 @@ VALUES (
         "Hương thơm bí ẩn và độc đáo, gợi nhớ đến hang động của loài dơi.",
         200.00,
         20,
-        "https://example.com/images/zoologist_bat.jpg",
+        "https://cdn.shopify.com/s/files/1/0396/9165/articles/Zoologist-Perfumes-Group_2048x.jpg?v=1480708052",
         (
             SELECT id
             FROM Brands
@@ -3815,7 +3815,7 @@ VALUES (
         "Hương thơm ấm áp và mạnh mẽ, lấy cảm hứng từ loài voi.",
         195.00,
         18,
-        "https://example.com/images/zoologist_elephant.jpg",
+        "https://fimgs.net/images/secundar/o.56733.jpg",
         (
             SELECT id
             FROM Brands
@@ -3830,7 +3830,7 @@ VALUES (
         "Hương thơm tươi mát và thanh khiết, gợi nhớ đến môi trường sống của gấu trúc.",
         190.00,
         25,
-        "https://example.com/images/zoologist_panda.jpg",
+        "https://www.beauty-concept-shop.de/media/d0/fa/fc/1626788181/zoologist_beaver-bottle-front-white-bg_1_161b27.jpg",
         (
             SELECT id
             FROM Brands
@@ -3845,7 +3845,7 @@ VALUES (
         "Hương thơm phương Đông ấm áp và bí ẩn, lấy cảm hứng từ loài lạc đà.",
         205.00,
         12,
-        "https://example.com/images/zoologist_camel.jpg",
+        "https://www.beauty-concept-shop.de/media/f7/6e/55/1625635740/zoologist-squid71655.jpg",
         (
             SELECT id
             FROM Brands
@@ -3860,7 +3860,7 @@ VALUES (
         "Hương thơm nhẹ nhàng và thanh lịch, gợi nhớ đến cánh chuồn chuồn.",
         185.00,
         22,
-        "https://example.com/images/zoologist_dragonfly.jpg",
+        "https://piimages.parfumo.de/1/7/106933_be4608c442785ae23db50fc850396b54_moth.jpg",
         (
             SELECT id
             FROM Brands
@@ -3875,7 +3875,7 @@ VALUES (
         "Hương thơm sâu lắng và huyền bí, lấy cảm hứng từ loài bướm đêm.",
         200.00,
         16,
-        "https://example.com/images/zoologist_moth.jpg",
+        "https://pimages.parfumo.de/720/238643_img-4028-zoologist-penguin_720.jpg",
         (
             SELECT id
             FROM Brands
@@ -3890,7 +3890,7 @@ VALUES (
         "Hương thơm dịu dàng và tinh tế, gợi nhớ đến tiếng hót của chim sơn ca.",
         195.00,
         20,
-        "https://example.com/images/zoologist_nightingale.jpg",
+        "https://cdn.shopify.com/s/files/1/0396/9165/files/feature-promo-bottles-2021_1600x.jpg?v=1622945411",
         (
             SELECT id
             FROM Brands
@@ -3905,7 +3905,7 @@ VALUES (
         "Hương thơm độc đáo và huyền bí, lấy cảm hứng từ loài mực.",
         210.00,
         14,
-        "https://example.com/images/zoologist_squid.jpg",
+        "https://dw5gv07eh08co.cloudfront.net/media/perfumes/zoologist-moth-packaging.jpg",
         (
             SELECT id
             FROM Brands
@@ -3920,7 +3920,7 @@ VALUES (
         "Hương thơm mạnh mẽ và uy lực, gợi nhớ đến khủng long bạo chúa.",
         220.00,
         10,
-        "https://example.com/images/zoologist_trex.jpg",
+        "https://piimages.parfumo.de/5/1/134270_e939306b954ddccdc3109e6c17202024_bee.jpg",
         (
             SELECT id
             FROM Brands
@@ -3947,12 +3947,12 @@ VALUES (
         "Hương cam Bergamot tươi mát từ Ermenegildo Zegna.",
         804.25,
         20,
-        "https://vuahanghieu.com/nuoc-hoa-nam-ermenegildo-zegna-italian-bergamot-edt-100ml-ph026212",
+        "https://cdn.shopify.com/s/files/1/0121/8104/5306/products/ZZE141M-P.jpg?v=1576537779",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "Ermenegildo Zegna"
+                name = "Zegna"
             LIMIT 1
         ),
         3
@@ -3962,12 +3962,12 @@ VALUES (
         "Hương hoắc hương Java mạnh mẽ và nam tính.",
         889.29,
         15,
-        "https://kenperfume.com/san-pham/nuoc-hoa-nam-ermenegildo-zegna-essenze-javanese-patchouli-edp/",
+        "https://www.perfumeemporium.com/BigPics_m/Zegna_Z.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "Ermenegildo Zegna"
+                name = "Zegna"
             LIMIT 1
         ),
         1
@@ -3977,12 +3977,12 @@ VALUES (
         "Hương hoa diên vĩ Florence thanh lịch và tinh tế.",
         486.59,
         10,
-        "https://kenperfume.com/san-pham/nuoc-hoa-nam-ermenegildo-zegna-essenze-florentine-iris-edp/",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dwc2e60763/images/39972120/large/39972120_x1.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "Ermenegildo Zegna"
+                name = "Zegna"
             LIMIT 1
         ),
         3
@@ -3992,12 +3992,12 @@ VALUES (
         "Hương trầm hương Indonesia quý phái và bí ẩn.",
         521.25,
         8,
-        "https://kenperfume.com/san-pham/nuoc-hoa-nam-ermenegildo-zegna-indonesian-oud/",
+        "https://cdn.shopify.com/s/files/1/2170/5343/products/138704_spo_2048x2048.jpg?v=1571609950",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "Ermenegildo Zegna"
+                name = "Zegna"
             LIMIT 1
         ),
         2
@@ -4007,12 +4007,12 @@ VALUES (
         "Hương thơm đậm đà và cuốn hút cho nam giới.",
         0,
         25,
-        "https://luxuby.com/nuoc-hoa/zegna-intenso-cologne",
+        "https://resources.claroshop.com/medios-plazavip/s2/11733/1440632/5ede840657e48-perfume-z-zegna-para-hombre-de-ermenegildo-zegna-eau-de-toilette-100ml-1600x1600.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "Ermenegildo Zegna"
+                name = "Zegna"
             LIMIT 1
         ),
         2
@@ -4022,12 +4022,12 @@ VALUES (
         "Hương thơm nam tính và hiện đại.",
         0,
         30,
-        "https://nuochoa.vn/ermenegildo-zegna",
+        "https://cdn.shopify.com/s/files/1/0259/7733/products/zegna-classico_1024x1024.png?v=1658962719",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "Ermenegildo Zegna"
+                name = "Zegna"
             LIMIT 1
         ),
         3
@@ -4037,12 +4037,12 @@ VALUES (
         "Hương thơm mạnh mẽ và quyến rũ.",
         0,
         20,
-        "https://nuochoa.vn/ermenegildo-zegna",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dw75d1bdf4/images/39972121/large/39972121_x1.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "Ermenegildo Zegna"
+                name = "Zegna"
             LIMIT 1
         ),
         3
@@ -4052,12 +4052,12 @@ VALUES (
         "Hương cổ điển và thanh lịch.",
         0,
         15,
-        "https://nuochoa.vn/ermenegildo-zegna",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dwed377c6f/images/19035986/large/19035986_x1.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "Ermenegildo Zegna"
+                name = "Zegna"
             LIMIT 1
         ),
         3
@@ -4067,12 +4067,12 @@ VALUES (
         "Hương thơm trẻ trung và năng động.",
         0,
         18,
-        "https://nuochoa.vn/ermenegildo-zegna",
+        "https://cdn10.bigcommerce.com/s-hefebieu/products/12041/images/20424/8204_1__81278.1549565801.1280.1280.jpg?c=2",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "Ermenegildo Zegna"
+                name = "Zegna"
             LIMIT 1
         ),
         2
@@ -4082,12 +4082,12 @@ VALUES (
         "Hương quýt Sicily tươi mát và sảng khoái.",
         0,
         12,
-        "https://nuochoa.vn/ermenegildo-zegna",
+        "https://fimgs.net/mdimg/secundar/o.38580.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "Ermenegildo Zegna"
+                name = "Zegna"
             LIMIT 1
         ),
         3
@@ -4109,7 +4109,7 @@ VALUES (
         "Hương thơm bí ẩn và mạnh mẽ từ Nasomatto.",
         565.20,
         15,
-        "https://example.com/images/nasomatto_black_afgano.jpg",
+        "https://arianoboutique.com/104807/nasomatto-sadonaso-the-phallic-edition-limited.jpg",
         (
             SELECT id
             FROM Brands
@@ -4124,7 +4124,7 @@ VALUES (
         "Hương thơm sang trọng và lịch lãm từ Nasomatto.",
         391.20,
         10,
-        "https://example.com/images/nasomatto_pardon.jpg",
+        "https://nichebrand.com/uploads/cache/post_widen_lg/uploads/images/5c50617da2a29583579600.png",
         (
             SELECT id
             FROM Brands
@@ -4139,7 +4139,7 @@ VALUES (
         "Hương gỗ mạnh mẽ và nam tính từ Nasomatto.",
         938.20,
         12,
-        "https://example.com/images/nasomatto_duro.jpg",
+        "https://i.notino.com/view/nasomatto/nstblau_aexp30_05__9.jpg",
         (
             SELECT id
             FROM Brands
@@ -4154,7 +4154,7 @@ VALUES (
         "Hương thơm ấm áp và quyến rũ từ Nasomatto.",
         453.45,
         8,
-        "https://example.com/images/nasomatto_baraonda.jpg",
+        "https://cdn.shopify.com/s/files/1/2170/5343/products/Nasomatto-Duro_2048x2048.png?v=1572342308",
         (
             SELECT id
             FROM Brands
@@ -4169,7 +4169,7 @@ VALUES (
         "Hương thơm độc đáo và sáng tạo từ Nasomatto.",
         861.19,
         7,
-        "https://example.com/images/nasomatto_blamage.jpg",
+        "https://fraguru.com/photogram/p1200/tc/jb/452i28vT72QZfWa4.jpg",
         (
             SELECT id
             FROM Brands
@@ -4184,7 +4184,7 @@ VALUES (
         "Hương xạ hương tinh khiết và nhẹ nhàng từ Nasomatto.",
         757.89,
         9,
-        "https://example.com/images/nasomatto_silver_musk.jpg",
+        "https://fimgs.net/mdimg/secundar/o.74588.jpg",
         (
             SELECT id
             FROM Brands
@@ -4199,7 +4199,7 @@ VALUES (
         "Hương hoa trắng nồng nàn và quyến rũ từ Nasomatto.",
         516.79,
         11,
-        "https://example.com/images/nasomatto_narcotic_v.jpg",
+        "https://www.elpalaciodehierro.com/dw/image/v2/BDKB_PRD/on/demandware.static/-/Sites-palacio-master-catalog/default/dw6fd7eeb4/images/42010767/large/42010767_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -4214,7 +4214,7 @@ VALUES (
         "Hương thơm thanh lịch và tinh tế từ Nasomatto.",
         526.15,
         6,
-        "https://example.com/images/nasomatto_china_white.jpg",
+        "http://perfumeonline.ca/cdn/shop/products/Nasomatto-Absinth_grande.png?v=1572342038",
         (
             SELECT id
             FROM Brands
@@ -4229,7 +4229,7 @@ VALUES (
         "Hương thơm tươi mát và bí ẩn từ Nasomatto.",
         273.60,
         5,
-        "https://example.com/images/nasomatto_absinth.jpg",
+        "https://img.fragrancex.com/images/products/sku/large/absnas1oz.jpg",
         (
             SELECT id
             FROM Brands
@@ -4244,7 +4244,7 @@ VALUES (
         "Hương thơm thảo mộc và thanh khiết từ Nasomatto.",
         815.79,
         4,
-        "https://example.com/images/nasomatto_hindu_grass.jpg",
+        "https://fimgs.net/photogram/p1200/8n/3q/04xxGSsEMDjKNwKP.jpg",
         (
             SELECT id
             FROM Brands
@@ -4271,7 +4271,7 @@ VALUES (
         "Hương thơm ấm áp và gợi nhớ lửa trại từ Maison Margiela.",
         278.79,
         20,
-        "https://example.com/images/replica_by_the_fireplace.jpg",
+        "https://dayinmydreams.files.wordpress.com/2021/10/dayinmydreams-luxury-blog-review-maison-margiela-replica-fragrance-03.jpg?w=1024",
         (
             SELECT id
             FROM Brands
@@ -4286,7 +4286,7 @@ VALUES (
         "Hương thơm nam tính và cổ điển từ Maison Margiela.",
         446.09,
         18,
-        "https://example.com/images/replica_jazz_club.jpg",
+        "https://dimg.dillards.com/is/image/DillardsZoom/zoom/maison-margiela-replica-by-the-fireplace-eau-de-toilette/20241208_zi.jpg",
         (
             SELECT id
             FROM Brands
@@ -4301,7 +4301,7 @@ VALUES (
         "Hương thơm tươi mát và nhẹ nhàng từ Maison Margiela.",
         795.89,
         22,
-        "https://example.com/images/replica_beach_walk.jpg",
+        "https://editorialist.com/wp-content/uploads/2021/01/Maison-Margiela-Replica_0006_7a-REPLICA-Sailing-Day.jpg",
         (
             SELECT id
             FROM Brands
@@ -4316,7 +4316,7 @@ VALUES (
         "Hương thơm thư giãn và thoải mái từ Maison Margiela.",
         353.25,
         15,
-        "https://example.com/images/replica_lazy_sunday_morning.jpg",
+        "https://image-optimizer-reg.production.sephora-asia.net/images/product_images/zoom_2_Product_3605521651587-MAISON-MARGIELA-REPLICA-Beach-Walk-Eau-de-Toilette-_2b8c7f5836015a7f293273f6e0793110ea29d4a1_1623347525.png",
         (
             SELECT id
             FROM Brands
@@ -4331,7 +4331,7 @@ VALUES (
         "Hương thơm biển cả tươi mới từ Maison Margiela.",
         470.10,
         10,
-        "https://example.com/images/replica_sailing_day.jpg",
+        "https://everfumed.com/wp-content/uploads/2021/03/Replica-perfume.jpg.webp",
         (
             SELECT id
             FROM Brands
@@ -4346,7 +4346,7 @@ VALUES (
         "Hương thơm hoa cỏ tươi tắn từ Maison Margiela.",
         427.45,
         12,
-        "https://example.com/images/replica_flower_market.jpg",
+        "https://product.hstatic.net/1000340570/product/maison-margiela-replica-by-the-fireplace-100ml_e245605848684212ab58278445ea573b_master.jpg",
         (
             SELECT id
             FROM Brands
@@ -4361,7 +4361,7 @@ VALUES (
         "Hương thơm cổ điển và nam tính từ Maison Margiela.",
         625.19,
         14,
-        "https://example.com/images/replica_at_the_barbers.jpg",
+        "https://editorialist.com/wp-content/uploads/2021/01/Maison-Margeila-Replica_Hero-scaled.jpg",
         (
             SELECT id
             FROM Brands
@@ -4376,7 +4376,7 @@ VALUES (
         "Hương thơm ấm áp và thư giãn từ Maison Margiela.",
         875.50,
         9,
-        "https://example.com/images/replica_coffee_break.jpg",
+        "https://cdn.cliqueinc.com/posts/292733/best-maison-margiela-replica-perfumes-292733-1618597659330-main.1200x0c.jpg?interlace=true&quality=70",
         (
             SELECT id
             FROM Brands
@@ -4391,7 +4391,7 @@ VALUES (
         "Hương thơm tươi mát và sảng khoái từ Maison Margiela.",
         784.70,
         8,
-        "https://example.com/images/replica_under_the_lemon_trees.jpg",
+        "https://i.pinimg.com/originals/02/e7/e2/02e7e20d6cddba94c50de9fa1f0db0bc.jpg",
         (
             SELECT id
             FROM Brands
@@ -4406,7 +4406,7 @@ VALUES (
         "Hương thơm hoa cỏ mùa xuân từ Maison Margiela.",
         839.90,
         7,
-        "https://example.com/images/replica_springtime_in_a_park.jpg",
+        "https://cdn-prod.scalefast.com/public/assets/user/7990419/image/12e22669817079de54e6ffef0219bee8.jpg",
         (
             SELECT id
             FROM Brands
@@ -4433,7 +4433,7 @@ VALUES (
         "Hương thơm cay nồng phương Đông từ Serge Lutens.",
         330.00,
         15,
-        "https://example.com/images/serge_lutens_chergui.jpg",
+        "http://4.static.fragrancenet.com/images/photos/900x900/192042.jpg",
         (
             SELECT id
             FROM Brands
@@ -4448,7 +4448,7 @@ VALUES (
         "Hương hoa hồng quyến rũ từ Serge Lutens.",
         300.00,
         20,
-        "https://example.com/images/serge_lutens_la_fille_de_berlin.jpg",
+        "https://i.notino.com/view/serge-lutens/sersmjw_aedp20_02__16.jpg",
         (
             SELECT id
             FROM Brands
@@ -4463,7 +4463,7 @@ VALUES (
         "Hương gỗ thông và nhựa cây từ Serge Lutens.",
         310.00,
         10,
-        "https://example.com/images/serge_lutens_fille_en_aiguilles.jpg",
+        "https://img.perfume.com/images/products/parent/medium/70133w.jpg",
         (
             SELECT id
             FROM Brands
@@ -4478,7 +4478,7 @@ VALUES (
         "Hương vani ấm áp và gỗ đàn hương từ Serge Lutens.",
         320.00,
         12,
-        "https://example.com/images/serge_lutens_un_bois_vanille.jpg",
+        "https://cdn.shopify.com/s/files/1/0631/1614/8926/products/Collectionnoire2020-L_orphelinevisual1_E-retail_RGBWEB_2000px_300dpi.jpg?height=1512&v=1666808210&width=1512",
         (
             SELECT id
             FROM Brands
@@ -4493,7 +4493,7 @@ VALUES (
         "Hương hổ phách và gia vị phương Đông từ Serge Lutens.",
         340.00,
         8,
-        "https://example.com/images/serge_lutens_ambre_sultan.jpg",
+        "http://1.static.fragrancenet.com/images/photos/900x900/192050.jpg",
         (
             SELECT id
             FROM Brands
@@ -4508,7 +4508,7 @@ VALUES (
         "Hương gỗ đàn hương và cacao từ Serge Lutens.",
         330.00,
         14,
-        "https://example.com/images/serge_lutens_santal_majuscule.jpg",
+        "https://i.etsystatic.com/26308838/r/il/5bc46f/2782383128/il_1588xN.2782383128_53gb.jpg",
         (
             SELECT id
             FROM Brands
@@ -4523,7 +4523,7 @@ VALUES (
         "Hương trà và gừng từ Serge Lutens.",
         310.00,
         16,
-        "https://example.com/images/serge_lutens_five_oclock_au_gingembre.jpg",
+        "https://perfume-bd.com/wp-content/uploads/2019/05/serge-lutens-amber-sultan-edp-50ml-1.jpg",
         (
             SELECT id
             FROM Brands
@@ -4538,7 +4538,7 @@ VALUES (
         "Hương hoa nhài và trái cây từ Serge Lutens.",
         300.00,
         18,
-        "https://example.com/images/serge_lutens_nuit_de_cellophane.jpg",
+        "https://cdn.cliqueinc.com/posts/302845/best-serge-lutens-perfumes-302845-1664961977776-main.700x0c.jpg",
         (
             SELECT id
             FROM Brands
@@ -4553,7 +4553,7 @@ VALUES (
         "Hương xạ hương nhẹ nhàng từ Serge Lutens.",
         320.00,
         11,
-        "https://example.com/images/serge_lutens_clair_de_musc.jpg",
+        "https://cdn.shopify.com/s/files/1/0631/1614/8926/products/SL_Bellbottles_2_2000x2000px_RGBWeb_72dpi_1.jpg?height=1944&v=1666807950&width=1944",
         (
             SELECT id
             FROM Brands
@@ -4568,7 +4568,7 @@ VALUES (
         "Hương gừng và kẹo gừng từ Serge Lutens.",
         330.00,
         9,
-        "https://example.com/images/serge_lutens_bapteme_du_feu.jpg",
+        "https://image.harrods.com/serge-lutens-sa-majeste-la-rose-eau-de-parfum-75ml_15616322_28017883_2048.jpg",
         (
             SELECT id
             FROM Brands
@@ -4595,7 +4595,7 @@ VALUES (
         "Hương thơm unisex với sự kết hợp tinh tế giữa các nốt hương.",
         933.35,
         20,
-        "https://example.com/images/tamburins_bilingual.jpg",
+        "https://bizweb.dktcdn.net/thumb/1024x1024/100/357/967/products/340913254-945726906558988-3718052153840563867-n.jpg?v=1681183905960",
         (
             SELECT id
             FROM Brands
@@ -4610,7 +4610,7 @@ VALUES (
         "Hương thơm nhẹ nhàng và thanh lịch, phù hợp cho cả nam và nữ.",
         379.90,
         15,
-        "https://example.com/images/tamburins_suede_pear.jpg",
+        "https://cafe24img.poxo.com/beautyboxkorea/web/upload/NNEditor/20220930/TAMBURINS-Perfume-10ml_02.jpg",
         (
             SELECT id
             FROM Brands
@@ -4625,7 +4625,7 @@ VALUES (
         "Hương thơm tươi mát với sự pha trộn của hoa và gỗ.",
         972.99,
         18,
-        "https://example.com/images/tamburins_lale.jpg",
+        "https://bizweb.dktcdn.net/100/357/967/products/340317710-239711961923713-519487442406833404-n.jpg?v=1681183920430",
         (
             SELECT id
             FROM Brands
@@ -4640,7 +4640,7 @@ VALUES (
         "Hương thơm nữ tính với nốt trà trắng và hoa nhài.",
         409.99,
         12,
-        "https://example.com/images/tamburins_white_darjeeling.jpg",
+        "https://bizweb.dktcdn.net/100/357/967/products/f2b52094-b277-439c-9d84-926f3379fbae.jpg?v=1681183922490",
         (
             SELECT id
             FROM Brands
@@ -4655,7 +4655,7 @@ VALUES (
         "Hương thơm độc đáo kết hợp giữa hoa oải hương và gỗ đàn hương.",
         513.70,
         10,
-        "https://example.com/images/tamburins_french_needle.jpg",
+        "https://piimages.parfumo.de/8/5/237482_9bf6e5484f0832adc0c13c2715fe17f1_holy-metal.jpg",
         (
             SELECT id
             FROM Brands
@@ -4670,7 +4670,7 @@ VALUES (
         "Hương thơm ấm áp và gợi cảm, phù hợp cho buổi tối.",
         991.39,
         14,
-        "https://example.com/images/tamburins_thaw_sunset.jpg",
+        "https://fimgs.net/mdimg/perfume/375x500.78952.jpg",
         (
             SELECT id
             FROM Brands
@@ -4685,7 +4685,7 @@ VALUES (
         "Hương thơm tươi mới với sự kết hợp của cam bergamot và gỗ đàn hương.",
         462.55,
         16,
-        "https://example.com/images/tamburins_berga_sandal.jpg",
+        "https://i.frog.ink/LtSIFEC3/pdpperfumeblingual100ml4v2.jpg?r=rVsz1P1ksdJ5sv3oI5coCakih4uqVabMva",
         (
             SELECT id
             FROM Brands
@@ -4700,7 +4700,7 @@ VALUES (
         "Hương thơm mạnh mẽ với nốt hương trầm và gỗ quý.",
         322.65,
         8,
-        "https://example.com/images/tamburins_unknown_oud.jpg",
+        "http://www.frecklstudio.com/cdn/shop/files/304340388_837565897279592_1678174688221455781_n.jpg?v=1696302833",
         (
             SELECT id
             FROM Brands
@@ -4715,7 +4715,7 @@ VALUES (
         "Hương thơm thảo mộc với hoa cúc và xô thơm.",
         296.45,
         20,
-        "https://example.com/images/tamburins_chamo.jpg",
+        "https://www.musicmundial.com/en/wp-content/uploads/2022/09/Jennie-perfume.jpg",
         (
             SELECT id
             FROM Brands
@@ -4730,7 +4730,7 @@ VALUES (
         "Hương thơm unisex với sự kết hợp của cỏ khô và gỗ.",
         580.95,
         15,
-        "https://example.com/images/tamburins_haystacks.jpg",
+        "https://piimages.parfumo.de/6/8/237482_a066287d8473a0605d62749f0c9667be_holy-metal.jpg",
         (
             SELECT id
             FROM Brands
@@ -4757,7 +4757,7 @@ VALUES (
         "Hương trầm hương sang trọng từ Initio.",
         350.00,
         10,
-        "https://example.com/images/initio_oud_for_greatness.jpg",
+        "https://img.fragrancex.com/images/products/sku/large/IniIJ8.jpg",
         (
             SELECT id
             FROM Brands
@@ -4772,7 +4772,7 @@ VALUES (
         "Hương hoa hồng mạnh mẽ và quyến rũ từ Initio.",
         340.00,
         12,
-        "https://example.com/images/initio_atomic_rose.jpg",
+        "https://www.escentialperfumes.com.au/wp-content/uploads/2022/08/Initio-Absolute-Aphrodisiac-90ml-EDP.png",
         (
             SELECT id
             FROM Brands
@@ -4787,7 +4787,7 @@ VALUES (
         "Hương vani, thuốc lá và rum từ Initio.",
         360.00,
         8,
-        "https://example.com/images/initio_side_effect.jpg",
+        "https://www.beauty-concept-shop.de/thumbnail/4a/b8/23/1625635762/initio-perfumes-oud-for-greatness_1280x1280.jpg",
         (
             SELECT id
             FROM Brands
@@ -4802,7 +4802,7 @@ VALUES (
         "Hương xạ hương trắng thư giãn từ Initio.",
         330.00,
         15,
-        "https://example.com/images/initio_musk_therapy.jpg",
+        "https://images.neimanmarcus.com/ca/2/product_assets/C/4/Y/B/Q/NMC4YBQ_mz.jpg",
         (
             SELECT id
             FROM Brands
@@ -4817,7 +4817,7 @@ VALUES (
         "Hương gỗ và gia vị cân bằng từ Initio.",
         340.00,
         11,
-        "https://example.com/images/initio_rehab.jpg",
+        "https://lacasadelperfume.cl/wp-content/uploads/2022/10/INITIO-OUD-FOR-HAPINESS-2-901x1024.jpg",
         (
             SELECT id
             FROM Brands
@@ -4832,7 +4832,7 @@ VALUES (
         "Hương gỗ và xạ hương ấm áp từ Initio.",
         350.00,
         9,
-        "https://example.com/images/initio_blessed_baraka.jpg",
+        "https://images.neimanmarcus.com/ca/2/product_assets/C/4/T/K/7/NMC4TK7_mz.jpg",
         (
             SELECT id
             FROM Brands
@@ -4847,7 +4847,7 @@ VALUES (
         "Hương hoa và mật ong ngọt ngào từ Initio.",
         330.00,
         13,
-        "https://example.com/images/initio_addictive_vibration.jpg",
+        "https://beautypert.com/wp-content/uploads/2020/03/best-initio-header.jpg",
         (
             SELECT id
             FROM Brands
@@ -4862,7 +4862,7 @@ VALUES (
         "Hương hoa và hạnh nhân gợi cảm từ Initio.",
         340.00,
         10,
-        "https://example.com/images/initio_psychedelic_love.jpg",
+        "https://cdn.shopify.com/s/files/1/0259/7733/products/initio-side-effect_grande.png?v=1638156912",
         (
             SELECT id
             FROM Brands
@@ -4877,7 +4877,7 @@ VALUES (
         "Hương hoa nhài và hạnh nhân từ Initio.",
         330.00,
         14,
-        "https://example.com/images/initio_high_frequency.jpg",
+        "https://www.scentstore.com/wp-content/uploads/2021/09/Initio-Side-Effect-Eau-de-Parfum-90ml.jpg",
         (
             SELECT id
             FROM Brands
@@ -4892,7 +4892,7 @@ VALUES (
         "Hương cà phê và xạ hương bí ẩn từ Initio.",
         350.00,
         12,
-        "https://example.com/images/initio_mystic_experience.jpg",
+        "https://img.perfume.com/images/products/parent/medium/80032m.jpg",
         (
             SELECT id
             FROM Brands
@@ -4919,7 +4919,7 @@ VALUES (
         "Hương thơm cổ điển và sang trọng dành cho nữ.",
         518.25,
         25,
-        "https://example.com/images/bottega_veneta_edp.jpg",
+        "https://d25uawst4gjx3y.cloudfront.net/Custom/Content/Products/12/42/1242_perfume-miss-dior-absolutely-blooming-eau-de-parfum-feminino_z1_637387498306932651.jpg",
         (
             SELECT id
             FROM Brands
@@ -4934,7 +4934,7 @@ VALUES (
         "Hương thơm tươi mát và thanh lịch với nốt hương cam và hoa trắng.",
         760.59,
         20,
-        "https://example.com/images/bottega_veneta_knot.jpg",
+        "http://ep.yimg.com/ay/yhst-87074699935963/poison-perfume-by-christian-dior-1-7-oz-eau-de-toilette-spray-for-women-7.jpg",
         (
             SELECT id
             FROM Brands
@@ -4949,7 +4949,7 @@ VALUES (
         "Hương thơm unisex lấy cảm hứng từ khu vườn Ý.",
         310.05,
         10,
-        "https://example.com/images/bottega_veneta_parco_palladiano_vi.jpg",
+        "http://fimgs.net/images/perfume/o.224.jpg",
         (
             SELECT id
             FROM Brands
@@ -4964,7 +4964,7 @@ VALUES (
         "Hương thơm tinh tế với sự kết hợp của hoa và gỗ.",
         599.40,
         8,
-        "https://example.com/images/bottega_veneta_parco_palladiano_v.jpg",
+        "https://i5.walmartimages.com/asr/e865e529-b7a4-4b90-8441-eb80bbf52ca3_1.da436da74179b0bd0f55258181b8523b.jpeg",
         (
             SELECT id
             FROM Brands
@@ -4979,7 +4979,7 @@ VALUES (
         "Hương thơm nhẹ nhàng và thanh thoát.",
         277.89,
         12,
-        "https://example.com/images/bottega_veneta_parco_palladiano_ii.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dwd591502d/images/43041553/large/43041553_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -4994,7 +4994,7 @@ VALUES (
         "Hương thơm độc đáo với nốt hương gỗ và gia vị.",
         517.59,
         5,
-        "https://example.com/images/bottega_veneta_parco_palladiano_ix.jpg",
+        "https://www.sephora.ae/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw62f43200/images/hi-res/alternates/PID_alternate1/PID_alternate1_440/P3807044_1.jpg",
         (
             SELECT id
             FROM Brands
@@ -5009,7 +5009,7 @@ VALUES (
         "Hương thơm unisex với sự pha trộn của hoa và trái cây.",
         516.50,
         15,
-        "https://example.com/images/bottega_veneta_parco_palladiano_vii.jpg",
+        "https://perfume-bd.com/wp-content/uploads/2018/12/christian-dior-jadore-women-edp-100ml.jpg",
         (
             SELECT id
             FROM Brands
@@ -5024,7 +5024,7 @@ VALUES (
         "Hương thơm gỗ ô liu đặc trưng.",
         885.85,
         10,
-        "https://example.com/images/bottega_veneta_parco_palladiano_x.jpg",
+        "https://www.dolce.pl/hires/46/15081.jpg",
         (
             SELECT id
             FROM Brands
@@ -5039,7 +5039,7 @@ VALUES (
         "Hương thơm hoa đỗ quyên tươi mới.",
         322.00,
         7,
-        "https://example.com/images/bottega_veneta_parco_palladiano_iv.jpg",
+        "https://www.cooclos.com/wp-content/uploads/2017/07/natalie-portman-el-rostro-del-nuevo-miss-dior-eau-de-parfum-2.jpg",
         (
             SELECT id
             FROM Brands
@@ -5054,7 +5054,7 @@ VALUES (
         "Hương thơm trái lê ngọt ngào.",
         843.89,
         9,
-        "https://example.com/images/bottega_veneta_parco_palladiano_iii.jpg",
+        "https://i5.walmartimages.com/asr/2ae47cea-51cb-482e-b105-77c5e1d40157_1.a2b3790ee85d6a4f637d9a6b1da17adf.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff",
         (
             SELECT id
             FROM Brands
@@ -5081,7 +5081,7 @@ VALUES (
         "Hương hoa cỏ trái cây tươi mát và quyến rũ.",
         315.00,
         20,
-        "https://example.com/images/ex_nihilo_fleur_narcotique.jpg",
+        "https://www.arablly.com/images/detailed/11/bottega-veneta-by-bottega-veneta-for-women-edp-50ml-9298.jpg",
         (
             SELECT id
             FROM Brands
@@ -5096,7 +5096,7 @@ VALUES (
         "Hương hổ phách ấm áp kết hợp với gỗ và vani.",
         330.00,
         15,
-        "https://example.com/images/ex_nihilo_amber_sky.jpg",
+        "https://i.notino.com/view/bottega-veneta/bttvenw_aedp10_01-o__26.jpg",
         (
             SELECT id
             FROM Brands
@@ -5111,7 +5111,7 @@ VALUES (
         "Hương hoa mẫu đơn trắng sáng hòa quyện với hạt tiêu hồng.",
         310.00,
         18,
-        "https://example.com/images/ex_nihilo_lust_in_paradise.jpg",
+        "https://images.bloomingdales.com/is/image/BLM/products/2/optimized/1252992_fpx.tif?wid=1200&qlt=90,0&layer=comp&op_sharpen=0&resMode=sharp2&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
         (
             SELECT id
             FROM Brands
@@ -5126,7 +5126,7 @@ VALUES (
         "Hương xạ hương tinh tế kết hợp với hoa và gỗ.",
         320.00,
         12,
-        "https://example.com/images/ex_nihilo_musc_infini.jpg",
+        "https://n.nordstrommedia.com/id/sr3/16ddc859-061b-435d-be68-5def7686aef4.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=4",
         (
             SELECT id
             FROM Brands
@@ -5141,7 +5141,7 @@ VALUES (
         "Hương gỗ phương Đông kết hợp với gia vị và hoa.",
         325.00,
         10,
-        "https://example.com/images/ex_nihilo_venenum_kiss.jpg",
+        "https://fimgs.net/images/secundar/o.57673.jpg",
         (
             SELECT id
             FROM Brands
@@ -5156,7 +5156,7 @@ VALUES (
         "Hương cam bergamot tươi mát kết hợp với hoa nhài và xạ hương.",
         300.00,
         20,
-        "https://example.com/images/ex_nihilo_cologne_352.jpg",
+        "https://cdn.shopify.com/s/files/1/0259/7733/products/bottega_veneta_knot_2_1024x1024.jpg?v=1531089975",
         (
             SELECT id
             FROM Brands
@@ -5171,7 +5171,7 @@ VALUES (
         "Hương hoa diên vĩ kết hợp với vani và gỗ.",
         315.00,
         14,
-        "https://example.com/images/ex_nihilo_sweet_morphine.jpg",
+        "https://images.neimanmarcus.com/ca/4/product_assets/C/1/N/U/C/NMC1NUC_mz.jpg",
         (
             SELECT id
             FROM Brands
@@ -5186,7 +5186,7 @@ VALUES (
         "Hương gỗ ấm áp kết hợp với gia vị và xạ hương.",
         330.00,
         16,
-        "https://example.com/images/ex_nihilo_bois_dhiver.jpg",
+        "https://i5.walmartimages.com/asr/7df9e37d-fc2c-4e02-b501-417c116f1de3.d1dbe06f9735237863a9b48008ee4cc2.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff",
         (
             SELECT id
             FROM Brands
@@ -5201,7 +5201,7 @@ VALUES (
         "Hương gỗ trầm hương kết hợp với gia vị và hoa.",
         340.00,
         8,
-        "https://example.com/images/ex_nihilo_oud_vendome.jpg",
+        "https://img.fragrancex.com/images/products/sku/large/bv17psw.jpg",
         (
             SELECT id
             FROM Brands
@@ -5216,7 +5216,7 @@ VALUES (
         "Hương gỗ tuyết tùng kết hợp với cam bergamot và gừng.",
         335.00,
         10,
-        "https://example.com/images/ex_nihilo_the_hedonist.jpg",
+        "https://www.sephora.dk/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dwce99f4d3/images/hi-res/all/PID_principal/P619016_principal.jpg",
         (
             SELECT id
             FROM Brands
@@ -5243,7 +5243,7 @@ VALUES (
         "Hương cam bergamot, chanh và bưởi tươi mát.",
         200.00,
         25,
-        "https://example.com/images/acqua_di_parma_colonia.jpg",
+        "https://image.harrods.com/ex-nihilo-golden-wanderers-eau-de-parfum_14823092_25375686_1000.jpg",
         (
             SELECT id
             FROM Brands
@@ -5258,7 +5258,7 @@ VALUES (
         "Phiên bản nâng cao của Colonia cổ điển với hương thơm mạnh mẽ.",
         220.00,
         20,
-        "https://example.com/images/acqua_di_parma_colonia_essenza.jpg",
+        "https://perfumeart.ru/wp-content/uploads/2019/05/ex-nihilo-fleur-narcotique-1536x1536.jpg",
         (
             SELECT id
             FROM Brands
@@ -5273,7 +5273,7 @@ VALUES (
         "Hương thơm tươi mới, nhẹ nhàng và thanh thoát.",
         210.00,
         22,
-        "https://example.com/images/acqua_di_parma_colonia_pura.jpg",
+        "https://piimages.parfumo.de/0/1/177043_e781a879d8d37201af110861a3f18ab7_outcast-blue-extrait-de-parfum.jpg",
         (
             SELECT id
             FROM Brands
@@ -5288,7 +5288,7 @@ VALUES (
         "Hương thơm sâu lắng và quyến rũ với hoa nhài và hương gỗ.",
         230.00,
         18,
-        "https://example.com/images/acqua_di_parma_colonia_intensa.jpg",
+        "https://piimages.parfumo.de/8/1/153610_a3078a259b5383e391bb61bf6906e778_the-hedonist.jpg",
         (
             SELECT id
             FROM Brands
@@ -5303,7 +5303,7 @@ VALUES (
         "Hương trái cây tươi mát từ vùng Địa Trung Hải.",
         240.00,
         15,
-        "https://example.com/images/acqua_di_parma_fico_di_amalfi.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dwff9a59fa/images/42786808/large/42786808_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -5318,7 +5318,7 @@ VALUES (
         "Hương cam chanh tươi mát và sảng khoái.",
         235.00,
         17,
-        "https://example.com/images/acqua_di_parma_arancia_di_capri.jpg",
+        "https://www.elpalaciodehierro.com/dw/image/v2/BDKB_PRD/on/demandware.static/-/Sites-palacio-master-catalog/default/dw05837da2/images/42786819/large/42786819_x2.jpg?sw=686&sh=785",
         (
             SELECT id
             FROM Brands
@@ -5333,7 +5333,7 @@ VALUES (
         "Hương thảo mộc và trái cây đặc trưng của vùng Panarea.",
         245.00,
         12,
-        "https://example.com/images/acqua_di_parma_mirto_di_panarea.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dw7fdd83d9/images/42786813/large/42786813_x1.jpg",
         (
             SELECT id
             FROM Brands
@@ -5348,7 +5348,7 @@ VALUES (
         "Hương thơm thanh lịch và hiện đại với bạc hà và hương gỗ.",
         225.00,
         20,
-        "https://example.com/images/acqua_di_parma_colonia_club.jpg",
+        "https://pimages.parfumo.de/720/100132_img-8393-ex_nihilo-atlas_fever_720.jpg",
         (
             SELECT id
             FROM Brands
@@ -5363,7 +5363,7 @@ VALUES (
         "Hương da thuộc kết hợp với cam bergamot và chanh.",
         250.00,
         10,
-        "https://example.com/images/acqua_di_parma_colonia_leather.jpg",
+        "https://image.harrods.com/ex-nihilo-lust-in-paradise-eau-de-parfum-50-ml_15673527_28526844_2048.jpg",
         (
             SELECT id
             FROM Brands
@@ -5378,7 +5378,7 @@ VALUES (
         "Hương trầm hương kết hợp với cam chanh và hoa hồng.",
         260.00,
         8,
-        "https://example.com/images/acqua_di_parma_colonia_oud.jpg",
+        "https://fraguru.com/mdimg/secundar/o.58120.jpg",
         (
             SELECT id
             FROM Brands
@@ -5405,7 +5405,7 @@ VALUES (
         "Hương thơm gợi cảm với bạch đậu khấu, hoa diên vĩ và vani.",
         899.80,
         15,
-        "https://example.com/images/loubirouge.jpg",
+        "https://cdn.shopify.com/s/files/1/0259/7733/products/acqua-di-parma-colonia-100ml_1024x1024.png?v=1566256517",
         (
             SELECT id
             FROM Brands
@@ -5420,7 +5420,7 @@ VALUES (
         "Hương gỗ phương Đông với nhựa cây khói ấm áp.",
         293.15,
         10,
-        "https://example.com/images/loubicroc.jpg",
+        "https://prod-admin-images.s3.amazonaws.com/PeZho1KcxJ6lLWV8SlDT/product/Acqua%20Di%20Parma%20Colonia%20123btl.jpg",
         (
             SELECT id
             FROM Brands
@@ -5435,7 +5435,7 @@ VALUES (
         "Hương hoa trắng tinh tế với hoa nhài và hoa huệ.",
         336.75,
         12,
-        "https://example.com/images/loubikiss.jpg",
+        "https://fimgs.net/images/secundar/o.37750.jpg",
         (
             SELECT id
             FROM Brands
@@ -5450,7 +5450,7 @@ VALUES (
         "Hương da thuộc mạnh mẽ kết hợp với gỗ đàn hương.",
         331.40,
         8,
-        "https://example.com/images/loubiraj.jpg",
+        "https://www.perfumenvio.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/a/c/acqua-di_parma-edc-intensa-100ml.jpg",
         (
             SELECT id
             FROM Brands
@@ -5465,7 +5465,7 @@ VALUES (
         "Hương trái cây nhiệt đới kết hợp với hoa hồng và hoắc hương.",
         572.25,
         20,
-        "https://example.com/images/loubifunk.jpg",
+        "https://fimgs.net/photogram/p1200/1s/pw/ArvhnYINegZmufM7.jpg",
         (
             SELECT id
             FROM Brands
@@ -5480,7 +5480,7 @@ VALUES (
         "Hương thơm ngọt ngào với dâu tây, hoa hồng và xạ hương.",
         896.75,
         18,
-        "https://example.com/images/loubidoo.jpg",
+        "https://cdn.shopify.com/s/files/1/0259/7733/products/acqua-di-parma-colonia-ambra-180ml_1024x1024.png?v=1569963991",
         (
             SELECT id
             FROM Brands
@@ -5495,7 +5495,7 @@ VALUES (
         "Hương gỗ hoàng gia với nhục đậu khấu và hoắc hương.",
         629.90,
         10,
-        "https://example.com/images/loubicrown.jpg",
+        "https://mobilefragrance.com/wp-content/uploads/2020/03/IMG_1709-2048x2048.jpg",
         (
             SELECT id
             FROM Brands
@@ -5510,7 +5510,7 @@ VALUES (
         "Hương thơm quyến rũ với nhựa thơm và hoa hồng.",
         989.70,
         7,
-        "https://example.com/images/loubicharme.jpg",
+        "https://n.nordstrommedia.com/id/sr3/39b394f0-be38-444c-bdee-4a01ffcb7afd.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
         (
             SELECT id
             FROM Brands
@@ -5537,7 +5537,7 @@ VALUES (
         "Hương cam quýt tươi mát với hoa cam và cam bergamot.",
         838.49,
         20,
-        "https://example.com/images/parade.jpg",
+        "https://www.perfumeemporium.com/BigPics_M/Acqua-di-parma-col-intensa-m.jpg",
         (
             SELECT id
             FROM Brands
@@ -5552,7 +5552,7 @@ VALUES (
         "Hương gỗ phương Đông với vani và gỗ tuyết tùng.",
         407.10,
         15,
-        "https://example.com/images/black_tie.jpg",
+        "http://www.fashioninsight.co.uk/wp-content/uploads/2016/02/Acqua-di-Parma-launches-Blu-Mediterraneo-1-901x1024.jpg",
         (
             SELECT id
             FROM Brands
@@ -5567,7 +5567,7 @@ VALUES (
         "Hương Chypre với Palo Santo và rêu cây.",
         363.50,
         10,
-        "https://example.com/images/eau_de_californie.jpg",
+        "https://media.neimanmarcus.com/f_auto,q_auto/w_1200,h_1500/01/nm_3796421_100000_m",
         (
             SELECT id
             FROM Brands
@@ -5582,7 +5582,7 @@ VALUES (
         "Hương thơm cổ điển với hoa oải hương và xạ hương.",
         476.49,
         12,
-        "https://example.com/images/rimbaud.jpg",
+        "https://images.horchow.com/ca/1/product_assets/C/5/B/P/G/HCC5BPG_cz.jpg",
         (
             SELECT id
             FROM Brands
@@ -5597,7 +5597,7 @@ VALUES (
         "Hương da thuộc kết hợp với gỗ và xạ hương.",
         865.09,
         8,
-        "https://example.com/images/reptile.jpg",
+        "https://fimgs.net/images/secundar/o.43333.jpg",
         (
             SELECT id
             FROM Brands
@@ -5612,7 +5612,7 @@ VALUES (
         "Hương hoa cỏ với hoa nhài và xạ hương.",
         387.50,
         18,
-        "https://example.com/images/saint_germain.jpg",
+        "https://fimgs.net/mdimg/secundar/o.75806.jpg",
         (
             SELECT id
             FROM Brands
@@ -5627,7 +5627,7 @@ VALUES (
         "Hương hoa cỏ tươi mát với hoa hồng và cam bergamot.",
         977.19,
         20,
-        "https://example.com/images/dans_paris.jpg",
+        "https://www.chicmoey.com/wp-content/uploads/2020/11/5-1.jpg",
         (
             SELECT id
             FROM Brands
@@ -5642,7 +5642,7 @@ VALUES (
         "Hương phấn nhẹ nhàng với hoa diên vĩ và xạ hương.",
         616.75,
         15,
-        "https://example.com/images/la_peau_nue.jpg",
+        "https://images.horchow.com/ca/1/product_assets/C/5/B/P/H/HCC5BPH_bz.jpg",
         (
             SELECT id
             FROM Brands
@@ -5657,7 +5657,7 @@ VALUES (
         "Hương phương Đông với vani và hoắc hương.",
         355.80,
         10,
-        "https://example.com/images/nightclubbing.jpg",
+        "https://i.pinimg.com/originals/8f/c7/27/8fc727b4c74dcae9967f9630299536ca.jpg",
         (
             SELECT id
             FROM Brands
@@ -5672,7 +5672,7 @@ VALUES (
         "Hương cam quýt cổ điển với hoa cam và xạ hương.",
         366.45,
         12,
-        "https://example.com/images/cologne_francaise.jpg",
+        "https://www.stephaniejayneblog.com/wp-content/uploads/2020/12/1BF790B4-BE6F-40C1-848E-A29F36309092.jpg",
         (
             SELECT id
             FROM Brands
@@ -5699,7 +5699,7 @@ VALUES (
         "Hương thơm cay nồng phương Đông với bạch đậu khấu, trà đen và gỗ đàn hương.",
         360.00,
         20,
-        "https://kenperfume.com/wp-content/uploads/913.45/04/nuoc-hoa-unisex-bdk-parfums-gris-charnel-edp-100ml-600x600.jpg",
+        "https://images.celine.com/campaigns/journal/CELINE_HAUTE_PARFUMERIE_LISA_1200X1200_02.jpg",
         (
             SELECT id
             FROM Brands
@@ -5714,7 +5714,7 @@ VALUES (
         "Hương thơm ngọt ngào và gợi cảm với anh đào đen, vani và xạ hương.",
         350.00,
         15,
-        "https://kenperfume.com/wp-content/uploads/407.60/04/nuoc-hoa-unisex-bdk-parfums-rouge-smoking-edp-100ml-600x600.jpg",
+        "https://fimgs.net/photogram/p1200/tx/7e/1BlPZmKT4AhEfFQG.jpg",
         (
             SELECT id
             FROM Brands
@@ -5729,7 +5729,7 @@ VALUES (
         "Hương thơm hoa cỏ trái cây với lê, hoa nhài và hoắc hương.",
         340.00,
         18,
-        "https://kenperfume.com/wp-content/uploads/403.59/04/nuoc-hoa-unisex-bdk-parfums-pas-ce-soir-edp-100ml-600x600.jpg",
+        "https://thebeautylookbook.com/wp-content/uploads/2023/01/Celine-Eau-de-Parfum-4-BlackTie.jpg",
         (
             SELECT id
             FROM Brands
@@ -5744,7 +5744,7 @@ VALUES (
         "Hương thơm tươi mát và nữ tính với hoa hồng Thổ Nhĩ Kỳ, quả mâm xôi và xạ hương.",
         330.00,
         12,
-        "https://luxuby.com/wp-content/uploads/936.50/05/nuoc-hoa-bdk-parfums-bouquet-de-hongrie-100ml-600x600.jpg",
+        "https://img.perfume.com/images/products/parent/medium/49w.jpg",
         (
             SELECT id
             FROM Brands
@@ -5759,7 +5759,7 @@ VALUES (
         "Hương thơm sang trọng và gợi cảm với hoa huệ, hoa nhài và gỗ đàn hương.",
         370.00,
         10,
-        "https://parissecret.vn/wp-content/uploads/789.30/04/nuoc-hoa-niche-bdk-tubereuse-imperiale-600x600.jpg",
+        "https://fimgs.net/mdimg/secundar/o.66533.jpg",
         (
             SELECT id
             FROM Brands
@@ -5774,7 +5774,7 @@ VALUES (
         "Hương thơm mềm mại và quyến rũ với cam bergamot, hoa cam và da thuộc.",
         355.00,
         14,
-        "https://kenperfume.com/wp-content/uploads/563.50/04/nuoc-hoa-unisex-bdk-parfums-creme-de-cuir-edp-100ml-600x600.jpg",
+        "https://fimgs.net/mdimg/secundar/o.66607.jpg",
         (
             SELECT id
             FROM Brands
@@ -5789,7 +5789,7 @@ VALUES (
         "Hương thơm ấm áp và bí ẩn với hoa nhài, gỗ đàn hương và hoắc hương.",
         380.00,
         8,
-        "https://kenperfume.com/wp-content/uploads/830.39/04/nuoc-hoa-unisex-bdk-parfums-wood-jasmin-edp-100ml-600x600.jpg",
+        "https://www.theperfumegirl.com/perfumes/fragrances/celine/celine-haute-parfumerie/images/celine-haute-parfumerie-ad-lg.jpg",
         (
             SELECT id
             FROM Brands
@@ -5804,7 +5804,7 @@ VALUES (
         "Hương thơm biển cả tươi mát với cam bergamot, hoa cam và xạ hương.",
         345.00,
         16,
-        "https://kenperfume.com/wp-content/uploads/843.10/04/nuoc-hoa-unisex-bdk-parfums-sel-dargent-edp-100ml-600x600.jpg",
+        "https://i5.walmartimages.com/asr/dcc4135e-17c3-4005-a2d5-4e7ddf7a0523_1.c60d425d9f94338530d8f0f85b36fd43.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff",
         (
             SELECT id
             FROM Brands
@@ -5819,7 +5819,7 @@ VALUES (
         "Hương thơm cam chanh sảng khoái với cam bergamot, bưởi và hoa cam.",
         335.00,
         20,
-        "https://kenperfume.com/wp-content/uploads/398.45/04/nuoc-hoa-unisex-bdk-parfums-citrus-riviera-edp-100ml-600x600.jpg",
+        "https://fimgs.net/mdimg/secundar/o.66576.jpg",
         (
             SELECT id
             FROM Brands
@@ -5834,7 +5834,7 @@ VALUES (
         "Hương thơm bí ẩn và quyến rũ với hoa hồng, gỗ đàn hương và hổ phách.",
         365.00,
         9,
-        "https://kenperfume.com/wp-content/uploads/775.80/04/nuoc-hoa-unisex-bdk-parfums-nuit-de-sable-edp-100ml-600x600.jpg",
+        "https://www.celine.com/on/demandware.static/-/Sites-masterCatalog/default/dwe5b66967/images/large/6PC1H0805.37TT_1_100ML_PARADE.jpg",
         (
             SELECT id
             FROM Brands
@@ -5861,7 +5861,7 @@ VALUES (
         "Hương thơm tinh tế và hiện đại dành cho nữ giới từ Loewe.",
         150.00,
         20,
-        "https://example.com/images/loewe_001_woman_edp.jpg",
+        "https://cdn.shopify.com/s/files/1/2800/9132/products/HD-PasceSoircote.jpg?v=1625724165",
         (
             SELECT id
             FROM Brands
@@ -5876,7 +5876,7 @@ VALUES (
         "Hương thơm nam tính và cuốn hút từ Loewe.",
         140.00,
         15,
-        "https://example.com/images/loewe_001_man_edt.jpg",
+        "https://cdn.shopify.com/s/files/1/2800/9132/products/HD-CremedeCuirface2.jpg?v=1625723798",
         (
             SELECT id
             FROM Brands
@@ -5891,7 +5891,7 @@ VALUES (
         "Hương thơm tươi mát và thanh lịch dành cho nam giới.",
         160.00,
         10,
-        "https://example.com/images/loewe_solo_esencial.jpg",
+        "https://image.harrods.com/bdk-parfums-bouquet-de-hongrie-eau-de-parfum-100ml_14780215_36085171_2048.jpg",
         (
             SELECT id
             FROM Brands
@@ -5906,7 +5906,7 @@ VALUES (
         "Hương thơm nữ tính và quyến rũ từ Loewe.",
         155.00,
         12,
-        "https://example.com/images/loewe_solo_ella_edt.jpg",
+        "https://static.digitecgalaxus.ch/Files/3/1/2/5/9/0/6/4/1573812760000.jpeg",
         (
             SELECT id
             FROM Brands
@@ -5921,7 +5921,7 @@ VALUES (
         "Hương thơm bí ẩn và mạnh mẽ dành cho nam giới.",
         170.00,
         8,
-        "https://example.com/images/loewe_7_anonimo_edp.jpg",
+        "https://image.harrods.com/bdk-parfums-french-bouquet-eau-de-parfum-100ml_14819559_37475619_2048.jpg",
         (
             SELECT id
             FROM Brands
@@ -5936,7 +5936,7 @@ VALUES (
         "Hương thơm unisex tươi mát và sảng khoái.",
         145.00,
         18,
-        "https://example.com/images/loewe_agua_miami.jpg",
+        "https://image.harrods.com/bdk-parfums-villa-neroli-eau-de-parfum-100ml_18516990_40277493_2048.jpg",
         (
             SELECT id
             FROM Brands
@@ -5951,7 +5951,7 @@ VALUES (
         "Hương thơm cổ điển và sang trọng dành cho nam giới.",
         165.00,
         10,
-        "https://example.com/images/loewe_esencia_pour_homme_edp.jpg",
+        "https://piimages.parfumo.de/7/4/116063_d3316bb1cfd98d517bd0acdbabd82c03_rouge_smoking.jpg",
         (
             SELECT id
             FROM Brands
@@ -5966,7 +5966,7 @@ VALUES (
         "Hương thơm ngọt ngào và nữ tính từ Loewe.",
         160.00,
         14,
-        "https://example.com/images/loewe_aura_pink_magnolia_edp.jpg",
+        "https://cdn.shopify.com/s/files/1/0259/7733/products/bdk-oud-abramad---2_1024x1024.png?v=1646095497",
         (
             SELECT id
             FROM Brands
@@ -5981,7 +5981,7 @@ VALUES (
         "Hương thơm nam tính và hiện đại.",
         150.00,
         20,
-        "https://example.com/images/loewe_7_edt.jpg",
+        "https://ifragranceofficial.com/wp-content/uploads/2023/06/bdk-parfums-vanille-leather-eau-de-parfum-100ml-1-e1685695345343-1536x1536.jpg",
         (
             SELECT id
             FROM Brands
@@ -5996,7 +5996,7 @@ VALUES (
         "Hương thơm unisex trẻ trung và năng động.",
         155.00,
         16,
-        "https://example.com/images/loewe_paulas_ibiza_edt.jpg",
+        "https://cdn.shopify.com/s/files/1/0259/7733/products/bdk-french-bouquet---2_1024x1024.png?v=1646086541",
         (
             SELECT id
             FROM Brands
@@ -6023,12 +6023,12 @@ VALUES (
         "Hương gỗ đàn hương kết hợp với nốt hương sữa, mang lại cảm giác dễ chịu và lôi cuốn.",
         150.00,
         20,
-        "https://example.com/images/lorchestre_piano_santal.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dwa5a4a3d2/images/41943319/large/41943319_x1.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "L'Orchestre Parfum"
+                name = "L'Orchestre"
             LIMIT 1
         ),
         3
@@ -6038,12 +6038,12 @@ VALUES (
         "Điệu nhạc ma mị của những loài hoa trắng, kết hợp với vani ngọt dịu.",
         155.00,
         15,
-        "https://example.com/images/lorchestre_bouquet_encore.jpg",
+        "https://www.sephora.com.mx/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwd839e98a/images/hi-res/eau-de-parfum-loewe-loewe-aura-floral-eau-de-parfum-100-ml8426017064460B.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "L'Orchestre Parfum"
+                name = "L'Orchestre"
             LIMIT 1
         ),
         2
@@ -6053,12 +6053,12 @@ VALUES (
         "Hương hoa hồng kết hợp với âm thanh của kèn trombone, tạo nên sự quyến rũ.",
         160.00,
         10,
-        "https://example.com/images/lorchestre_rose_trombone.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dw04fd5ad3/images/41584512/large/41584512_x1.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "L'Orchestre Parfum"
+                name = "L'Orchestre"
             LIMIT 1
         ),
         2
@@ -6068,12 +6068,12 @@ VALUES (
         "Hương thơm gợi nhớ đến nhạc cụ Darbouka, mang đậm chất phương Đông.",
         165.00,
         12,
-        "https://example.com/images/lorchestre_the_darbouka.jpg",
+        "https://fimgs.net/mdimg/secundar/o.82738.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "L'Orchestre Parfum"
+                name = "L'Orchestre"
             LIMIT 1
         ),
         1
@@ -6083,12 +6083,12 @@ VALUES (
         "Sự kết hợp giữa hương da thuộc và nhạc cụ Kora, tạo nên mùi hương độc đáo.",
         170.00,
         8,
-        "https://example.com/images/lorchestre_cuir_kora.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dw7734a721/images/37755649/large/37755649_x1.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "L'Orchestre Parfum"
+                name = "L'Orchestre"
             LIMIT 1
         ),
         3
@@ -6098,12 +6098,12 @@ VALUES (
         "Hương chanh tươi mát kết hợp với âm nhạc điện tử, mang lại cảm giác sảng khoái.",
         150.00,
         20,
-        "https://example.com/images/lorchestre_electro_limonade.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dwb2e8ec3b/images/41734987/large/41734987_x1.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "L'Orchestre Parfum"
+                name = "L'Orchestre"
             LIMIT 1
         ),
         3
@@ -6113,12 +6113,12 @@ VALUES (
         "Hương nhang trầm từ Asakusa kết hợp với âm nhạc truyền thống Nhật Bản.",
         155.00,
         15,
-        "https://example.com/images/lorchestre_encens_asakusa.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dw7093795e/images/38430966/large/38430966_x1.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "L'Orchestre Parfum"
+                name = "L'Orchestre"
             LIMIT 1
         ),
         1
@@ -6128,12 +6128,12 @@ VALUES (
         "Hương hoa cam neroli kết hợp với điệu nhảy Flamenco sôi động.",
         160.00,
         10,
-        "https://example.com/images/lorchestre_flamenco_neroli.jpg",
+        "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dw80dfeb8b/images/38430968/large/38430968_x1.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "L'Orchestre Parfum"
+                name = "L'Orchestre"
             LIMIT 1
         ),
         3
@@ -6143,12 +6143,12 @@ VALUES (
         "Hương rượu mạnh kết hợp với nhịp điệu BPM, tạo nên mùi hương nồng nàn.",
         165.00,
         12,
-        "https://example.com/images/lorchestre_liqueur_bpm.jpg",
+        "https://piimages.parfumo.de/2/1/181612_f0d72e97c99a911c6c51d5baadad54c5_earth.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "L'Orchestre Parfum"
+                name = "L'Orchestre"
             LIMIT 1
         ),
         2
@@ -6158,12 +6158,12 @@ VALUES (
         "Hương cỏ hương bài mạnh mẽ kết hợp với âm nhạc rock, dành cho người cá tính.",
         170.00,
         8,
-        "https://example.com/images/lorchestre_vetiver_overdrive.jpg",
+        "https://vioralondon.com/wp-content/uploads/2021/10/Best-Loewe-Perfumes-For-Her-Main-Image-v2.jpg",
         (
             SELECT id
             FROM Brands
             WHERE
-                name = "L'Orchestre Parfum"
+                name = "L'Orchestre"
             LIMIT 1
         ),
         2
@@ -6185,7 +6185,7 @@ VALUES (
         "Hương thơm hoa mẫu đơn và da suède từ Jo Malone.",
         120.00,
         50,
-        "https://example.com/images/jo_malone_peony_blush_suede.jpg",
+        "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_456/01/nm_4168151_100000_m",
         (
             SELECT id
             FROM Brands
@@ -6200,7 +6200,7 @@ VALUES (
         "Hương thơm gỗ và biển cả từ Jo Malone.",
         115.00,
         60,
-        "https://example.com/images/jo_malone_wood_sage_sea_salt.jpg",
+        "https://www.thedifferentscent.de/media/image/58/aa/44/LORCHPIA1.jpg",
         (
             SELECT id
             FROM Brands
@@ -6215,7 +6215,7 @@ VALUES (
         "Hương thơm chanh, húng quế và cam từ Jo Malone.",
         110.00,
         70,
-        "https://example.com/images/jo_malone_lime_basil_mandarin.jpg",
+        "https://cdn.webshopapp.com/shops/287573/files/429810300/lorchestre-parfum-lorchestre-parfum-vetiver-overdr.jpg",
         (
             SELECT id
             FROM Brands
@@ -6230,7 +6230,7 @@ VALUES (
         "Hương thơm quả lê và hoa freesia từ Jo Malone.",
         125.00,
         55,
-        "https://example.com/images/jo_malone_english_pear_freesia.jpg",
+        "https://cdn.aroma-butik.ru/images/categories/goods_full/57344_1674493919_L_Orchestre_Parfum_Rose_Trombone.jpg",
         (
             SELECT id
             FROM Brands
@@ -6245,7 +6245,7 @@ VALUES (
         "Hương thơm hoa đào và mật ong từ Jo Malone.",
         130.00,
         50,
-        "https://example.com/images/jo_malone_nectarine_blossom_honey.jpg",
+        "https://cdn.aroma-butik.ru/images/categories/goods_full/56076_1664139500_L_Orchestre_Parfum_Encens_Asakusa.jpg",
         (
             SELECT id
             FROM Brands
@@ -6260,7 +6260,7 @@ VALUES (
         "Hương thơm hoa hồng đỏ từ Jo Malone.",
         140.00,
         45,
-        "https://example.com/images/jo_malone_red_roses.jpg",
+        "https://pimages.parfumo.de/720/132654_img-8352-l-orchestre-parfum-piano-santal_720.jpg",
         (
             SELECT id
             FROM Brands
@@ -6275,7 +6275,7 @@ VALUES (
         "Hương thơm mâm xôi và lá từ Jo Malone.",
         135.00,
         48,
-        "https://example.com/images/jo_malone_blackberry_bay.jpg",
+        "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_790/01/nm_4168147_100000_m",
         (
             SELECT id
             FROM Brands
@@ -6290,7 +6290,7 @@ VALUES (
         "Hương thơm hương hoa và vani từ Jo Malone.",
         145.00,
         40,
-        "https://example.com/images/jo_malone_myrrh_tonka.jpg",
+        "https://cosmetiqua.com/wp-content/uploads/2020/05/l-orchestre-parfum-the-darbouka-007_1500.jpg",
         (
             SELECT id
             FROM Brands
@@ -6305,7 +6305,7 @@ VALUES (
         "Hương thơm quả lựu và đậm đà từ Jo Malone.",
         150.00,
         35,
-        "https://example.com/images/jo_malone_pomegranate_noir.jpg",
+        "https://fragrance.ee/2938-thickbox_default/l-orchestre-parfum-piano-santal-perfume-100ml.jpg",
         (
             SELECT id
             FROM Brands
@@ -6320,7 +6320,7 @@ VALUES (
         "Phiên bản cologne của hương Peony & Blush Suede từ Jo Malone.",
         100.00,
         65,
-        "https://example.com/images/jo_malone_peony_blush_suede_cologne.jpg",
+        "https://www.francenetinfos.com/wp-content/uploads/2019/10/LORCHESTREPARFUMtop.jpg",
         (
             SELECT id
             FROM Brands
@@ -6347,7 +6347,7 @@ VALUES (
         "Hương thơm ngọt ngào và quyến rũ với nốt kẹo dẻo marshmallow.",
         320.00,
         15,
-        "https://example.com/images/kilian_love_dont_be_shy.jpg",
+        "https://fimgs.net/himg/o.91788.jpg",
         (
             SELECT id
             FROM Brands
@@ -6362,7 +6362,7 @@ VALUES (
         "Hương thơm bí ẩn và sâu lắng với nốt rượu rum và cà phê.",
         350.00,
         10,
-        "https://example.com/images/kilian_black_phantom.jpg",
+        "https://www.fenwick.co.uk/on/demandware.static/-/Sites-fenwick-master-catalog/default/dw602d894c/images/large/LC8G010000_1.jpg",
         (
             SELECT id
             FROM Brands
@@ -6377,7 +6377,7 @@ VALUES (
         "Hương hoa cỏ mê hoặc, kết hợp giữa hoa nhài và hoa hồng.",
         330.00,
         12,
-        "https://example.com/images/kilian_good_girl_gone_bad.jpg",
+        "https://cdn.shopify.com/s/files/1/2170/5343/products/JO-MALONE-154-COLOGNE-100ML-EDC-UNISEX_1024x1024.png?v=1576499821",
         (
             SELECT id
             FROM Brands
@@ -6392,7 +6392,7 @@ VALUES (
         "Hương gỗ cay nồng với nốt rượu rum và gỗ tuyết tùng.",
         340.00,
         8,
-        "https://example.com/images/kilian_straight_to_heaven.jpg",
+        "https://n.nordstrommedia.com/id/sr3/31f3db14-a817-47b8-8927-d097267c2782.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=4",
         (
             SELECT id
             FROM Brands
@@ -6407,7 +6407,7 @@ VALUES (
         "Hương thơm ngọt ngào và ấm áp với nốt sữa hạnh nhân và xạ hương.",
         345.00,
         9,
-        "https://example.com/images/kilian_rolling_in_love.jpg",
+        "https://n.nordstrommedia.com/id/sr3/9fd2868a-3446-4c60-990b-8c804128f7d2.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
         (
             SELECT id
             FROM Brands
@@ -6422,7 +6422,7 @@ VALUES (
         "Hương thơm tươi mát và thanh khiết với nốt xoài và dừa.",
         335.00,
         11,
-        "https://example.com/images/kilian_moonlight_in_heaven.jpg",
+        "https://image.harrods.com/jo-malone-london-pomegranate-noir-cologne_14865971_25417362_2048.jpg",
         (
             SELECT id
             FROM Brands
@@ -6437,7 +6437,7 @@ VALUES (
         "Hương thơm sang trọng và quý phái với nốt hoa hồng và vani.",
         350.00,
         7,
-        "https://example.com/images/kilian_woman_in_gold.jpg",
+        "https://i5.walmartimages.com/asr/c32e2b9a-8e63-4438-bbb7-5ccfd6bbbc81_1.d2902818f03151d69d0dc399e374a295.jpeg",
         (
             SELECT id
             FROM Brands
@@ -6452,7 +6452,7 @@ VALUES (
         "Hương trái cây và hoa cỏ gợi cảm với nốt đào và hoa hồng.",
         325.00,
         10,
-        "https://example.com/images/kilian_forbidden_games.jpg",
+        "https://fraguru.com/mdimg/secundar/o.70553.jpg",
         (
             SELECT id
             FROM Brands
@@ -6467,7 +6467,7 @@ VALUES (
         "Hương thơm mát lạnh và sảng khoái với nốt bạch đậu khấu và rêu sồi.",
         345.00,
         8,
-        "https://example.com/images/kilian_vodka_on_the_rocks.jpg",
+        "https://images-na.ssl-images-amazon.com/images/I/71zg61T03BL._SL1500_.jpg",
         (
             SELECT id
             FROM Brands
@@ -6482,7 +6482,7 @@ VALUES (
         "Hương gỗ phương Đông với nốt mật ong và hoắc hương.",
         355.00,
         6,
-        "https://example.com/images/kilian_gold_knight.jpg",
+        "https://www.stephaniejayneblog.com/wp-content/uploads/2017/04/FullSizeRender.jpg-6.jpeg",
         (
             SELECT id
             FROM Brands
@@ -6509,7 +6509,7 @@ VALUES (
         "Hương thơm nhẹ nhàng và tinh tế, mang lại cảm giác sạch sẽ và tươi mới.",
         150.00,
         20,
-        "https://example.com/images/clean_reserve_skin.jpg",
+        "https://n.nordstrommedia.com/id/sr3/57bad2cb-0248-4865-bfd2-042e1981c102.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=4",
         (
             SELECT id
             FROM Brands
@@ -6524,7 +6524,7 @@ VALUES (
         "Hương thơm tươi mát như cơn mưa đầu mùa, mang lại cảm giác sảng khoái.",
         155.00,
         18,
-        "https://example.com/images/clean_reserve_rain.jpg",
+        "https://www.bykilian.com/media/export/cms/january%20content/PROMOBLOC_GGGB-INGR_386x386.jpg",
         (
             SELECT id
             FROM Brands
@@ -6539,7 +6539,7 @@ VALUES (
         "Hương thơm ấm áp và dễ chịu như vải cotton mới giặt.",
         160.00,
         15,
-        "https://example.com/images/clean_reserve_warm_cotton.jpg",
+        "https://www.bykilian.com/media/export/cms/january%20content/PROMOBLOC_GGGBE-INGR_386x386.jpg",
         (
             SELECT id
             FROM Brands
@@ -6554,7 +6554,7 @@ VALUES (
         "Hương hoa hồng nhẹ nhàng và thanh khiết, phù hợp cho mọi dịp.",
         165.00,
         12,
-        "https://example.com/images/clean_reserve_blonde_rose.jpg",
+        "https://cdn.cliqueinc.com/posts/298379/best-kilian-perfumes-298379-1646775863927-main.750x0c.jpg?interlace=true&quality=70",
         (
             SELECT id
             FROM Brands
@@ -6569,7 +6569,7 @@ VALUES (
         "Hương gỗ trầm ấm kết hợp với da thuộc, tạo nên sự sang trọng.",
         170.00,
         10,
-        "https://example.com/images/clean_reserve_sueded_oud.jpg",
+        "https://product-assets.rinascente.it/37/00550/3700550218302_01_single_image.jpg",
         (
             SELECT id
             FROM Brands
@@ -6584,7 +6584,7 @@ VALUES (
         "Hương cam chanh tươi mát kết hợp với quả vả, mang lại cảm giác năng động.",
         155.00,
         14,
-        "https://example.com/images/clean_reserve_citron_fig.jpg",
+        "https://www.cleanbeauty.com/cdn/shop/files/100ML_RESERVE_CitronFig_Bottle.png",
         (
             SELECT id
             FROM Brands
@@ -6599,7 +6599,7 @@ VALUES (
         "Hương hoa nắng ấm áp, gợi nhớ đến những ngày hè rực rỡ.",
         160.00,
         13,
-        "https://example.com/images/clean_reserve_solar_bloom.jpg",
+        "https://www.bykilian.com/media/export/cms/Promoblock-BP-visu-ingredient-1200x1388v2.jpg",
         (
             SELECT id
             FROM Brands
@@ -6614,7 +6614,7 @@ VALUES (
         "Hương hoa cỏ mềm mại và quyến rũ, phù hợp cho buổi tối.",
         165.00,
         11,
-        "https://example.com/images/clean_reserve_velvet_flora.jpg",
+        "https://fimgs.net/photogram/p1200/lu/is/gvy9ubTqSabyhKAD.jpg",
         (
             SELECT id
             FROM Brands
@@ -6629,7 +6629,7 @@ VALUES (
         "Hương hoa tươi mới và ngọt ngào, mang lại cảm giác trẻ trung.",
         150.00,
         17,
-        "https://example.com/images/clean_reserve_lush_fleur.jpg",
+        "https://fraguru.com/mdimg/secundar/o.71331.jpg",
         (
             SELECT id
             FROM Brands
@@ -6644,7 +6644,7 @@ VALUES (
         "Hương trái cây ngọt ngào và tươi mát, phù hợp cho ngày hè.",
         155.00,
         16,
-        "https://example.com/images/clean_reserve_radiant_nectar.jpg",
+        "http://fimgs.net/images/perfume/o.35973.jpg",
         (
             SELECT id
             FROM Brands
@@ -6671,7 +6671,7 @@ VALUES (
         "Hương thơm ngọt ngào và ấm áp, gợi nhớ đến sữa trắng tinh khiết.",
         125.00,
         20,
-        "https://example.com/images/giardini_bianco_latte.jpg",
+        "https://cdn.nicehair.dk/products/78651/clean-perfume-reserve-warm-cotton-100-ml-1.jpg",
         (
             SELECT id
             FROM Brands
@@ -6686,7 +6686,7 @@ VALUES (
         "Hương thơm tươi mát và nhiệt đới, mang đến cảm giác như đang ở đảo thiên đường.",
         125.00,
         15,
-        "https://example.com/images/giardini_borabora.jpg",
+        "https://cdn.nicehair.dk/products/85730/clean-perfume-reserve-rain-edp-50-ml-1570783432.jpg",
         (
             SELECT id
             FROM Brands
@@ -6701,7 +6701,7 @@ VALUES (
         "Hương thơm nồng nàn và quyến rũ, dành cho những buổi tiệc tối sang trọng.",
         125.00,
         10,
-        "https://example.com/images/giardini_scintilla.jpg",
+        "http://www.theperfumegirl.com/perfumes/fragrances/clean/radiant-nectar-clean-reserve/images/radiant-nectar-clean-reserve-ad-lg.jpg",
         (
             SELECT id
             FROM Brands
@@ -6716,7 +6716,7 @@ VALUES (
         "Hương thơm phương Đông huyền bí và quyến rũ, gợi nhớ đến khu vườn hoa hồng Tuscany.",
         125.00,
         12,
-        "https://example.com/images/giardini_christos.jpg",
+        "https://cdn11.bigcommerce.com/s-pftyw/images/stencil/1280x1280/products/8163/31303/1412366__49009.1676864017.png?c=2",
         (
             SELECT id
             FROM Brands
@@ -6731,7 +6731,7 @@ VALUES (
         "Hương thơm hoa cỏ phương Đông, vừa rực rỡ vừa sâu lắng và bí ẩn.",
         125.00,
         8,
-        "https://example.com/images/giardini_blu_indaco.jpg",
+        "https://cdn.nicehair.dk/products/79702/clean-perfume-reserve-solar-bloom-edp-100-ml-1.jpg",
         (
             SELECT id
             FROM Brands
@@ -6746,7 +6746,7 @@ VALUES (
         "Hương thơm cổ điển và hiện đại, kết hợp giữa sự tươi mát và ấm áp.",
         125.00,
         14,
-        "https://example.com/images/giardini_colonia_nobile.jpg",
+        "https://cdn.shopify.com/s/files/1/1288/8361/products/cleanreserveperfumesalsantal100mlbeauty5_1400x1400.jpg?v=1603841039",
         (
             SELECT id
             FROM Brands
@@ -6761,7 +6761,7 @@ VALUES (
         "Hương thơm nồng nàn và đậm đà, mang đến cảm giác mạnh mẽ và cuốn hút.",
         125.00,
         9,
-        "https://example.com/images/giardini_rosso_radice.jpg",
+        "https://n.nordstrommedia.com/id/sr3/8b3b959e-cb87-4884-9f2f-3c95be72aa4f.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
         (
             SELECT id
             FROM Brands
@@ -6776,7 +6776,7 @@ VALUES (
         "Hương thơm sang trọng và quý phái, phù hợp cho những dịp đặc biệt.",
         125.00,
         11,
-        "https://example.com/images/giardini_rosso_rubino.jpg",
+        "https://img.perfume.com/images/products/sku/large/CLRWC34.jpg",
         (
             SELECT id
             FROM Brands
@@ -6791,7 +6791,7 @@ VALUES (
         "Hương thơm nhẹ nhàng và thanh lịch, mang đến cảm giác thư thái.",
         125.00,
         13,
-        "https://example.com/images/giardini_shabby_chic.jpg",
+        "https://cdn.basler-beauty.de/out/pictures/generated/product/2/665_665_100/2533251-CLEAN-RESERVE-Sparkling-Sugar-Eau-de-Parfum-Limited-Edition-100-ml.3d73d81a.jpg",
         (
             SELECT id
             FROM Brands
@@ -6806,7 +6806,7 @@ VALUES (
         "Hương thơm biển cả tươi mát, gợi nhớ đến làn gió biển trong lành.",
         155.00,
         7,
-        "https://example.com/images/giardini_blu_mare.jpg",
+        "https://pimages.parfumo.de/720/163885_img-2406-clean-clean-reserve-skin-reserve-blend-hair-fragrance_720.jpg",
         (
             SELECT id
             FROM Brands
@@ -6833,7 +6833,7 @@ VALUES (
         "Hương thơm tinh tế và sâu lắng, phản ánh sự nghiên cứu tỉ mỉ.",
         165.00,
         10,
-        "https://example.com/images/liis_studied.jpg",
+        "https://fimgs.net/mdimg/perfume/social.81631.jpg",
         (
             SELECT id
             FROM Brands
@@ -6848,7 +6848,7 @@ VALUES (
         "Hương thơm nhẹ nhàng và bay bổng, mang đến cảm giác thư giãn.",
         165.00,
         12,
-        "https://example.com/images/liis_floating.jpg",
+        "https://nichebrands.shop/wp-content/uploads/2021/09/Giardini-di-Toscana-Parfum-Bianco-Latte.jpg",
         (
             SELECT id
             FROM Brands
@@ -6863,7 +6863,7 @@ VALUES (
         "Hương thơm hoa hồng nồng nàn, dành cho những ai yêu thích sự lãng mạn.",
         165.00,
         8,
-        "https://example.com/images/liis_rose_struck.jpg",
+        "https://pimages.parfumo.de/720/199374_img-1637-giardini-di-toscana-borabora_720.jpg",
         (
             SELECT id
             FROM Brands
@@ -6878,7 +6878,7 @@ VALUES (
         "Hương thơm độc đáo và cá tính, thể hiện sự tự do và phóng khoáng.",
         165.00,
         9,
-        "https://example.com/images/liis_bo.jpg",
+        "https://fraguru.com/mdimg/secundar/o.78376.jpg",
         (
             SELECT id
             FROM Brands
@@ -6893,7 +6893,7 @@ VALUES (
         "Hương thơm mơ màng và huyền ảo, như một làn sóng nhẹ nhàng.",
         165.00,
         11,
-        "https://example.com/images/liis_ethereal_wave.jpg",
+        "https://pimages.parfumo.de/720/107801_img-3283-giardini-di-toscana-bianco-latte_720.jpg",
         (
             SELECT id
             FROM Brands
@@ -6908,7 +6908,7 @@ VALUES (
         "Hương thơm trong trẻo và sáng sủa, mang đến cảm giác tươi mới.",
         165.00,
         7,
-        "https://example.com/images/liis_lucid.jpg",
+        "https://fimgs.net/mdimg/secundar/o.78357.jpg",
         (
             SELECT id
             FROM Brands
@@ -6923,7 +6923,7 @@ VALUES (
         "Hương thơm bí ẩn và quyến rũ, như một ảo ảnh giữa sa mạc.",
         165.00,
         6,
-        "https://example.com/images/liis_mirage.jpg",
+        "https://fraguru.com/mdimg/perfume/social.64756.jpg",
         (
             SELECT id
             FROM Brands
@@ -6938,7 +6938,7 @@ VALUES (
         "Hương thơm ấm áp và tràn đầy năng lượng, như ánh mặt trời mùa hạ.",
         165.00,
         5,
-        "https://example.com/images/liis_solstice.jpg",
+        "https://pimages.parfumo.de/social/181681_img-2278-giardini-di-toscana-celeste_social.jpg",
         (
             SELECT id
             FROM Brands
@@ -6953,7 +6953,7 @@ VALUES (
         "Hương thơm sâu lắng và bí ẩn, phù hợp cho buổi tối.",
         165.00,
         4,
-        "https://example.com/images/liis_nocturne.jpg",
+        "https://fraguru.com/mdimg/secundar/o.78356.jpg",
         (
             SELECT id
             FROM Brands
@@ -6968,7 +6968,7 @@ VALUES (
         "Hương thơm tươi mới và tràn đầy sức sống, như buổi bình minh.",
         165.00,
         3,
-        "https://example.com/images/liis_dawn.jpg",
+        "https://static.luckyscent.com/images/products/954004.jpg?width=800&scale=both&404=product.png",
         (
             SELECT id
             FROM Brands
@@ -6995,7 +6995,7 @@ VALUES (
         "Hương thơm ngọt ngào và ấm áp với bỏng ngô và caramel.",
         250.00,
         15,
-        "https://example.com/images/what_about_pop.jpg",
+        "https://fimgs.net/mdimg/secundar/o.114162.jpg",
         (
             SELECT id
             FROM Brands
@@ -7010,7 +7010,7 @@ VALUES (
         "Sự kết hợp tinh tế giữa hạnh nhân và hoa trắng.",
         260.00,
         20,
-        "https://example.com/images/almond_harmony.jpg",
+        "https://www.scentsplit.com/cdn/shop/files/Floating-Perfume-Cologne-Liis-sample-decants-SCENTSPLIT_1024x1024.jpg?v=1691043853",
         (
             SELECT id
             FROM Brands
@@ -7025,7 +7025,7 @@ VALUES (
         "Hương thơm nhẹ nhàng và thanh lịch với quả lê và hoa mộc lan.",
         270.00,
         18,
-        "https://example.com/images/empathy.jpg",
+        "https://pimages.parfumo.de/480/151921_img-8516-liis-bo_480.jpg",
         (
             SELECT id
             FROM Brands
@@ -7040,7 +7040,7 @@ VALUES (
         "Hương thơm tươi mát và ngọt ngào với chanh vàng và xoài.",
         255.00,
         22,
-        "https://example.com/images/keep_glazed.jpg",
+        "https://images.garmentory.com/images/8318487/original/Liis-Bo-Eau-De-Parfum-20221118180359.jpg?1668794641",
         (
             SELECT id
             FROM Brands
@@ -7055,7 +7055,7 @@ VALUES (
         "Hương thơm sống động với cam đỏ và gừng.",
         245.00,
         25,
-        "https://example.com/images/live_in_colours.jpg",
+        "https://pimages.parfumo.de/480/151922_img-3509-liis-rose-struck_480.jpg",
         (
             SELECT id
             FROM Brands
@@ -7070,7 +7070,7 @@ VALUES (
         "Hương thơm trầm lắng với nhựa thơm và hoắc hương.",
         275.00,
         12,
-        "https://example.com/images/blessing_silence.jpg",
+        "https://pimages.parfumo.de/720/171700_img-4148-liis-floating_720.jpg",
         (
             SELECT id
             FROM Brands
@@ -7085,7 +7085,7 @@ VALUES (
         "Hương thơm nhẹ nhàng với hoa đào và xạ hương.",
         265.00,
         17,
-        "https://example.com/images/breath_of_the_infinite.jpg",
+        "https://pimages.parfumo.de/social/151922_img-3509-liis-rose-struck_social.jpg",
         (
             SELECT id
             FROM Brands
@@ -7100,7 +7100,7 @@ VALUES (
         "Hương thơm tươi mát với lá cây và hoa nhài.",
         250.00,
         20,
-        "https://example.com/images/cypress_shade.jpg",
+        "https://pimages.parfumo.de/720/221747_img-6419-liis-ethereal-wave_720.jpg",
         (
             SELECT id
             FROM Brands
@@ -7115,7 +7115,7 @@ VALUES (
         "Hương thơm ấm áp với gỗ đàn hương và xạ hương.",
         280.00,
         15,
-        "https://example.com/images/golden_powder.jpg",
+        "https://fraguru.com/mdimg/perfume/social.84531.jpg",
         (
             SELECT id
             FROM Brands
@@ -7130,7 +7130,7 @@ VALUES (
         "Hương thơm ngọt ngào với quả chà là và mật ong.",
         270.00,
         18,
-        "https://example.com/images/dates_delight.jpg",
+        "https://fimgs.net/mdimg/perfume/social.74127.jpg",
         (
             SELECT id
             FROM Brands
@@ -7157,7 +7157,7 @@ VALUES (
         "Hương thơm mạnh mẽ và nam tính từ Dior.",
         150.00,
         80,
-        "https://example.com/images/dior_sauvage.jpg",
+        "https://fimgs.net/himg/o.95202.jpg",
         (
             SELECT id
             FROM Brands
@@ -7172,7 +7172,7 @@ VALUES (
         "Hương thơm hoa nhài quyến rũ từ Dior.",
         140.00,
         75,
-        "https://example.com/images/dior_jadore.jpg",
+        "https://fimgs.net/himg/o.J9PKLzzuMII.jpg",
         (
             SELECT id
             FROM Brands
@@ -7187,7 +7187,7 @@ VALUES (
         "Hương thơm nam tính và lịch lãm từ Dior.",
         130.00,
         70,
-        "https://example.com/images/dior_homme.jpg",
+        "https://fimgs.net/mdimg/vijesti/o.15660.2.jpg",
         (
             SELECT id
             FROM Brands
@@ -7202,7 +7202,7 @@ VALUES (
         "Hương thơm nữ tính và tinh tế từ Dior.",
         135.00,
         65,
-        "https://example.com/images/dior_miss_dior.jpg",
+        "https://thoo.it/wp-content/uploads/niche_perfume_thoo_fragrance_KEEP-GLAZED.jpg",
         (
             SELECT id
             FROM Brands
@@ -7217,7 +7217,7 @@ VALUES (
         "Hương thơm quyến rũ và đầy đặn từ Dior.",
         145.00,
         60,
-        "https://example.com/images/dior_addict.jpg",
+        "https://thoo.it/wp-content/uploads/Neverending-THoO-niche-perfume-Novelty2021-bottle-1024x1024.jpg",
         (
             SELECT id
             FROM Brands
@@ -7232,7 +7232,7 @@ VALUES (
         "Hương thơm mạnh mẽ và độc đáo từ Dior.",
         160.00,
         55,
-        "https://example.com/images/dior_fahrenheit.jpg",
+        "https://thoo.it/wp-content/uploads/Neverending-THoO-niche-perfume-Novelty2021-openbox.jpg",
         (
             SELECT id
             FROM Brands
@@ -7247,7 +7247,7 @@ VALUES (
         "Hương thơm ngọt ngào và quyến rũ từ Dior.",
         155.00,
         50,
-        "https://example.com/images/dior_pure_poison.jpg",
+        "https://www.luxury-perfumes.net/wp-content/uploads/2021/05/thoo-crop-2017-profumo.jpg",
         (
             SELECT id
             FROM Brands
@@ -7262,7 +7262,7 @@ VALUES (
         "Hương thơm sâu lắng và sang trọng từ Dior.",
         170.00,
         45,
-        "https://example.com/images/dior_homme_intense.jpg",
+        "https://fimgs.net/himg/o.B1utsFj531C.jpg",
         (
             SELECT id
             FROM Brands
@@ -7277,7 +7277,7 @@ VALUES (
         "Hương thơm hoa lily thanh lịch từ Dior.",
         140.00,
         60,
-        "https://example.com/images/dior_diorissimo.jpg",
+        "https://www.luxury-perfumes.net/wp-content/uploads/2020/12/thoo-up-to-the-moon-profumo.png",
         (
             SELECT id
             FROM Brands
@@ -7292,7 +7292,7 @@ VALUES (
         "Hương thơm quyến rũ và cá tính từ Dior.",
         150.00,
         55,
-        "https://example.com/images/dior_poison_girl.jpg",
+        "https://media.dorothyperkins.com/i/dorothyperkins/ydd15671_misc_xl",
         (
             SELECT id
             FROM Brands
@@ -7304,10 +7304,7 @@ VALUES (
     );
 
 -- Insert data to Cart
-INSERT INTO
-    Cart (customer_id)
-SELECT id
-FROM Customers;
+INSERT INTO Cart (customer_id) SELECT id FROM Customers;
 
 -- Insert data to Cart Items
 INSERT INTO
@@ -7318,47 +7315,16 @@ INSERT INTO
         price,
         subtotal
     )
-VALUES (
-        1,
-        42,
-        1,
-        320.00,
-        320.00
-    ),
-    (
-        1,
-        41,
-        2,
-        350.00,
-        700.00
-    ),
-    (
-        2,
-        61,
-        5,
-        300.00,
-        1500.00
-    ),
-    (
-        3,
-        91,
-        20,
-        450.00,
-        9000.00
-    ),
-    (
-        4,
-        32,
-        10,
-        200.00,
-        2000.00
-    );
+VALUES (1, 42, 1, 320.00, 320.00),
+    (1, 41, 2, 350.00, 700.00),
+    (2, 61, 5, 300.00, 1500.00),
+    (3, 91, 20, 450.00, 9000.00),
+    (4, 32, 10, 200.00, 2000.00);
 
 -- Insert data to Wishlist
 INSERT INTO
     Wishlist (customer_id, product_id)
-VALUES
-    (1, 1),
+VALUES (1, 1),
     (1, 5),
     (1, 100),
     (1, 350),
@@ -7414,30 +7380,10 @@ INSERT INTO
         total_amount,
         status_id
     )
-VALUES (
-        1,
-        2,
-        430.00,
-        1
-    ),
-    (
-        2,
-        1,
-        368.00,
-        2
-    ),
-    (
-        3,
-        2,
-        3825.00,
-        3
-    ),
-    (
-        4,
-        2,
-        5780.00,
-        1
-    );
+VALUES (1, 2, 430.00, 1),
+    (2, 1, 368.00, 2),
+    (3, 2, 3825.00, 3),
+    (4, 2, 5780.00, 1);
 
 -- Insert data to Order Details
 INSERT INTO
@@ -7448,38 +7394,8 @@ INSERT INTO
         quantity,
         price
     )
-VALUES (
-        1,
-        1,
-        NULL,
-        1,
-        150.00
-    ),
-    (
-        1,
-        5,
-        NULL,
-        2,
-        140.00
-    ),
-    (
-        2,
-        10,
-        1,
-        4,
-        115.00
-    ),
-    (
-        3,
-        25,
-        2,
-        1,
-        170.00
-    ),
-    (
-        4,
-        34,
-        NULL,
-        4,
-        170.00
-    );
+VALUES (1, 1, NULL, 1, 150.00),
+    (1, 5, NULL, 2, 140.00),
+    (2, 10, 1, 4, 115.00),
+    (3, 25, 2, 1, 170.00),
+    (4, 34, NULL, 4, 170.00);

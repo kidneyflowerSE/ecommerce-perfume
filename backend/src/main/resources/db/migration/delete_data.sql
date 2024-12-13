@@ -1,0 +1,45 @@
+USE tlp_perfumedb;
+
+SET SQL_SAFE_UPDATES = 0;
+
+-- 1. Xóa dữ liệu từ các bảng phụ thuộc
+DELETE FROM Cart_Items;
+DELETE FROM Wishlist;
+DELETE FROM Order_Details;
+DELETE FROM Reviews;
+DELETE FROM Shipping;
+
+-- 2. Xóa dữ liệu từ các bảng có tham chiếu
+DELETE FROM Cart;
+DELETE FROM Orders;
+
+-- 3. Xóa dữ liệu từ các bảng không phụ thuộc
+DELETE FROM Products;
+DELETE FROM Customers;
+DELETE FROM Admins;
+DELETE FROM Promotions;
+DELETE FROM Payment_Methods;
+DELETE FROM Order_Status;
+DELETE FROM Roles;
+DELETE FROM Categories;
+DELETE FROM Brands;
+
+-- Đặt lại AUTO_INCREMENT về 0
+ALTER TABLE Cart_Items AUTO_INCREMENT = 1;
+ALTER TABLE Wishlist AUTO_INCREMENT = 1;
+ALTER TABLE Order_Details AUTO_INCREMENT = 1;
+ALTER TABLE Reviews AUTO_INCREMENT = 1;
+ALTER TABLE Shipping AUTO_INCREMENT = 1;
+ALTER TABLE Cart AUTO_INCREMENT = 1;
+ALTER TABLE Orders AUTO_INCREMENT = 1;
+ALTER TABLE Products AUTO_INCREMENT = 1;
+ALTER TABLE Customers AUTO_INCREMENT = 1;
+ALTER TABLE Admins AUTO_INCREMENT = 1;
+ALTER TABLE Promotions AUTO_INCREMENT = 1;
+ALTER TABLE Payment_Methods AUTO_INCREMENT = 1;
+ALTER TABLE Order_Status AUTO_INCREMENT = 1;
+ALTER TABLE Roles AUTO_INCREMENT = 1;
+ALTER TABLE Categories AUTO_INCREMENT = 1;
+ALTER TABLE Brands AUTO_INCREMENT = 1;
+
+SET SQL_SAFE_UPDATES = 1;
