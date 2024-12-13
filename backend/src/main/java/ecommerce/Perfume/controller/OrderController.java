@@ -57,11 +57,11 @@ public class OrderController {
     // Tạo đơn hàng mới từ giỏ hàng
     @PostMapping("/create")
     public ResponseEntity<Order> createOrder(
-            @RequestParam Integer customerId,
+            @RequestParam(required = false) Integer customerId,
             @RequestParam Integer cartId,
             @RequestParam Integer paymentMethodId,
             @RequestParam Integer shippingId,
-            @RequestParam String promoCode,
+            @RequestParam(required = false) String promoCode,
             @RequestParam Integer orderStatusId) {
         try {
             Order createdOrder = orderService.createOrderFromCart(customerId, cartId, paymentMethodId, shippingId, promoCode, orderStatusId);

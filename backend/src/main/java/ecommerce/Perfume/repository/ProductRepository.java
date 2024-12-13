@@ -10,6 +10,7 @@ import org.springframework.stereotype.Repository;
 
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.Objects;
 
 @Repository
 public interface ProductRepository extends JpaRepository<Product, Integer> {
@@ -21,13 +22,14 @@ public interface ProductRepository extends JpaRepository<Product, Integer> {
 
     List<Product> findByPriceBetween(BigDecimal minPrice, BigDecimal maxPrice);
 
-    @Query("SELECT p FROM Product p JOIN p.brand b WHERE b.country = :country ORDER BY p.id")
-    List<Product> findByBrandCountry(@Param("country") String country);
+    @Query("SELECT p FROM Product p JOIN p.brand b WHERE b.country = :country")
+    List<Product> findProductsByBrandCountry(@Param("country") String country);
 
-    @Query("SELECT p.id, p.name, SUM(od.quantity) AS totalQuantity " +
+    @Query("SELECT p.id, p.name, p.price, p.description, b.name " +
             "FROM OrderDetail od " +
             "JOIN od.product p " +
-            "GROUP BY p.id, p.name " +
-            "ORDER BY totalQuantity DESC")
-    Page<Product> findTop10BestSellingProducts(Pageable pageable);
+            "JOIN p.brand b " +
+            "GROUP BY p.id, p.name, p.price, p.description, b.name " +
+            "ORDER BY SUM(od.quantity) DESC")
+    List<Object[]> findTop10BestSellingProducts();
 }

@@ -1,6 +1,6 @@
 package ecommerce.Perfume.service;
 
-import ecommerce.Perfume.dto.request.ProductCreation;
+import ecommerce.Perfume.dto.request.ProductDto;
 import ecommerce.Perfume.model.Brand;
 import ecommerce.Perfume.model.Product;
 import ecommerce.Perfume.repository.ProductRepository;
@@ -15,6 +15,7 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 @Transactional
@@ -23,7 +24,7 @@ public class ProductService {
     ProductRepository productRepository;
 
     //tạo sản phẩm
-    public Product createProduct(ProductCreation productCreation) {
+    public Product createProduct(Product productCreation) {
         Product product = new Product();
 
         product.setName(productCreation.getName());
@@ -40,7 +41,7 @@ public class ProductService {
     }
 
     // Cập nhật sản phẩm
-    public Product updateProduct(Integer productId, ProductCreation productCreation) {
+    public Product updateProduct(Integer productId, Product productCreation) {
         Optional<Product> productOptional = productRepository.findById(productId);
         if (productOptional.isEmpty()) {
             throw new RuntimeException("Product not found with ID: " + productId);
@@ -108,12 +109,23 @@ public class ProductService {
 
     // Lọc sản phẩm theo quốc gia
     public List<Product> getProductsByCountry(String country) {
-        return productRepository.findByBrandCountry(country);
+        return productRepository.findProductsByBrandCountry(country);
     }
 
     // Lấy top 10 sản phẩm bán chạy nhất
-    public List<Product> getTop10BestSellingProducts() {
-        Pageable pageable = PageRequest.of(0, 10); // Lấy 10 sản phẩm đầu tiên
-        return productRepository.findTop10BestSellingProducts(pageable).getContent();
+    public List<ProductDto> getTop10BestSellingProducts() {
+        List<Object[]> results = productRepository.findTop10BestSellingProducts();
+
+        // Ánh xạ kết quả từ Object[] thành danh sách Product
+        return results.stream().map(row -> {
+            ProductDto product = new ProductDto();
+            product.setId((Integer) row[0]);
+            product.setName((String) row[1]);
+            product.setPrice((BigDecimal) row[2]);
+            product.setDescription((String) row[3]);
+            product.setBrandName((String) row[4]);
+
+            return product;
+        }).collect(Collectors.toList());
     }
 }
