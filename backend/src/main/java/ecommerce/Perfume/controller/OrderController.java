@@ -4,7 +4,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import ecommerce.Perfume.model.Order;
 import ecommerce.Perfume.model.OrderDetail;
+import ecommerce.Perfume.model.Promotion;
 import ecommerce.Perfume.service.OrderService;
+import ecommerce.Perfume.service.ShippingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -54,6 +56,9 @@ public class OrderController {
     @Autowired
     private OrderService orderService;
 
+    @Autowired
+    private ShippingService shippingService;
+
     // Tạo đơn hàng mới từ giỏ hàng
     @PostMapping("/create")
     public ResponseEntity<Order> createOrder(
@@ -77,11 +82,12 @@ public class OrderController {
         try {
             Order order = orderService.getOrderById(orderId);
 
-            final long orderCode = Long.parseLong(order.getId().toString());
+            final long orderCode = Long.parseLong(order.getId().toString())+10;
             final int amount = order.getTotalAmount().intValue();
             final String description = RandomStringGenerator.generateRandomString(16);
 
             List<ItemData> items = new ArrayList<>();
+
 
             for (OrderDetail orderDetail : order.getOrderDetails()) {
                 if (orderDetail != null && orderDetail.getProduct() != null) {
@@ -89,9 +95,9 @@ public class OrderController {
                     final String name = orderDetail.getProduct().getName();
                     System.out.println("Product name: " + name);
                     final int quantity = orderDetail.getQuantity();
-                    System.out.println("Product quantity: " + quantity);
-                    final int price = (orderDetail.getPrice() != null) ? orderDetail.getPrice().intValue() : 0;
-                    System.out.println("Product price: " + price);
+                    System.out.println("Quantity: " + quantity);
+                    final int price = (orderDetail.getProduct().getPrice() != null) ? orderDetail.getProduct().getPrice().intValue() : 0;
+                    System.out.println("Cost/Product: " + price);
 
                     // Tạo đối tượng ItemData và thêm vào danh sách
                     ItemData item = ItemData.builder().name(name).price(price).quantity(quantity).build();
@@ -99,6 +105,14 @@ public class OrderController {
                 } else {
                     System.out.println("Invalid order detail or product");
                 }
+            }
+
+            ItemData shipping = ItemData.builder().name("Shipping fee").price(shippingService.calculateShippingFee(order.getShipping()).intValue()).quantity(1).build();
+            items.add(shipping);
+            Promotion promotion = order.getOrderDetails().get(0).getPromoCode();
+            if (promotion != null) {
+                ItemData discount = ItemData.builder().name("Discount").price(-(promotion.getDiscountPercentage().multiply(order.getTotalAmount())).intValue()).quantity(1).build();
+                items.add(discount);
             }
 
             PaymentData paymentData = PaymentData.builder().orderCode(orderCode).description(description).amount(amount)
@@ -163,7 +177,7 @@ public class OrderController {
         }
     }
 
-    @PostMapping(path = "/payment/confirm-webhook")
+    @PutMapping(path = "/payment/confirm-webhook")
     public ObjectNode confirmWebhook(@RequestBody Map<String, String> requestBody) {
         ObjectMapper objectMapper = new ObjectMapper();
         ObjectNode response = objectMapper.createObjectNode();
