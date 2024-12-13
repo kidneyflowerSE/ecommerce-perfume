@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 
 
 @Service
@@ -63,4 +64,31 @@ public class CustomerService {
                 .orElse(null);
     }
 
+    // Đăng nhập Customer
+    public Customer login(String email, String password) {
+        Optional<Customer> customerOpt = customerRepository.findByEmail(email);
+        if (customerOpt.isPresent()) {
+            Customer customer = customerOpt.get();
+            if (customer.getPassword().equals(password)) {
+                return customer;
+            }
+        }
+        throw new IllegalArgumentException("Invalid email or password.");
+    }
+
+    // Đổi mật khẩu
+    public void changePassword(Integer id, String oldPassword, String newPassword) {
+        Optional<Customer> customerOpt = customerRepository.findById(id);
+        if (customerOpt.isPresent()) {
+            Customer customer = customerOpt.get();
+            if (customer.getPassword().equals(oldPassword)) {
+                customer.setPassword(newPassword);
+                customerRepository.save(customer);
+            } else {
+                throw new IllegalArgumentException("Old password is incorrect.");
+            }
+        } else {
+            throw new IllegalArgumentException("Customer with ID " + id + " not found.");
+        }
+    }
 }

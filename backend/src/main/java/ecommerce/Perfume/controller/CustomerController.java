@@ -62,4 +62,28 @@ public class CustomerController {
         Customer customer = customerService.getCustomerByPhone(phone);
         return new ResponseEntity<>(customer, HttpStatus.OK);
     }
+
+    // Đăng nhập
+    @PostMapping("/login")
+    public ResponseEntity<Customer> login(@RequestParam String email, @RequestParam String password) {
+        try {
+            Customer customer = customerService.login(email, password);
+            return new ResponseEntity<>(customer, HttpStatus.OK);
+        } catch (IllegalArgumentException e) {
+            return new ResponseEntity<>(HttpStatus.UNAUTHORIZED);
+        }
+    }
+
+    // Đổi mật khẩu
+    @PutMapping("/{id}/change-password")
+    public ResponseEntity<Void> changePassword(@PathVariable Integer id,
+                                               @RequestParam String oldPassword,
+                                               @RequestParam String newPassword) {
+        try {
+            customerService.changePassword(id, oldPassword, newPassword);
+            return new ResponseEntity<>(HttpStatus.OK);
+        } catch (IllegalArgumentException e) {
+            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+        }
+    }
 }
