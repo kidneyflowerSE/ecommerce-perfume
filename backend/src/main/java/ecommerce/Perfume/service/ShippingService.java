@@ -27,11 +27,9 @@ public class ShippingService {
             throw new RuntimeException("Order not found");
         }
 
-        Order order = orderOptional.get();
-
         // Tạo thông tin giao hàng mới
         Shipping shipping = new Shipping();
-        shipping.setOrder(order);
+        shipping.setOrder(orderOptional.get());
         shipping.setShippingMethod(shippingMethod);
         shipping.setShippingAddress(shippingAddress);
         shipping.setShippingDate(java.time.LocalDateTime.now());
@@ -62,9 +60,22 @@ public class ShippingService {
                 .orElseThrow(() -> new RuntimeException("Shipping info not found for order id: " + orderId));
     }
 
+    public Shipping getShippingInfoById(Integer shippingId) {
+        return shippingRepository.findById(shippingId)
+                .orElseThrow(() -> new RuntimeException("Shipping info not found"));
+    }
+
     // Tính phí vận chuyển
     public BigDecimal calculateShippingFee(Shipping shipping) {
-        // Phát triển thêm
-        return BigDecimal.ZERO; // Mặc định không tính phí vận chuyển
+        if (shipping.getShippingMethod().equals("Standard")) {
+            if (shipping.getShippingAddress().contains("Hồ Chí Minh"))
+                return new BigDecimal(25000);
+            else
+                return new BigDecimal(30000);
+        } else if (shipping.getShippingMethod().equals("COD"))
+            return BigDecimal.ZERO;
+
+        throw new IllegalArgumentException("Unsupported shipping method: " + shipping.getShippingMethod());
     }
+
 }

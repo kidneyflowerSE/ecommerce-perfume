@@ -115,4 +115,8 @@ public class OrderDetailService {
         }
         orderDetailRepository.deleteById(orderDetailId);
     }
+
+    public OrderDetail saveOrderDetail(OrderDetail orderDetail) {
+        return orderDetailRepository.save(orderDetail);
+    }
 }
