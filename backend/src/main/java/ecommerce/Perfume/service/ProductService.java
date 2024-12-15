@@ -116,14 +116,14 @@ public class ProductService {
     public List<ProductDto> getTop10BestSellingProducts() {
         List<Object[]> results = productRepository.findTop10BestSellingProducts();
 
-        // Ánh xạ kết quả từ Object[] thành danh sách Product
         return results.stream().map(row -> {
             ProductDto product = new ProductDto();
             product.setId((Integer) row[0]);
             product.setName((String) row[1]);
             product.setPrice((BigDecimal) row[2]);
             product.setDescription((String) row[3]);
-            product.setBrandName((String) row[4]);
+            product.setImageUrl((String) row[4]);
+            product.setBrandName((String) row[5]);
 
             return product;
         }).collect(Collectors.toList());

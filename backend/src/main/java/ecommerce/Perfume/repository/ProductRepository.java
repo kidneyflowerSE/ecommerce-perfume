@@ -25,11 +25,11 @@ public interface ProductRepository extends JpaRepository<Product, Integer> {
     @Query("SELECT p FROM Product p JOIN p.brand b WHERE b.country = :country")
     List<Product> findProductsByBrandCountry(@Param("country") String country);
 
-    @Query("SELECT p.id, p.name, p.price, p.description, b.name " +
+    @Query("SELECT p.id, p.name, p.price, p.description, p.imageUrl, b.name " +
             "FROM OrderDetail od " +
             "JOIN od.product p " +
             "JOIN p.brand b " +
-            "GROUP BY p.id, p.name, p.price, p.description, b.name " +
+            "GROUP BY p.id, p.name, p.price, p.description, p.imageUrl, b.name " +
             "ORDER BY SUM(od.quantity) DESC")
     List<Object[]> findTop10BestSellingProducts();
 }

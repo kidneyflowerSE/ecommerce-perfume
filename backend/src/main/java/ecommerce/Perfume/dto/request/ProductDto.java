@@ -20,5 +20,6 @@ public class ProductDto {
     private String name;
     private BigDecimal price;
     private String description;
+    private String imageUrl;
     private String brandName;
 }
