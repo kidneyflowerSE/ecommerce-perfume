@@ -12,7 +12,7 @@ import java.util.List;
 @Repository
 public interface ReviewRepository extends JpaRepository<Review, Integer> {
 
-    Page<Review> findByProductId(Integer productId, Pageable pageable);
+    List<Review> findByProductId(Integer productId);
 
     Page<Review> findByCustomerId(Integer customerId, Pageable pageable);
 }

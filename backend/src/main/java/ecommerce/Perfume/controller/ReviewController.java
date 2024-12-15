@@ -1,5 +1,6 @@
 package ecommerce.Perfume.controller;
 
+import ecommerce.Perfume.dto.request.TopRatedProductDTO;
 import ecommerce.Perfume.model.Review;
 import ecommerce.Perfume.service.ReviewService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -68,19 +69,15 @@ public class ReviewController {
 
     // Lấy danh sách review theo sản phẩm
     @GetMapping("/product/{productId}")
-    public ResponseEntity<List<Review>> getReviewsByProduct(
-            @PathVariable Integer productId,
-            @RequestParam int page,
-            @RequestParam int size,
-            @RequestParam String sort) {
+    public ResponseEntity<List<Review>> getReviewsByProduct(@PathVariable Integer productId) {
         try {
-            List<Review> reviews = reviewService.getReviewsByProduct(productId, page, size, sort);
+            List<Review> reviews = reviewService.getReviewsByProduct(productId); // Gọi service không phân trang
             if (reviews.isEmpty()) {
-                return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+                return new ResponseEntity<>(HttpStatus.NO_CONTENT); // Trả về 204 nếu không có review
             }
-            return new ResponseEntity<>(reviews, HttpStatus.OK);
+            return new ResponseEntity<>(reviews, HttpStatus.OK); // Trả về 200 kèm danh sách review
         } catch (Exception e) {
-            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
+            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR); // Trả về 500 nếu có lỗi
         }
     }
 
@@ -109,16 +106,10 @@ public class ReviewController {
                 .orElseGet(() -> new ResponseEntity<>(HttpStatus.NOT_FOUND));
     }
 
-    // Tính trung bình rating của sản phẩm
-    @GetMapping("/product/{productId}/average-rating")
-    public ResponseEntity<Double> calculateAverageRating(@PathVariable Integer productId,
-                                                         @PathVariable int page,
-                                                         @PathVariable int size) {
-        try {
-            Double averageRating = reviewService.calculateAverageRating(productId, page, size);
-            return new ResponseEntity<>(Objects.requireNonNullElse(averageRating, 0.0), HttpStatus.OK);
-        } catch (Exception e) {
-            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
-        }
+    // Lấy top 10 sản phẩm có đánh giá cao nhất
+    @GetMapping("/top-rated")
+    public ResponseEntity<List<TopRatedProductDTO>> getTopRatedProducts() {
+        List<TopRatedProductDTO> topRatedProducts = reviewService.getTopRatedProducts();
+        return ResponseEntity.ok(topRatedProducts);
     }
 }

@@ -1,5 +1,6 @@
 package ecommerce.Perfume.service;
 
+import ecommerce.Perfume.dto.request.TopRatedProductDTO;
 import ecommerce.Perfume.model.Customer;
 import ecommerce.Perfume.model.Product;
 import ecommerce.Perfume.model.Review;
@@ -15,7 +16,9 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 @Transactional
@@ -71,9 +74,8 @@ public class ReviewService {
     }
 
     // Lọc review theo sản phẩm
-    public List<Review> getReviewsByProduct(Integer productId, int page, int size, String sort) {
-        Pageable pageable = PageRequest.of(page, size, Sort.by(sort));
-        return reviewRepository.findByProductId(productId, pageable).getContent();
+    public List<Review> getReviewsByProduct(Integer productId) {
+        return reviewRepository.findByProductId(productId);
     }
 
     // Lọc review theo khách hàng
@@ -87,13 +89,43 @@ public class ReviewService {
         return reviewRepository.findById(reviewId);
     }
 
-    // Tính đánh giá trung bình
-    public Double calculateAverageRating(Integer productId, int page, int size) {
-        // Sử dụng Pageable để phân trang các review của sản phẩm
-        Pageable pageable = PageRequest.of(page, size);
+    // Lấy top sản phẩm theo rating
+    public List<TopRatedProductDTO> getTopRatedProducts() {
+        // Lấy danh sách tất cả các sản phẩm
+        List<Product> products = productRepository.findAll();
 
-        // Lấy các review cho sản phẩm với phân trang
-        List<Review> reviews = reviewRepository.findByProductId(productId, pageable).getContent();
+        // Tạo danh sách chứa các sản phẩm với điểm đánh giá trung bình
+        List<TopRatedProductDTO> topRatedProducts = products.stream()
+                .filter(product -> !reviewRepository.findByProductId(product.getId()).isEmpty()) // Lọc những sản phẩm có review
+                .map(product -> {
+                    // Tính điểm đánh giá trung bình của sản phẩm
+                    Double averageRating = calculateAverageRating(product.getId());
+                    // Tạo DTO cho sản phẩm
+                    return new TopRatedProductDTO(
+                            product.getId(),
+                            product.getName(),
+                            product.getPrice(),
+                            product.getDescription(),
+                            product.getImageUrl(),
+                            averageRating
+                    );
+                })
+                // Sắp xếp các sản phẩm theo điểm đánh giá từ cao đến thấp
+                .sorted((p1, p2) -> Double.compare(p2.getAverageRating(), p1.getAverageRating()))
+                // Lấy top 10 sản phẩm
+                .limit(10)
+                .collect(Collectors.toList());
+
+        return topRatedProducts;
+    }
+
+    // Tính đánh giá trung bình
+    public Double calculateAverageRating(Integer productId) {
+//        // Sử dụng Pageable để phân trang các review của sản phẩm
+//        Pageable pageable = PageRequest.of(page, size);
+
+        // Lấy các review cho sản phẩm
+        List<Review> reviews = reviewRepository.findByProductId(productId);
 
         // Kiểm tra nếu không có review nào
         if (reviews.isEmpty()) {
